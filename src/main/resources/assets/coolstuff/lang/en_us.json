@@ -1,0 +1,90 @@
+{
+  "itemGroup.coolstuff.coolstuff": "Cool Stuff",
+
+//MISC
+
+    "item.coolstuff.raw_resin": "Raw Resin",
+    "item.coolstuff.resin_flask": "Pure Resin",
+
+// JUNDLES
+    "item.coolstuff.base_jundle": "Base Jundle",
+    "item.coolstuff.jundle_one": "Jundle I",
+    "item.coolstuff.jundle_two": "Jundle II",
+    "item.coolstuff.jundle_three": "Jundle III",
+    "item.coolstuff.jundle_four": "Jundle IV",
+    "item.coolstuff.jundle_five": "Jundle V",
+    "item.coolstuff._jundle": " Jundle",
+    "item.coolstuff.pink_jundle": "Pink Jundle",
+    "item.coolstuff.magenta_jundle": "Magenta Jundle",
+    "item.coolstuff.purple_jundle": "Purple Jundle",
+    "item.coolstuff.blue_jundle": "Blue Jundle",
+    "item.coolstuff.light_blue_jundle": "Light Blue Jundle",
+    "item.coolstuff.cyan_jundle": "Cyan Jundle",
+    "item.coolstuff.green_jundle": "Green Jundle",
+    "item.coolstuff.lime_jundle": "Lime Jundle",
+    "item.coolstuff.yellow_jundle": "Yellow Jundle",
+    "item.coolstuff.orange_jundle": "Orange Jundle",
+    "item.coolstuff.red_jundle": "Red Jundle",
+    "item.coolstuff.brown_jundle": "Brown Jundle",
+    "item.coolstuff.black_jundle": "Black Jundle",
+    "item.coolstuff.gray_jundle": "Gray Jundle",
+    "item.coolstuff.light_gray_jundle": "Light Gray Jundle",
+    "item.coolstuff.white_jundle": "White Jundle",
+
+
+
+
+//GEMS CUT
+
+  "item.coolstuff.chipped_ruby": "Chipped Ruby",
+  "item.coolstuff.chipped_sapphire": "Chipped Sapphire",
+  "item.coolstuff.chipped_jade": "Chipped Jade",
+  "item.coolstuff.chipped_topaz": "Chipped Topaz",
+
+  "item.coolstuff.flawed_ruby": "Flawed Ruby",
+  "item.coolstuff.flawed_sapphire": "Flawed Sapphire",
+  "item.coolstuff.flawed_jade": "Flawed Jade",
+  "item.coolstuff.flawed_topaz": "Flawed Topaz",
+
+  "item.coolstuff.ruby": "Ruby",
+  "item.coolstuff.sapphire": "Sapphire",
+  "item.coolstuff.jade": "Jade",
+  "item.coolstuff.topaz": "Topaz",
+
+  "item.coolstuff.brilliant_ruby": "Brilliant Ruby",
+  "item.coolstuff.brilliant_sapphire": "Brilliant Sapphire",
+  "item.coolstuff.brilliant_jade": "Brilliant Jade",
+  "item.coolstuff.brilliant_topaz": "Brilliant Topaz",
+
+  "item.coolstuff.pristine_ruby": "Pristine Ruby",
+  "item.coolstuff.pristine_sapphire": "Pristine Sapphire",
+  "item.coolstuff.pristine_jade": "Pristine Jade",
+  "item.coolstuff.pristine_topaz": "Pristine Topaz",
+
+
+//GEMS Raw
+  "item.coolstuff.tiny_raw_ruby": "Tiny Raw Ruby",
+  "item.coolstuff.tiny_raw_sapphire": "Tiny Raw Sapphire",
+  "item.coolstuff.tiny_raw_jade": "Tiny Raw Jade",
+  "item.coolstuff.tiny_raw_topaz": "Tiny Raw Topaz",
+
+  "item.coolstuff.small_raw_ruby": "Small Raw Ruby",
+  "item.coolstuff.small_raw_sapphire": "Small Raw Sapphire",
+  "item.coolstuff.small_raw_jade": "Small Raw Jade",
+  "item.coolstuff.small_raw_topaz": "Small Raw Topaz",
+
+  "item.coolstuff.raw_ruby": "Raw Ruby",
+  "item.coolstuff.raw_sapphire": "Raw Sapphire",
+  "item.coolstuff.raw_jade": "Raw Jade",
+  "item.coolstuff.raw_topaz": "Raw Topaz",
+
+  "item.coolstuff.big_raw_ruby": "Big Raw Ruby ",
+  "item.coolstuff.big_raw_sapphire": "Big Raw Sapphire ",
+  "item.coolstuff.big_raw_jade": "Big Raw Jade ",
+  "item.coolstuff.big_raw_topaz": "Big Raw Topaz ",
+
+  "item.coolstuff.huge_raw_ruby": "Huge Raw Ruby",
+  "item.coolstuff.huge_raw_sapphire": "Huge Raw Sapphire",
+  "item.coolstuff.huge_raw_jade": "Huge Raw Jade",
+  "item.coolstuff.huge_raw_topaz": "Huge Raw Topaz"
+}

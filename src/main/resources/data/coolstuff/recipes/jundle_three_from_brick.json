@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "i  ",
+    "ixu",
+    "ix "
+  ],
+  "key": {
+
+
+    "x": {
+      "item": "minecraft:brick"
+    },
+
+    "i": {
+      "item": "minecraft:coal"
+    },
+
+    "u": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+      "item": "coolstuff:jundle_three"
+    }
+}

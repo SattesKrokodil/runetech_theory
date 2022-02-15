@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xux"
+  ],
+  "key": {
+
+
+    "x": {
+      "item": "coolstuff:raw_resin"
+    },
+
+    "u": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+      "item": "coolstuff:jundle_three"
+    }
+}

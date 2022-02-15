@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "ixu",
+    "   "
+  ],
+  "key": {
+
+    "x": {
+      "item": "coolstuff:base_jundle"
+    },
+    "i": {
+      "item": "minecraft:light_gray_dye"
+    },
+    "u": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+      "item": "coolstuff:light_gray_jundle"
+    }
+}
