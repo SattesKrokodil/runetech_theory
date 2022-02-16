@@ -17,6 +17,9 @@ public class ModItems {
     public static final Item RESIN_FLASK = registerItem("resin_flask",
             new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.COMMON)) );
 
+    public static final Item SANDPAPER = registerItem("sandpaper",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.COMMON)) );
+
 
     //JUNDLES
 

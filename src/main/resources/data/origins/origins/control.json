@@ -1,0 +1,11 @@
+{
+	"powers": [
+	    "origins:sandpaper_on_gems"
+	],
+	"icon": {
+		"item": "minecraft:cobweb"
+	},
+	"order": 1,
+	"impact": 1,
+	"hidden": true
+}

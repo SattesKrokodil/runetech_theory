@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient":
+    {
+      "item": "coolstuff:tiny_raw_sapphire"
+    },
+  "result": "coolstuff:chipped_sapphire",
+  "experience": 0.1,
+  "cookingtime": 1000
+
+}

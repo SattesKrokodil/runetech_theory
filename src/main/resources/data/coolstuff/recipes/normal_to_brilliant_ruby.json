@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " x ",
+    " ox",
+    " x "
+  ],
+  "key": {
+
+    "x": {
+      "item": "coolstuff:ruby"
+    },
+    "o": {
+      "item": "coolstuff:raw_resin"
+    }
+  },
+  "result": {
+      "item": "coolstuff:brilliant_ruby"
+    }
+}
+

@@ -1,0 +1,669 @@
+{
+	"type": "origins:multiple",
+	"tiny_raw_ruby_to_chipped_ruby": {
+		"type": "origins:item_on_item",
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:sandpaper"
+			}
+		},
+		"on_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:tiny_raw_ruby"
+			}
+		},
+		"result": {
+			"item": "coolstuff:chipped_ruby",
+			"amount": 1
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"on_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"entity_action": {
+			"type": "origins:play_sound",
+			"sound": "minecraft:item.book.page_turn",
+			"volume": 0.45,
+			"pitch": 0.1
+		}
+	},
+	"small_raw_ruby_to_flawed_ruby": {
+		"type": "origins:item_on_item",
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:sandpaper"
+			}
+		},
+		"on_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:small_raw_ruby"
+			}
+		},
+		"result": {
+			"item": "coolstuff:flawed_ruby",
+			"amount": 1
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"on_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"entity_action": {
+			"type": "origins:play_sound",
+			"sound": "minecraft:item.book.page_turn",
+			"volume": 0.45,
+			"pitch": 0.1
+		}
+	},
+	"raw_ruby_to_ruby": {
+		"type": "origins:item_on_item",
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:sandpaper"
+			}
+		},
+		"on_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:raw_ruby"
+			}
+		},
+		"result": {
+			"item": "coolstuff:ruby",
+			"amount": 1
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"on_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"entity_action": {
+			"type": "origins:play_sound",
+			"sound": "minecraft:item.book.page_turn",
+			"volume": 0.45,
+			"pitch": 0.1
+		}
+	},
+	"big_raw_ruby_to_brilliant_ruby": {
+		"type": "origins:item_on_item",
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:sandpaper"
+			}
+		},
+		"on_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:big_raw_ruby"
+			}
+		},
+		"result": {
+			"item": "coolstuff:brilliant_ruby",
+			"amount": 1
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"on_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"entity_action": {
+			"type": "origins:play_sound",
+			"sound": "minecraft:item.book.page_turn",
+			"volume": 0.45,
+			"pitch": 0.1
+		}
+	},
+	"huge_raw_ruby_to_pristine_ruby": {
+		"type": "origins:item_on_item",
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:sandpaper"
+			}
+		},
+		"on_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:huge_raw_ruby"
+			}
+		},
+		"result": {
+			"item": "coolstuff:pristine_ruby",
+			"amount": 1
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"on_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"entity_action": {
+			"type": "origins:play_sound",
+			"sound": "minecraft:item.book.page_turn",
+			"volume": 0.45,
+			"pitch": 0.1
+		}
+	},
+	"tiny_raw_sapphire_to_chipped_sapphire": {
+		"type": "origins:item_on_item",
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:sandpaper"
+			}
+		},
+		"on_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:tiny_raw_sapphire"
+			}
+		},
+		"result": {
+			"item": "coolstuff:chipped_sapphire",
+			"amount": 1
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"on_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"entity_action": {
+			"type": "origins:play_sound",
+			"sound": "minecraft:item.book.page_turn",
+			"volume": 0.45,
+			"pitch": 0.1
+		}
+	},
+	"small_raw_sapphire_to_flawed_sapphire": {
+		"type": "origins:item_on_item",
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:sandpaper"
+			}
+		},
+		"on_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:small_raw_sapphire"
+			}
+		},
+		"result": {
+			"item": "coolstuff:flawed_sapphire",
+			"amount": 1
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"on_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"entity_action": {
+			"type": "origins:play_sound",
+			"sound": "minecraft:item.book.page_turn",
+			"volume": 0.45,
+			"pitch": 0.1
+		}
+	},
+	"raw_sapphire_to_sapphire": {
+		"type": "origins:item_on_item",
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:sandpaper"
+			}
+		},
+		"on_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:raw_sapphire"
+			}
+		},
+		"result": {
+			"item": "coolstuff:sapphire",
+			"amount": 1
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"on_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"entity_action": {
+			"type": "origins:play_sound",
+			"sound": "minecraft:item.book.page_turn",
+			"volume": 0.45,
+			"pitch": 0.1
+		}
+	},
+	"big_raw_sapphire_to_brilliant_sapphire": {
+		"type": "origins:item_on_item",
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:sandpaper"
+			}
+		},
+		"on_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:big_raw_sapphire"
+			}
+		},
+		"result": {
+			"item": "coolstuff:brilliant_sapphire",
+			"amount": 1
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"on_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"entity_action": {
+			"type": "origins:play_sound",
+			"sound": "minecraft:item.book.page_turn",
+			"volume": 0.45,
+			"pitch": 0.1
+		}
+	},
+	"huge_raw_sapphire_to_pristine_sapphire": {
+		"type": "origins:item_on_item",
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:sandpaper"
+			}
+		},
+		"on_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:huge_raw_sapphire"
+			}
+		},
+		"result": {
+			"item": "coolstuff:pristine_sapphire",
+			"amount": 1
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"on_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"entity_action": {
+			"type": "origins:play_sound",
+			"sound": "minecraft:item.book.page_turn",
+			"volume": 0.45,
+			"pitch": 0.1
+		}
+	},
+
+	"tiny_raw_jade_to_chipped_jade": {
+		"type": "origins:item_on_item",
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:sandpaper"
+			}
+		},
+		"on_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:tiny_raw_jade"
+			}
+		},
+		"result": {
+			"item": "coolstuff:chipped_jade",
+			"amount": 1
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"on_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"entity_action": {
+			"type": "origins:play_sound",
+			"sound": "minecraft:item.book.page_turn",
+			"volume": 0.45,
+			"pitch": 0.1
+		}
+	},
+	"small_raw_jade_to_flawed_jade": {
+		"type": "origins:item_on_item",
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:sandpaper"
+			}
+		},
+		"on_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:small_raw_jade"
+			}
+		},
+		"result": {
+			"item": "coolstuff:flawed_jade",
+			"amount": 1
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"on_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"entity_action": {
+			"type": "origins:play_sound",
+			"sound": "minecraft:item.book.page_turn",
+			"volume": 0.45,
+			"pitch": 0.1
+		}
+	},
+	"raw_jade_to_jade": {
+		"type": "origins:item_on_item",
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:sandpaper"
+			}
+		},
+		"on_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:raw_jade"
+			}
+		},
+		"result": {
+			"item": "coolstuff:jade",
+			"amount": 1
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"on_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"entity_action": {
+			"type": "origins:play_sound",
+			"sound": "minecraft:item.book.page_turn",
+			"volume": 0.45,
+			"pitch": 0.1
+		}
+	},
+	"big_raw_jade_to_brilliant_jade": {
+		"type": "origins:item_on_item",
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:sandpaper"
+			}
+		},
+		"on_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:big_raw_jade"
+			}
+		},
+		"result": {
+			"item": "coolstuff:brilliant_jade",
+			"amount": 1
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"on_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"entity_action": {
+			"type": "origins:play_sound",
+			"sound": "minecraft:item.book.page_turn",
+			"volume": 0.45,
+			"pitch": 0.1
+		}
+	},
+	"huge_raw_jade_to_pristine_jade": {
+		"type": "origins:item_on_item",
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:sandpaper"
+			}
+		},
+		"on_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:huge_raw_jade"
+			}
+		},
+		"result": {
+			"item": "coolstuff:pristine_jade",
+			"amount": 1
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"on_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"entity_action": {
+			"type": "origins:play_sound",
+			"sound": "minecraft:item.book.page_turn",
+			"volume": 0.45,
+			"pitch": 0.1
+		}
+	},
+
+	"tiny_raw_topaz_to_chipped_topaz": {
+		"type": "origins:item_on_item",
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:sandpaper"
+			}
+		},
+		"on_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:tiny_raw_topaz"
+			}
+		},
+		"result": {
+			"item": "coolstuff:chipped_topaz",
+			"amount": 1
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"on_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"entity_action": {
+			"type": "origins:play_sound",
+			"sound": "minecraft:item.book.page_turn",
+			"volume": 0.45,
+			"pitch": 0.1
+		}
+	},
+	"small_raw_topaz_to_flawed_topaz": {
+		"type": "origins:item_on_item",
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:sandpaper"
+			}
+		},
+		"on_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:small_raw_topaz"
+			}
+		},
+		"result": {
+			"item": "coolstuff:flawed_topaz",
+			"amount": 1
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"on_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"entity_action": {
+			"type": "origins:play_sound",
+			"sound": "minecraft:item.book.page_turn",
+			"volume": 0.45,
+			"pitch": 0.1
+		}
+	},
+	"raw_topaz_to_topaz": {
+		"type": "origins:item_on_item",
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:sandpaper"
+			}
+		},
+		"on_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:raw_topaz"
+			}
+		},
+		"result": {
+			"item": "coolstuff:topaz",
+			"amount": 1
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"on_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"entity_action": {
+			"type": "origins:play_sound",
+			"sound": "minecraft:item.book.page_turn",
+			"volume": 0.45,
+			"pitch": 0.1
+		}
+	},
+	"big_raw_topaz_to_brilliant_topaz": {
+		"type": "origins:item_on_item",
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:sandpaper"
+			}
+		},
+		"on_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:big_raw_topaz"
+			}
+		},
+		"result": {
+			"item": "coolstuff:brilliant_topaz",
+			"amount": 1
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"on_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"entity_action": {
+			"type": "origins:play_sound",
+			"sound": "minecraft:item.book.page_turn",
+			"volume": 0.45,
+			"pitch": 0.1
+		}
+	},
+	"huge_raw_topaz_to_pristine_topaz": {
+		"type": "origins:item_on_item",
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:sandpaper"
+			}
+		},
+		"on_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:huge_raw_topaz"
+			}
+		},
+		"result": {
+			"item": "coolstuff:pristine_topaz",
+			"amount": 1
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"on_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"entity_action": {
+			"type": "origins:play_sound",
+			"sound": "minecraft:item.book.page_turn",
+			"volume": 0.45,
+			"pitch": 0.1
+		}
+	},
+
+	"name": "Energy Regeneration",
+	"description": "SHOULD BE HIDDEN if not alpha/beta, pls report"
+
+}
