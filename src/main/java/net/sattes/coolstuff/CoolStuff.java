@@ -22,7 +22,7 @@ public class CoolStuff implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-		Registry.register(Registry.PARTICLE_TYPE, new Identifier("modid", "green_flame"), GREEN_FLAME);
+		Registry.register(Registry.PARTICLE_TYPE, new Identifier("coolstuff", "green_flame"), GREEN_FLAME);
 		ModRegistries.registerModStuffs();
 		ModItems.registerModItem();
 		LOGGER.info("Making stuff cooler ...");
