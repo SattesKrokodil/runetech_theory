@@ -1,8 +1,11 @@
 package net.sattes.coolstuff.util;
 
 import net.fabricmc.fabric.api.registry.FuelRegistry;
+
 import net.sattes.coolstuff.CoolStuff;
 import net.sattes.coolstuff.item.ModItems;
+
+
 
 
 public class ModRegistries {
@@ -17,6 +20,10 @@ public class ModRegistries {
         //  400/20 = 20 seconds
         registry.add(ModItems.RESIN_FLASK, 18000);
     }
+
+
+
+
 }
 
 
