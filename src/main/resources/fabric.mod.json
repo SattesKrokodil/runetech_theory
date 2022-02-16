@@ -20,7 +20,10 @@
   "entrypoints": {
     "main": [
       "net.sattes.coolstuff.CoolStuff"
-    ]
+    ],
+     "client": [
+       "net.sattes.coolstuff.CoolStuffClient"
+     ]
   },
   "mixins": [
 
