@@ -7,6 +7,7 @@ import net.minecraft.entity.data.TrackedData;
 
 import net.minecraft.particle.ParticleTypes;
 import org.spongepowered.asm.mixin.Final;
+
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
@@ -19,7 +20,7 @@ import static net.sattes.coolstuff.util.StatusEffectRegistry.BLEED_STATUS_EFFECT
 
 
 @Mixin(LivingEntity.class)
-public abstract class MixinLivingEntity {
+public abstract class MixinLivingEntity{
 
 	@Shadow
 	@Final
