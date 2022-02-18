@@ -1,0 +1,78 @@
+{
+	"type": "origins:multiple",
+	"zephyr_decay": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "cool_origins:zephyr/zephyr",
+			"change": -20
+		},
+		"interval": 60,
+		"condition": {
+			"type": "origins:moving",
+			"inverted": true
+		}
+	},
+	"zephyr_normal": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "cool_origins:zephyr/zephyr",
+			"change": 10
+		},
+		"interval": 20,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "cool_origins:zephyr/control_resource",
+			"comparison": "==",
+			"compare_to": 0
+		}
+	},
+	"zephyr_strong": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "cool_origins:zephyr/zephyr",
+			"change": 10
+		},
+		"interval": 20,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "cool_origins:zephyr/control_resource",
+			"comparison": "==",
+			"compare_to": 1
+		}
+	},
+	"zephyr_very_strong": {
+
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "cool_origins:zephyr/zephyr",
+			"change": 20
+		},
+		"interval": 20,
+		"condition": {
+			"type": "origins:resource",
+			"resource": "cool_origins:zephyr/control_resource",
+			"comparison": "==",
+			"compare_to": 2
+		}
+	},
+	"condition": {
+		"type": "origins:and",
+		"conditions": [{
+				"type": "origins:resource",
+				"resource": "cool_origins:checks/is_air",
+				"comparison": "==",
+				"compare_to": 1
+			},
+			{
+				"type": "origins:moving"
+			}
+		]
+	},
+
+	"name": "Energy: Zephyr",
+	"description": "Generate Zephyr by moving. Lose Zephyr by standing still."
+}

@@ -1,0 +1,33 @@
+{
+	"type": "origins:multiple",
+	"rage_decay": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "cool_origins:rage/rage",
+			"change": -5
+		},
+		"interval": 200
+	},
+	"rage_when_getting_hit": {
+		"type": "origins:self_action_when_hit",
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "cool_origins:rage/rage",
+			"change": 10
+		},
+		"cooldown": 20
+	},
+	"rage_when_hitting_something": {
+		"type": "origins:self_action_on_hit",
+		"entity_action": {
+			"type": "origins:change_resource",
+			"resource": "cool_origins:rage/rage",
+			"change": 5
+		},
+		"cooldown": 20
+	},
+
+	"name": "Rage",
+	"description": "Get rage when you hit something, or when something hits you."
+}

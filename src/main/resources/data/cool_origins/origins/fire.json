@@ -1,0 +1,14 @@
+{
+	"powers": [
+	        "cool_origins:checks/reset",
+	    	"cool_origins:checks/is_fire",
+    		"cool_origins:rage/rage",
+    		"cool_origins:rage/rage_control_resource",
+    		"cool_origins:rage/rage_strength"
+	],
+	"icon": "minecraft:campfire",
+	"order": 1,
+	"impact": 0,
+	"name": "Fire",
+	"description": "info" 
+}

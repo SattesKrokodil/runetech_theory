@@ -1,0 +1,82 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:if_else",
+    "condition": {
+      "type": "origins:and",
+      "conditions": [{
+        "type": "origins:resource",
+        "resource": "origins:mana/mana",
+        "comparison": ">=",
+        "compare_to": 33
+      },
+        {
+          "type": "origins:resource",
+          "resource": "origins:checks/is_water",
+          "comparison": "==",
+          "compare_to": 1
+        }
+      ]
+    },
+    "if_action": {
+      "type": "origins:and",
+      "actions": [{
+        "type": "origins:exhaust",
+        "amount": 0.5
+      },
+        {
+          "type": "origins:execute_command",
+          "command": "/playsound minecraft:item.chorus_fruit.teleport player @p ~ ~ ~ 100 0.8"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "/particle minecraft:poof ~ ~0.2 ~ -1 0.1 0 0.1 10 normal"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "/particle minecraft:explosion ~ ~0.2 ~ -1 0.1 0 0.1 1 normal"
+        },
+        {
+          "type": "origins:change_resource",
+          "resource": "cool_origins:mana/mana",
+          "change": -33
+        },
+        {
+          "type": "origins:add_velocity",
+          "y": 0.1
+        },
+
+        {
+          "type": "origins:add_velocity",
+          "z": 0.5,
+          "space": "local"
+        },
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:speed",
+            "amplifier": 1,
+            "duration": 20
+          }
+        },
+        {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:slow_falling",
+            "amplifier": 1,
+            "duration": 20
+          }
+        }
+      ]
+    },
+    "else_action": {
+      "type": "origins:play_sound",
+      "sound": "minecraft:entity.chicken.egg"
+    }
+  },
+  "cooldown": 20,
+  "key": "key.origins.secondary_active",
+  "hud_render": {
+    "should_render": false
+  }
+}

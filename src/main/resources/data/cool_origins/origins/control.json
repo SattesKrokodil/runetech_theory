@@ -1,6 +1,6 @@
 {
 	"powers": [
-	    "origins:sandpaper_on_gems"
+	    "cool_origins:crafting/sandpaper_on_gems"
 	],
 	"icon": {
 		"item": "minecraft:cobweb"
