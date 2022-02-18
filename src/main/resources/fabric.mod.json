@@ -26,7 +26,7 @@
      ]
   },
   "mixins": [
-
+    "coolstuff.mixins.json"
   ],
 
   "depends": {

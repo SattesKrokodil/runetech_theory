@@ -10,6 +10,10 @@
     "item.coolstuff.soulsandpaper": "Soulsandpaper",
     "item.coolstuff.diamondpaper": "Diamondpaper",
 
+// StatusEffects
+
+    "effect.coolstuff.bleed": "Bleed",
+
 // JUNDLES
     "item.coolstuff.base_jundle": "Base Jundle",
     "item.coolstuff.jundle_one": "Jundle I",
