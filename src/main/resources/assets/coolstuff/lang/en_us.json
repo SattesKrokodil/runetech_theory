@@ -5,7 +5,6 @@
 
     "item.coolstuff.raw_resin": "Raw Resin",
     "item.coolstuff.resin_flask": "Pure Resin",
-
     "item.coolstuff.sandpaper": "Sandpaper",
     "item.coolstuff.soulsandpaper": "Soulsandpaper",
     "item.coolstuff.diamondpaper": "Diamondpaper",
@@ -13,6 +12,54 @@
 // StatusEffects
 
     "effect.coolstuff.bleed": "Bleed",
+
+// WEAPONS
+
+    "item.coolstuff.sword_i": "Sword (I)",
+    "item.coolstuff.sword_ii": "Sword (II)",
+    "item.coolstuff.sword_iii": "Sword (III)",
+
+    "item.coolstuff.axe_i": "Axe (I)",
+    "item.coolstuff.axe_ii": "Axe (II)",
+    "item.coolstuff.axe_iii": "Axe (III)",
+
+    "item.coolstuff.dagger_i": "Dagger (I)",
+    "item.coolstuff.dagger_ii": "Dagger (II)",
+    "item.coolstuff.dagger_iii": "Dagger (III)",
+
+    "item.coolstuff.gauntlet_i": "Gauntlet (I)",
+    "item.coolstuff.gauntlet_ii": "Gauntlet (II)",
+    "item.coolstuff.gauntlet_iii": "Gauntlet (III)",
+
+    "item.coolstuff.hammer_i": "Hammer (I)",
+    "item.coolstuff.hammer_ii": "Hammer (II)",
+    "item.coolstuff.hammer_iii": "Hammer (III)",
+
+    "item.coolstuff.mace_i": "Mace (I)",
+    "item.coolstuff.mace_ii": "Mace (II)",
+    "item.coolstuff.mace_iii": "Mace (III)",
+
+    "item.coolstuff.scepter_i": "Scepter (I)",
+    "item.coolstuff.scepter_ii": "Scepter (II)",
+    "item.coolstuff.scepter_iii": "Scepter (III)",
+
+    "item.coolstuff.scythe_i": "Scythe (I)",
+    "item.coolstuff.scythe_ii": "Scythe (II)",
+    "item.coolstuff.scythe_iii": "Scythe (III)",
+
+    "item.coolstuff.spear_i": "Spear (I)",
+    "item.coolstuff.spear_ii": "Spear (II)",
+    "item.coolstuff.spear_iii": "Spear (III)",
+
+    "item.coolstuff.staff_i": "Staff (I)",
+    "item.coolstuff.staff_ii": "Staff (II)",
+    "item.coolstuff.staff_iii": "Staff (III)",
+
+
+//WEAPONS UNIQUES
+    "item.coolstuff.sword_unique_void_grasp": "✰ Voidgrasp",
+
+
 
 // JUNDLES
     "item.coolstuff.base_jundle": "Base Jundle",
