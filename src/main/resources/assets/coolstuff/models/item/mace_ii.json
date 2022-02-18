@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"5": "coolstuff:item/weapons/maces/mace_ii",
+		"6": "coolstuff:item/weapons/maces/mace_ii",
 		"particle": "blockbench:stone"
 	},
 	"elements": [
