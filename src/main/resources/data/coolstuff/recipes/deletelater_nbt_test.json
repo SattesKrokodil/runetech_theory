@@ -1,0 +1,24 @@
+{
+	"type": "crafting_shapeless",
+	"ingredients": [{
+			"item": "minecraft:diamond_sword"
+
+		},
+		{
+			"item": "minecraft:diamond"
+		}
+	],
+	"result": {
+		"item": "coolstuff:sword_i",
+		"data": {
+			"display": {
+				"Name": "{\"text\":\"Battle Axe\"}"
+			},
+			"nbt": "{rare:1b}",
+			"Enchantments": [{
+				"id": "minecraft:sharpness",
+				"lvl": 10
+			}]
+		}
+	}
+}

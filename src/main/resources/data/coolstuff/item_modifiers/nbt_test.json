@@ -1,0 +1,16 @@
+[
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": "Oh shit it worked",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{rare:1b}"
+        }
+      }
+    ]
+  }
+]

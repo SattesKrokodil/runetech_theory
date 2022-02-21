@@ -48,17 +48,8 @@
 		}
 	},
 	"condition": {
-		"type": "origins:and",
-		"conditions": [{
-				"type": "origins:and",
-				"resource": "cool_origins:checks/is_earth",
-				"comparison": "==",
-				"compare_to": 1
-			},
-			{
 				"type": "origins:sneaking"
-			}
-		]
+
 	},
 
 	"name": "Energy: anima",

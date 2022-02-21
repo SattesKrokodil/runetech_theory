@@ -29,5 +29,7 @@ public class CoolStuff implements ModInitializer {
 		ModRegistries.registerModStuffs();
 		ModItems.registerModItem();
 		LOGGER.info("Making stuff cooler ...");
+
+
 	}
 }
