@@ -8,6 +8,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.sattes.coolstuff.item.ModItems;
 import net.sattes.coolstuff.status_effects.BleedStatusEffect;
+import net.sattes.coolstuff.util.ModLootTableModifiers;
 import net.sattes.coolstuff.util.ModRegistries;
 import net.sattes.coolstuff.util.StatusEffectRegistry;
 import org.slf4j.Logger;
@@ -26,6 +27,7 @@ public class CoolStuff implements ModInitializer {
 	public void onInitialize() {
 		Registry.register(Registry.PARTICLE_TYPE, new Identifier("coolstuff", "blood_dripping"), BLOOD_DRIPPING);
 		StatusEffectRegistry.registerStatusEffects();
+		ModLootTableModifiers.modifyLootTables();
 		ModRegistries.registerModStuffs();
 		ModItems.registerModItem();
 		LOGGER.info("Making stuff cooler ...");

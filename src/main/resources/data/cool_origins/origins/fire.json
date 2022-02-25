@@ -4,7 +4,11 @@
 	    	"cool_origins:checks/is_fire",
     		"cool_origins:rage/rage",
     		"cool_origins:rage/rage_control_resource",
-    		"cool_origins:rage/rage_strength"
+    		"cool_origins:rage/rage_strength",
+    		"cool_origins:professions/allow_crafting_test",
+    		"cool_origins:professions/mine_coal",
+    		"cool_origins:professions/prevent_iron_ore"
+
 	],
 	"icon": "minecraft:campfire",
 	"order": 1,

@@ -1,17 +1,25 @@
 package net.sattes.coolstuff.item;
+import dev.emi.trinkets.api.TrinketItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
-import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolMaterials;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 import net.sattes.coolstuff.CoolStuff;
 import net.sattes.coolstuff.item.custom.*;
+import net.sattes.coolstuff.item.custom.gear.trinkets.ModRingItem;
+import net.sattes.coolstuff.item.custom.weapons.*;
 
 public class ModItems {
 
     //MISC
+
+    public static final Item POCKET_GEODE = registerItem("pocket_geode",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.UNCOMMON)) );
+
+    public static final Item TONGS = registerItem("tongs",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).maxDamage(300)));
 
     public static final Item RAW_RESIN = registerItem("raw_resin",
             new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.COMMON)) );
@@ -23,142 +31,165 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.COMMON)) );
 
 
+    //BLUEPRINTS
+    public static final Item BLUEPRINT_RING = registerItem("blueprint_ring",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.UNCOMMON)) );
+
+    //GEAR
+    //TRINKETS
+
+
+    public static final Item BASE_COPPER_RING = registerItem("base_copper_ring",
+            new ModRingItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).maxCount(1)) );
+
+    public static final Item BASE_GOLD_RING = registerItem("base_gold_ring",
+            new ModRingItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).maxCount(1)) );
+
+    public static final Item BASE_IRON_RING = registerItem("base_iron_ring",
+            new ModRingItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).maxCount(1)) );
+
+    public static final Item BASE_DIAMOND_RING = registerItem("base_diamond_ring",
+            new ModRingItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).maxCount(1)) );
+
+    public static final Item BASE_NETHERITE_RING = registerItem("base_netherite_ring",
+            new ModRingItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).maxCount(1)) );
+
     // WEAPONS
     //SWORDS
     public static final Item BASE_SWORD_I = registerItem("sword_i",
-            new ModSwordItem(ToolMaterials.IRON, 3, 1F,
+            new ModSwordItem(ToolMaterials.IRON, 4, -2.4F,
                     new FabricItemSettings().group(ModItemGroups.COOLSTUFF)));
 
     public static final Item BASE_SWORD_II = registerItem("sword_ii",
-            new ModSwordItem(ToolMaterials.DIAMOND, 3, 1F,
+            new ModSwordItem(ToolMaterials.DIAMOND, 4, -2.4F,
                     new FabricItemSettings().group(ModItemGroups.COOLSTUFF)));
 
     public static final Item BASE_SWORD_III = registerItem("sword_iii",
-            new ModSwordItem(ToolMaterials.NETHERITE, 3, 1F,
+            new ModSwordItem(ToolMaterials.NETHERITE, 4, -2.4F,
                     new FabricItemSettings().group(ModItemGroups.COOLSTUFF)));
 
     public static final Item UNIQUE_SWORD_VOID_GRASP = registerItem("sword_unique_void_grasp",
-            new ModSwordItem(ToolMaterials.NETHERITE, 3, 1F,
+            new ModSwordItem(ToolMaterials.NETHERITE, 4, -2.4F,
                     new FabricItemSettings().group(ModItemGroups.COOLSTUFF))
     );
 
     //AXES
     public static final Item BASE_AXE_I = registerItem("axe_i",
-            new ModAxeItem(ToolMaterials.IRON, 3, 1F,
+            new ModAxeItem(ToolMaterials.IRON, 6, -3F,
                     new FabricItemSettings().group(ModItemGroups.COOLSTUFF)));
 
     public static final Item BASE_AXE_II = registerItem("axe_ii",
-            new ModAxeItem(ToolMaterials.DIAMOND, 3, 1F,
+            new ModAxeItem(ToolMaterials.DIAMOND, 6, -3F,
                     new FabricItemSettings().group(ModItemGroups.COOLSTUFF)));
 
     public static final Item BASE_AXE_III = registerItem("axe_iii",
-            new ModAxeItem(ToolMaterials.NETHERITE, 3, 1F,
+            new ModAxeItem(ToolMaterials.NETHERITE, 6, -3F,
                     new FabricItemSettings().group(ModItemGroups.COOLSTUFF)));
 
 
     //DAGGERS
     public static final Item BASE_DAGGER_I = registerItem("dagger_i",
-            new ModDaggerItem(ToolMaterials.IRON, 3, 1F,
+            new ModDaggerItem(ToolMaterials.IRON, 1, -1F,
                     new FabricItemSettings().group(ModItemGroups.COOLSTUFF)));
 
     public static final Item BASE_DAGGER_II = registerItem("dagger_ii",
-            new ModDaggerItem(ToolMaterials.DIAMOND, 3, 1F,
+            new ModDaggerItem(ToolMaterials.DIAMOND, 1, -1F,
                     new FabricItemSettings().group(ModItemGroups.COOLSTUFF)));
 
     public static final Item BASE_DAGGER_III = registerItem("dagger_iii",
-            new ModDaggerItem(ToolMaterials.NETHERITE, 3, 1F,
+            new ModDaggerItem(ToolMaterials.NETHERITE, 1, -1F,
                     new FabricItemSettings().group(ModItemGroups.COOLSTUFF)));
 
     //Gauntlets
     public static final Item BASE_GAUNTLET_I = registerItem("gauntlet_i",
-            new ModGauntletItem(ToolMaterials.IRON, 3, 1F,
+            new ModGauntletItem(ToolMaterials.IRON, 2, -1.5F,
                     new FabricItemSettings().group(ModItemGroups.COOLSTUFF)));
 
     public static final Item BASE_GAUNTLET_II = registerItem("gauntlet_ii",
-            new ModGauntletItem(ToolMaterials.DIAMOND, 3, 1F,
+            new ModGauntletItem(ToolMaterials.DIAMOND, 2, -1.5F,
                     new FabricItemSettings().group(ModItemGroups.COOLSTUFF)));
 
     public static final Item BASE_GAUNTLET_III = registerItem("gauntlet_iii",
-            new ModGauntletItem(ToolMaterials.NETHERITE, 3, 1F,
+            new ModGauntletItem(ToolMaterials.NETHERITE, 2, -1.5F,
                     new FabricItemSettings().group(ModItemGroups.COOLSTUFF)));
 
 
     //HAMMERS
     public static final Item BASE_HAMMER_I = registerItem("hammer_i",
-            new ModHammerItem(ToolMaterials.IRON, 3, 1F,
+            new ModHammerItem(ToolMaterials.IRON, 8, -3.5F,
                     new FabricItemSettings().group(ModItemGroups.COOLSTUFF)));
 
     public static final Item BASE_HAMMER_II = registerItem("hammer_ii",
-            new ModHammerItem(ToolMaterials.DIAMOND, 3, 1F,
+            new ModHammerItem(ToolMaterials.DIAMOND, 8, -3.5F,
                     new FabricItemSettings().group(ModItemGroups.COOLSTUFF)));
 
     public static final Item BASE_HAMMER_III = registerItem("hammer_iii",
-            new ModHammerItem(ToolMaterials.NETHERITE, 3, 1F,
+            new ModHammerItem(ToolMaterials.NETHERITE, 8, -3.5F,
                     new FabricItemSettings().group(ModItemGroups.COOLSTUFF)));
 
     //MACES
     public static final Item BASE_MACE_I = registerItem("mace_i",
-            new ModMaceItem(ToolMaterials.IRON, 3, 1F,
+            new ModMaceItem(ToolMaterials.IRON, 7, -3.4F,
                     new FabricItemSettings().group(ModItemGroups.COOLSTUFF)));
 
     public static final Item BASE_MACE_II = registerItem("mace_ii",
-            new ModMaceItem(ToolMaterials.DIAMOND, 3, 1F,
+            new ModMaceItem(ToolMaterials.DIAMOND, 7, -3.4F,
                     new FabricItemSettings().group(ModItemGroups.COOLSTUFF)));
 
     public static final Item BASE_MACE_III = registerItem("mace_iii",
-            new ModMaceItem(ToolMaterials.NETHERITE, 3, 1F,
+            new ModMaceItem(ToolMaterials.NETHERITE, 7, -3.4F,
                     new FabricItemSettings().group(ModItemGroups.COOLSTUFF)));
 
-    //SCYTHES
+    //SCEPTERS
     public static final Item BASE_SCEPTER_I = registerItem("scepter_i",
-            new ModScepterItem(ToolMaterials.IRON, 3, 1F,
+            new ModScepterItem(ToolMaterials.IRON, 5, -3F,
                     new FabricItemSettings().group(ModItemGroups.COOLSTUFF)));
 
     public static final Item BASE_SCEPTER_II = registerItem("scepter_ii",
-            new ModScepterItem(ToolMaterials.DIAMOND, 3, 1F,
+            new ModScepterItem(ToolMaterials.DIAMOND, 5, -3F,
                     new FabricItemSettings().group(ModItemGroups.COOLSTUFF)));
 
     public static final Item BASE_SCEPTER_III = registerItem("scepter_iii",
-            new ModScepterItem(ToolMaterials.NETHERITE, 3, 1F,
+            new ModScepterItem(ToolMaterials.NETHERITE, 5, -3F,
                     new FabricItemSettings().group(ModItemGroups.COOLSTUFF)));
 
     //SCYTHES
     public static final Item BASE_SCYTHE_I = registerItem("scythe_i",
-            new ModScytheItem(ToolMaterials.IRON, 3, 1F,
+            new ModScytheItem(ToolMaterials.IRON, 6, -3.2F,
                     new FabricItemSettings().group(ModItemGroups.COOLSTUFF)));
 
     public static final Item BASE_SCYTHE_II = registerItem("scythe_ii",
-            new ModScytheItem(ToolMaterials.DIAMOND, 3, 1F,
+            new ModScytheItem(ToolMaterials.DIAMOND, 6, -3.2F,
                     new FabricItemSettings().group(ModItemGroups.COOLSTUFF)));
 
     public static final Item BASE_SCYTHE_III = registerItem("scythe_iii",
-            new ModScytheItem(ToolMaterials.NETHERITE, 3, 1F,
+            new ModScytheItem(ToolMaterials.NETHERITE, 6, -3.2F,
                     new FabricItemSettings().group(ModItemGroups.COOLSTUFF)));
 
     //SPEARS
     public static final Item BASE_SPEAR_I = registerItem("spear_i",
-            new ModSpearItem(ToolMaterials.IRON, 3, 1F,
+            new ModSpearItem(ToolMaterials.IRON, 4, -2.5F,
                     new FabricItemSettings().group(ModItemGroups.COOLSTUFF)));
 
     public static final Item BASE_SPEAR_II = registerItem("spear_ii",
-            new ModSpearItem(ToolMaterials.DIAMOND, 3, 1F,
+            new ModSpearItem(ToolMaterials.DIAMOND, 4, -2.5F,
                     new FabricItemSettings().group(ModItemGroups.COOLSTUFF)));
 
     public static final Item BASE_SPEAR_III = registerItem("spear_iii",
-            new ModSpearItem(ToolMaterials.NETHERITE, 3, 1F,
+            new ModSpearItem(ToolMaterials.NETHERITE, 4, -2.5F,
                     new FabricItemSettings().group(ModItemGroups.COOLSTUFF)));
 
     //STAFFS
     public static final Item BASE_STAFF_I = registerItem("staff_i",
-            new ModStaffItem(ToolMaterials.IRON, 3, 1F,
+            new ModStaffItem(ToolMaterials.IRON, 1, -3.0F,
                     new FabricItemSettings().group(ModItemGroups.COOLSTUFF)));
 
     public static final Item BASE_STAFF_II = registerItem("staff_ii",
-            new ModStaffItem(ToolMaterials.DIAMOND, 3, 1F,
+            new ModStaffItem(ToolMaterials.DIAMOND, 1, -3.0F,
                     new FabricItemSettings().group(ModItemGroups.COOLSTUFF)));
 
     public static final Item BASE_STAFF_III = registerItem("staff_iii",
-            new ModStaffItem(ToolMaterials.NETHERITE, 3, 1F,
+            new ModStaffItem(ToolMaterials.NETHERITE, 1, -3.0F,
                     new FabricItemSettings().group(ModItemGroups.COOLSTUFF)));
 
 

@@ -1,0 +1,32 @@
+{
+    "type": "origins:item_on_item",
+    "using_item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "coolstuff:tongs"
+        }
+    },
+    "on_item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "coolstuff:pocket_geode"
+        }
+    },
+    "result": {
+        "item": "minecraft:clay",
+        "amount": 10
+    },
+    "using_item_action": {
+        "type": "origins:damage",
+        "amount": 20,
+        "ignore_unbreaking": false
+    },
+    "on_item_action": {
+        "type": "origins:consume",
+        "amount": 1
+    },
+    "entity_action": {
+    "type": "origins:execute_command",
+    "command": "function coolstuff:break_pocket_geode"
+    }
+}

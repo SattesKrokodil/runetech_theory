@@ -1,0 +1,19 @@
+{
+	"type": "origins:action_on_block_break",
+	"entity_action": {
+		"type": "origins:attribute",
+		"modifier": {
+			"name": "Max health increase",
+			"attribute": "coolstuff:profession_mining",
+			"value": 1,
+			"operation": "addition"
+		}
+	},
+
+
+	"block_condition": {
+		"type": "origins:block",
+		"block": "minecraft:coal_ore"
+	},
+	"only_when_harvested": false
+}

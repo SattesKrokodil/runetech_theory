@@ -1,11 +1,12 @@
 {
 	"powers": [
-	    "cool_origins:crafting/sandpaper_on_gems"
+	    "cool_origins:crafting/sandpaper_on_gems",
+	    "cool_origins:crafting/tongs_on_pocket_geode"
 	],
 	"icon": {
 		"item": "minecraft:cobweb"
 	},
 	"order": 1,
 	"impact": 1,
-	"hidden": true
+	"hidden": false
 }

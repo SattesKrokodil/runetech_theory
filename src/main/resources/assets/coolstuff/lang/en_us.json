@@ -3,15 +3,34 @@
 
 //MISC
 
+    "item.coolstuff.pocket_geode": "Pocket Geode",
+    "item.coolstuff.tongs": "Tongs",
     "item.coolstuff.raw_resin": "Raw Resin",
     "item.coolstuff.resin_flask": "Pure Resin",
     "item.coolstuff.sandpaper": "Sandpaper",
-    "item.coolstuff.soulsandpaper": "Soulsandpaper",
-    "item.coolstuff.diamondpaper": "Diamondpaper",
 
-// StatusEffects
+// BLUEPRINTS
+    "item.coolstuff.blueprint_ring": "Blueprint: Ring",
+
+// STATUSEFFECTS
 
     "effect.coolstuff.bleed": "Bleed",
+
+// AFFIXES
+    //PREFIXES
+    "item.coolstuff.sonic": "Sonic",
+
+// BUILDER
+    "item.coolstuff.ring": "Ring",
+
+// GEAR
+// RINGS
+    "item.coolstuff.base_copper_ring": "Copper Ring",
+    "item.coolstuff.base_iron_ring": "Iron Ring",
+    "item.coolstuff.base_gold_ring": "Gold Ring",
+    "item.coolstuff.base_diamond_ring": "Diamond Ring",
+    "item.coolstuff.base_netherite_ring": "Netherite Ring",
+
 
 // WEAPONS
 
@@ -85,8 +104,6 @@
     "item.coolstuff.gray_jundle": "Gray Jundle",
     "item.coolstuff.light_gray_jundle": "Light Gray Jundle",
     "item.coolstuff.white_jundle": "White Jundle",
-
-
 
 
 //GEMS CUT

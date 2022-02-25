@@ -1,0 +1,1 @@
+title @p actionbar {"text":"Mining Profession Level Increased!","color":"aqua"}

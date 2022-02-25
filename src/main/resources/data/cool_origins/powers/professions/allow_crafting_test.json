@@ -1,0 +1,25 @@
+ {
+ 	"type": "origins:recipe",
+ 	"recipe": {
+ 		"id": "origins:master_of_webs/web_crafting",
+ 		"type": "minecraft:crafting_shapeless",
+ 		"ingredients": [{
+ 				"item": "minecraft:raw_iron"
+ 			},
+ 			{
+ 				"item": "minecraft:raw_iron"
+ 			}
+ 		],
+ 		"result": {
+ 			"item": "minecraft:iron_ingot"
+ 		},
+ 		"condition": {
+ 			"type": "origins:attribute",
+ 			"attribute": "coolstuff:profession_mining",
+ 			"comparison": ">=",
+ 			"compare_to": 1.0
+ 		}
+ 	}
+
+
+ }

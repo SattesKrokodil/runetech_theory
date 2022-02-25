@@ -15,8 +15,8 @@
     "function": "minecraft:set_attributes",
     "modifiers": [
       {
-        "attribute": "minecraft:generic.attack_damage",
-        "name": "attack_damage",
+        "attribute": "playerex:strength",
+        "name": "strength",
         "amount": {
           "type": "minecraft:binomial",
           "n": 6,
@@ -24,42 +24,8 @@
         },
         "operation": "addition",
         "slot": "mainhand"
-      },
-      {
-        "attribute": "minecraft:generic.attack_speed",
-        "name": "attack_speed",
-        "amount": -2.4,
-        "operation": "addition",
-        "slot": "mainhand"
-      },
-      {
-        "attribute": "playerex:strength",
-        "name": "strength",
-        "amount": {
-          "type": "minecraft:binomial",
-          "n": 3,
-          "p": 0.5
-        },
-        "operation": "addition",
-        "slot": [
-          "mainhand",
-          "offhand"
-        ]
-      },
-      {
-        "attribute": "playerex:dexterity",
-        "name": "dexterity",
-        "amount": {
-          "type": "minecraft:binomial",
-          "n": 3,
-          "p": 0.5
-        },
-        "operation": "addition",
-        "slot": [
-          "mainhand",
-          "offhand"
-        ]
       }
+
     ]
   },
   {

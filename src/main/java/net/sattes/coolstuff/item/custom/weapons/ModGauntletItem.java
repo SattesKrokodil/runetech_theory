@@ -1,4 +1,4 @@
-package net.sattes.coolstuff.item.custom;
+package net.sattes.coolstuff.item.custom.weapons;
 import net.minecraft.item.SwordItem;
 import net.minecraft.item.ToolMaterial;
 

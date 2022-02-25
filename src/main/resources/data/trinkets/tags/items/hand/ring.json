@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "coolstuff:base_copper_ring",
+    "coolstuff:base_iron_ring",
+    "coolstuff:base_gold_ring",
+    "coolstuff:base_diamond_ring",
+    "coolstuff:base_netherite_ring"
+  ]
+}
