@@ -1,0 +1,17 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{sapphire_1:1b}"
+  },
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": [
+      {
+        "text": "Sapphire Copper Ring",
+        "bold": false,
+        "italic": false
+      }
+    ]
+  }
+]

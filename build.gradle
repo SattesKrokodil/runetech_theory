@@ -65,6 +65,7 @@ dependencies {
 	modImplementation include("eu.pb4:placeholder-api:${project.placeholder_api}")
 	implementation 'net.objecthunter:exp4j:0.4.8'
 	include 'net.objecthunter:exp4j:0.4.8'
+
 	modImplementation "de.siphalor:nbtcrafting-1.18:2+"
 
 	// To change the versions see the gradle.properties file

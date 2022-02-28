@@ -1,0 +1,18 @@
+[{
+	"function": "minecraft:set_lore",
+	"entity": "this",
+	"lore": [
+		[{
+				"text": "Quality: ",
+				"color": "white",
+				"bold": false,
+				"italic": false
+			},
+			{
+				"text": "★",
+				"color": "white"
+			}
+		]
+	],
+	"replace": false
+}]

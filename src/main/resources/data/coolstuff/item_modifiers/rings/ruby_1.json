@@ -1,0 +1,36 @@
+[{
+		"function": "minecraft:set_nbt",
+		"tag": "{ruby_1:1b}"
+	},
+	{
+    		"function": "minecraft:set_nbt",
+    		"tag": "{CustomModelData:1000}"
+    	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			[{
+					"text": "Quality: ",
+					"color": "white",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": "★",
+					"color": "white"
+				}
+			]
+		],
+		"replace": false
+	},
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": [{
+			"text": "Ruby Copper Ring",
+			"bold": false,
+			"italic": false
+		}]
+	}
+]

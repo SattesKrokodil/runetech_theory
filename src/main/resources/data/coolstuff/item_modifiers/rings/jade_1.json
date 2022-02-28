@@ -1,0 +1,160 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{jade_1:1b}"
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Quality: ",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": "★",
+          "color": "white",
+          "bold": false,
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{quality: 1}"
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Quality: ",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": "★★",
+          "color": "yellow",
+          "bold": false,
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{quality: 2}"
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Quality: ",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": "★★★",
+          "color": "aqua",
+          "bold": false,
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{quality: 3}"
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Quality: ",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": "★★★★",
+          "color": "dark_purple",
+          "bold": false,
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{quality: 4}"
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "text": "Quality: ",
+          "bold": false,
+          "italic": false
+        },
+        {
+          "text": "★★★★★",
+          "color": "gold",
+          "bold": false,
+          "italic": false
+        }
+      ]
+    ],
+    "replace": false,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{quality: 5}"
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_name",
+    "entity": "this",
+    "name": {
+      "text": "Jade Copper Ring",
+      "bold": false,
+      "italic": false
+    }
+  }
+]

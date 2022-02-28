@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "coolstuff:base_copper_ring"
+  },
+  "addition": {
+    "item": "coolstuff:ring_setting_copper"
+  },
+  "result": {
+    "item": "coolstuff:polished_copper_ring"
+  }
+}

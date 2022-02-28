@@ -1,5 +1,4 @@
 package net.sattes.coolstuff.item;
-import dev.emi.trinkets.api.TrinketItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.item.ToolMaterials;
@@ -8,7 +7,8 @@ import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 import net.sattes.coolstuff.CoolStuff;
 import net.sattes.coolstuff.item.custom.*;
-import net.sattes.coolstuff.item.custom.gear.trinkets.ModRingItem;
+import net.sattes.coolstuff.item.custom.gear.trinkets.ModBaseRingItem;
+import net.sattes.coolstuff.item.custom.gear.trinkets.ModRingItem_i;
 import net.sattes.coolstuff.item.custom.weapons.*;
 
 public class ModItems {
@@ -31,28 +31,45 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.COMMON)) );
 
 
-    //BLUEPRINTS
+    //PROFESSION MATERIALS
     public static final Item BLUEPRINT_RING = registerItem("blueprint_ring",
-            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.UNCOMMON)) );
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.COMMON)) );
+
+    public static final Item RING_SETTING_COPPER = registerItem("ring_setting_copper",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.COMMON)) );
+
+    public static final Item NECKLACE_CHAIN_COPPER = registerItem("necklace_chain_copper",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.COMMON)) );
+
+    public static final Item BASE_COPPER_RING = registerItem("base_copper_ring",
+            new ModBaseRingItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).maxCount(16)) );
+
+    public static final Item POLISHED_COPPER_RING = registerItem("polished_copper_ring",
+            new ModRingItem_i(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).maxCount(16)) );
+
+    public static final Item BASE_GOLD_RING = registerItem("base_gold_ring",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).maxCount(16)) );
+
+    public static final Item BASE_IRON_RING = registerItem("base_iron_ring",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).maxCount(16)) );
+
+    public static final Item BASE_DIAMOND_RING = registerItem("base_diamond_ring",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).maxCount(16)) );
+
+    public static final Item BASE_NETHERITE_RING = registerItem("base_netherite_ring",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).maxCount(16)) );
+
+
+
+
 
     //GEAR
     //TRINKETS
+    public static final Item RUBY_COPPER_RING = registerItem("ruby_copper_ring",
+            new ModRingItem_i(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).maxCount(1)) );
 
 
-    public static final Item BASE_COPPER_RING = registerItem("base_copper_ring",
-            new ModRingItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).maxCount(1)) );
 
-    public static final Item BASE_GOLD_RING = registerItem("base_gold_ring",
-            new ModRingItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).maxCount(1)) );
-
-    public static final Item BASE_IRON_RING = registerItem("base_iron_ring",
-            new ModRingItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).maxCount(1)) );
-
-    public static final Item BASE_DIAMOND_RING = registerItem("base_diamond_ring",
-            new ModRingItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).maxCount(1)) );
-
-    public static final Item BASE_NETHERITE_RING = registerItem("base_netherite_ring",
-            new ModRingItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).maxCount(1)) );
 
     // WEAPONS
     //SWORDS

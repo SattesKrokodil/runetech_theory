@@ -9,8 +9,14 @@
     "item.coolstuff.resin_flask": "Pure Resin",
     "item.coolstuff.sandpaper": "Sandpaper",
 
-// BLUEPRINTS
+// PROFESSIONS
     "item.coolstuff.blueprint_ring": "Blueprint: Ring",
+    "item.coolstuff.base_copper_ring": "Copper Ring",
+    "item.coolstuff.base_iron_ring": "Iron Ring",
+    "item.coolstuff.base_gold_ring": "Gold Ring",
+    "item.coolstuff.base_diamond_ring": "Diamond Ring",
+    "item.coolstuff.base_netherite_ring": "Netherite Ring",
+    "item.coolstuff.ring_setting_copper": "Copper Setting",
 
 // STATUSEFFECTS
 
@@ -22,14 +28,20 @@
 
 // BUILDER
     "item.coolstuff.ring": "Ring",
+    "item.coolstuff.life": "Life",
+    "item.coolstuff.quality_1": "Quality: ★",
+    "item.coolstuff.quality_2": "Quality: §e★★",
+    "item.coolstuff.quality_3": "Quality: §b★★★",
+    "item.coolstuff.quality_4": "Quality: §d★★★★",
+    "item.coolstuff.quality_5": "Quality: §6★★★★★",
 
 // GEAR
-// RINGS
-    "item.coolstuff.base_copper_ring": "Copper Ring",
-    "item.coolstuff.base_iron_ring": "Iron Ring",
-    "item.coolstuff.base_gold_ring": "Gold Ring",
-    "item.coolstuff.base_diamond_ring": "Diamond Ring",
-    "item.coolstuff.base_netherite_ring": "Netherite Ring",
+// TRINKET RINGS
+
+    "item.coolstuff.polished_copper_ring": "Polished Copper Ring",
+    "item.coolstuff.ruby_copper_ring": "Ruby Copper Ring",
+
+
 
 
 // WEAPONS

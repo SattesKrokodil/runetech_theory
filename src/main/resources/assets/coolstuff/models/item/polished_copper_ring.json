@@ -1,0 +1,13 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "coolstuff:item/gear/trinkets/rings/polished_copper_ring"
+  },
+
+     "overrides":
+     [
+       {
+           "predicate": {"custom_model_data": 1000}, "model": "coolstuff:item/ruby_copper_ring"
+       }
+     ]
+}
