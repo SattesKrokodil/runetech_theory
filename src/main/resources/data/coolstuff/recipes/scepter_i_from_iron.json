@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "   ",
+    "oxo"
+  ],
+  "key": {
+
+    "x": {
+      "item": "minecraft:iron_sword"
+    },
+    "o": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "result": {
+      "item": "coolstuff:scepter_i"
+    }
+}
+

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "ooo",
+    " x "
+  ],
+  "key": {
+
+    "x": {
+      "item": "minecraft:netherite_sword"
+    },
+    "o": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "result": {
+      "item": "coolstuff:mace_iii"
+    }
+}
+

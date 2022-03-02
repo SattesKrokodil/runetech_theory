@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " oo",
+    " x "
+  ],
+  "key": {
+
+    "x": {
+      "item": "minecraft:diamond_sword"
+    },
+    "o": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "result": {
+      "item": "coolstuff:axe_ii"
+    }
+}
+
