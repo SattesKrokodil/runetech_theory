@@ -1,0 +1,22 @@
+[{
+		"function": "minecraft:set_nbt",
+		"tag": "{jade_4:1b}"
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{hasStats:1b}"
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:403}"
+	},
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"text": "Jade Diamond Ring",
+			"bold": false,
+			"italic": false
+		}
+	}
+]

@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
-    "coolstuff:polished_copper_ring"
+    "coolstuff:polished_copper_ring",
+    "coolstuff:polished_iron_ring",
+    "coolstuff:polished_gold_ring",
+    "coolstuff:polished_diamond_ring",
+    "coolstuff:polished_netherite_ring"
   ]
 }

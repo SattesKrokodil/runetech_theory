@@ -1,0 +1,22 @@
+[{
+		"function": "minecraft:set_nbt",
+		"tag": "{ruby_5:1b}"
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{hasStats:1b}"
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:501}"
+	},
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"text": "Ruby Netherite Ring",
+			"bold": false,
+			"italic": false
+		}
+	}
+]

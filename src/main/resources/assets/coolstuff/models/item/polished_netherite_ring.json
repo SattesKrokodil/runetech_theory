@@ -1,0 +1,16 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "coolstuff:item/gear/trinkets/rings/polished_netherite_ring"
+  },
+
+     "overrides":
+     [
+
+           {"predicate": {"custom_model_data":501}, "model": "coolstuff:item/ruby_netherite_ring"},
+           {"predicate": {"custom_model_data":502}, "model": "coolstuff:item/sapphire_netherite_ring"},
+           {"predicate": {"custom_model_data":503}, "model": "coolstuff:item/jade_netherite_ring"},
+           {"predicate": {"custom_model_data":504}, "model": "coolstuff:item/topaz_netherite_ring"}
+
+     ]
+}

@@ -1,0 +1,22 @@
+[{
+		"function": "minecraft:set_nbt",
+		"tag": "{topaz_5:1b}"
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{hasStats:1b}"
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:504}"
+	},
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"text": "Topaz Netherite Ring",
+			"bold": false,
+			"italic": false
+		}
+	}
+]

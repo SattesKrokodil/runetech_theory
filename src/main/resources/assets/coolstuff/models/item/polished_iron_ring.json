@@ -1,0 +1,16 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "coolstuff:item/gear/trinkets/rings/polished_iron_ring"
+  },
+
+     "overrides":
+     [
+
+           {"predicate": {"custom_model_data":201}, "model": "coolstuff:item/ruby_iron_ring"},
+           {"predicate": {"custom_model_data":202}, "model": "coolstuff:item/sapphire_iron_ring"},
+           {"predicate": {"custom_model_data":203}, "model": "coolstuff:item/jade_iron_ring"},
+           {"predicate": {"custom_model_data":204}, "model": "coolstuff:item/topaz_iron_ring"}
+
+     ]
+}

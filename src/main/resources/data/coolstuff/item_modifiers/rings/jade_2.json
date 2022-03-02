@@ -1,0 +1,22 @@
+[{
+		"function": "minecraft:set_nbt",
+		"tag": "{jade_2:1b}"
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{hasStats:1b}"
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:203}"
+	},
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"text": "Jade Iron Ring",
+			"bold": false,
+			"italic": false
+		}
+	}
+]

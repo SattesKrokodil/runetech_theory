@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "coolstuff:base_iron_ring"
+  },
+  "addition": {
+    "item": "coolstuff:ring_iron_setting"
+  },
+  "result": {
+    "item": "coolstuff:polished_iron_ring"
+  }
+}

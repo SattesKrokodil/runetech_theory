@@ -1,0 +1,22 @@
+[{
+		"function": "minecraft:set_nbt",
+		"tag": "{sapphire_2:1b}"
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{hasStats:1b}"
+	},
+	{
+		"function": "minecraft:set_nbt",
+		"tag": "{CustomModelData:202}"
+	},
+	{
+		"function": "minecraft:set_name",
+		"entity": "this",
+		"name": {
+			"text": "Sapphire Iron Ring",
+			"bold": false,
+			"italic": false
+		}
+	}
+]

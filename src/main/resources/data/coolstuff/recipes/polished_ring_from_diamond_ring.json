@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "coolstuff:base_diamond_ring"
+  },
+  "addition": {
+    "item": "coolstuff:ring_diamond_setting"
+  },
+  "result": {
+    "item": "coolstuff:polished_diamond_ring"
+  }
+}

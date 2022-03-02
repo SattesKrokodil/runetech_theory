@@ -1,0 +1,207 @@
+{
+	"type": "origins:multiple",
+	"chipped_ruby": {
+		"type": "origins:item_on_item",
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:chipped_ruby"
+			}
+		},
+		"on_item_condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "coolstuff:polished_copper_ring"
+					}
+				},
+				{
+					"type": "origins:nbt",
+					"nbt": "{hasStats: 1b}",
+					"inverted": true
+				}
+			]
+		},
+		"result": {
+			"item": "coolstuff:chipped_ruby",
+			"amount": 0
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"on_item_action": {
+			"type": "origins:modify",
+			"modifier": "coolstuff:rings/ruby_1"
+		},
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "playsound minecraft:block.amethyst_cluster.hit player @p ~ ~ ~ 100 2"
+		}
+	},
+	"flawed_ruby": {
+		"type": "origins:item_on_item",
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:flawed_ruby"
+			}
+		},
+		"on_item_condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "coolstuff:polished_iron_ring"
+					}
+				},
+				{
+					"type": "origins:nbt",
+					"nbt": "{hasStats: 1b}",
+					"inverted": true
+				}
+			]
+		},
+		"result": {
+			"item": "coolstuff:flawed_ruby",
+			"amount": 0
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"on_item_action": {
+			"type": "origins:modify",
+			"modifier": "coolstuff:rings/ruby_2"
+		},
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "playsound minecraft:block.amethyst_cluster.hit player @p ~ ~ ~ 100 2"
+		}
+	},
+
+	"normal_ruby": {
+		"type": "origins:item_on_item",
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:ruby"
+			}
+		},
+		"on_item_condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "coolstuff:polished_gold_ring"
+					}
+				},
+				{
+					"type": "origins:nbt",
+					"nbt": "{hasStats: 1b}",
+					"inverted": true
+				}
+			]
+		},
+		"result": {
+			"item": "coolstuff:ruby",
+			"amount": 0
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"on_item_action": {
+			"type": "origins:modify",
+			"modifier": "coolstuff:rings/ruby_3"
+		},
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "playsound minecraft:block.amethyst_cluster.hit player @p ~ ~ ~ 100 2"
+		}
+	},
+
+	"brilliant_ruby": {
+		"type": "origins:item_on_item",
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:brilliant_ruby"
+			}
+		},
+		"on_item_condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "coolstuff:polished_diamond_ring"
+					}
+				},
+				{
+					"type": "origins:nbt",
+					"nbt": "{hasStats: 1b}",
+					"inverted": true
+				}
+			]
+		},
+		"result": {
+			"item": "coolstuff:brilliant_ruby",
+			"amount": 0
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"on_item_action": {
+			"type": "origins:modify",
+			"modifier": "coolstuff:rings/ruby_4"
+		},
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "playsound minecraft:block.amethyst_cluster.hit player @p ~ ~ ~ 100 2"
+		}
+	},
+
+	"pristine_ruby": {
+		"type": "origins:item_on_item",
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:pristine_ruby"
+			}
+		},
+		"on_item_condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "coolstuff:polished_netherite_ring"
+					}
+				},
+				{
+					"type": "origins:nbt",
+					"nbt": "{hasStats: 1b}",
+					"inverted": true
+				}
+			]
+		},
+		"result": {
+			"item": "coolstuff:pristine_ruby",
+			"amount": 0
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"on_item_action": {
+			"type": "origins:modify",
+			"modifier": "coolstuff:rings/ruby_5"
+		},
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "playsound minecraft:block.amethyst_cluster.hit player @p ~ ~ ~ 100 2"
+		}
+	}
+
+}

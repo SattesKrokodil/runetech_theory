@@ -4,7 +4,7 @@
     "item": "coolstuff:base_copper_ring"
   },
   "addition": {
-    "item": "coolstuff:ring_setting_copper"
+    "item": "coolstuff:ring_copper_setting"
   },
   "result": {
     "item": "coolstuff:polished_copper_ring"

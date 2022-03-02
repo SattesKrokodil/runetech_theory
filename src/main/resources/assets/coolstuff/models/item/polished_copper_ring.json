@@ -6,8 +6,9 @@
 
      "overrides":
      [
-       {
-           "predicate": {"custom_model_data": 1000}, "model": "coolstuff:item/ruby_copper_ring"
-       }
+           {"predicate": {"custom_model_data":101}, "model": "coolstuff:item/ruby_copper_ring"},
+           {"predicate": {"custom_model_data":102}, "model": "coolstuff:item/sapphire_copper_ring"},
+           {"predicate": {"custom_model_data":103}, "model": "coolstuff:item/jade_copper_ring"},
+           {"predicate": {"custom_model_data":104}, "model": "coolstuff:item/topaz_copper_ring"}
      ]
 }

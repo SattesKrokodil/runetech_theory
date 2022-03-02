@@ -11,16 +11,22 @@
 
 // PROFESSIONS
     "item.coolstuff.blueprint_ring": "Blueprint: Ring",
+
     "item.coolstuff.base_copper_ring": "Copper Ring",
     "item.coolstuff.base_iron_ring": "Iron Ring",
     "item.coolstuff.base_gold_ring": "Gold Ring",
     "item.coolstuff.base_diamond_ring": "Diamond Ring",
     "item.coolstuff.base_netherite_ring": "Netherite Ring",
-    "item.coolstuff.ring_setting_copper": "Copper Setting",
+
+    "item.coolstuff.ring_copper_setting": "Copper Setting",
+    "item.coolstuff.ring_iron_setting": "Iron Setting",
+    "item.coolstuff.ring_gold_setting": "Gold Setting",
+    "item.coolstuff.ring_diamond_setting": "Diamond Setting",
+    "item.coolstuff.ring_netherite_setting": "Netherite Setting",
 
 // STATUSEFFECTS
 
-    "effect.coolstuff.bleed": "Bleed",
+    "effect.coolstuff.bleed": "Rupture",
 
 // AFFIXES
     //PREFIXES
@@ -40,8 +46,33 @@
 
     "item.coolstuff.polished_copper_ring": "Polished Copper Ring",
     "item.coolstuff.ruby_copper_ring": "Ruby Copper Ring",
+    "item.coolstuff.sapphire_copper_ring": "Sapphire Copper Ring",
+    "item.coolstuff.jade_copper_ring": "Jade Copper Ring",
+    "item.coolstuff.topaz_copper_ring": "Topaz Copper Ring",
 
+    "item.coolstuff.polished_iron_ring": "Polished Iron Ring",
+    "item.coolstuff.ruby_iron_ring": "Ruby Iron Ring",
+    "item.coolstuff.sapphire_iron_ring": "Sapphire Iron Ring",
+    "item.coolstuff.jade_iron_ring": "Jade Iron Ring",
+    "item.coolstuff.topaz_iron_ring": "Topaz Iron Ring",
 
+    "item.coolstuff.polished_gold_ring": "Polished Gold Ring",
+    "item.coolstuff.ruby_gold_ring": "Ruby Gold Ring",
+    "item.coolstuff.sapphire_gold_ring": "Sapphire Gold Ring",
+    "item.coolstuff.jade_gold_ring": "Jade Gold Ring",
+    "item.coolstuff.topaz_gold_ring": "Topaz Gold Ring",
+
+    "item.coolstuff.polished_diamond_ring": "Polished Diamond Ring",
+    "item.coolstuff.ruby_diamond_ring": "Ruby Diamond Ring",
+    "item.coolstuff.sapphire_diamond_ring": "Sapphire Diamond Ring",
+    "item.coolstuff.jade_diamond_ring": "Jade Diamond Ring",
+    "item.coolstuff.topaz_diamond_ring": "Topaz Diamond Ring",
+
+    "item.coolstuff.polished_netherite_ring": "Polished Netherite Ring",
+    "item.coolstuff.ruby_netherite_ring": "Ruby Netherite Ring",
+    "item.coolstuff.sapphire_netherite_ring": "Sapphire Netherite Ring",
+    "item.coolstuff.jade_netherite_ring": "Jade Netherite Ring",
+    "item.coolstuff.topaz_netherite_ring": "Topaz Netherite Ring",
 
 
 // WEAPONS

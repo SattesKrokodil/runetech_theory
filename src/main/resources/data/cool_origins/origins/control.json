@@ -2,7 +2,10 @@
 	"powers": [
 	    "cool_origins:crafting/sandpaper_on_gems",
 	    "cool_origins:crafting/tongs_on_pocket_geode",
-	    "cool_origins:crafting/ruby_on_copper"
+	    "cool_origins:crafting/ruby_on_ring",
+	    "cool_origins:crafting/sapphire_on_ring",
+	    "cool_origins:crafting/topaz_on_ring",
+	    "cool_origins:crafting/jade_on_ring"
 	],
 	"icon": {
 		"item": "minecraft:cobweb"

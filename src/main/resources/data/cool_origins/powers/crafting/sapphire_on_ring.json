@@ -1,0 +1,207 @@
+{
+	"type": "origins:multiple",
+	"chipped_sapphire": {
+		"type": "origins:item_on_item",
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:chipped_sapphire"
+			}
+		},
+		"on_item_condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "coolstuff:polished_copper_ring"
+					}
+				},
+				{
+					"type": "origins:nbt",
+					"nbt": "{hasStats: 1b}",
+					"inverted": true
+				}
+			]
+		},
+		"result": {
+			"item": "coolstuff:chipped_sapphire",
+			"amount": 0
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"on_item_action": {
+			"type": "origins:modify",
+			"modifier": "coolstuff:rings/sapphire_1"
+		},
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "playsound minecraft:block.amethyst_cluster.hit player @p ~ ~ ~ 100 2"
+		}
+	},
+	"flawed_sapphire": {
+		"type": "origins:item_on_item",
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:flawed_sapphire"
+			}
+		},
+		"on_item_condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "coolstuff:polished_iron_ring"
+					}
+				},
+				{
+					"type": "origins:nbt",
+					"nbt": "{hasStats: 1b}",
+					"inverted": true
+				}
+			]
+		},
+		"result": {
+			"item": "coolstuff:flawed_sapphire",
+			"amount": 0
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"on_item_action": {
+			"type": "origins:modify",
+			"modifier": "coolstuff:rings/sapphire_2"
+		},
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "playsound minecraft:block.amethyst_cluster.hit player @p ~ ~ ~ 100 2"
+		}
+	},
+
+	"normal_sapphire": {
+		"type": "origins:item_on_item",
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:sapphire"
+			}
+		},
+		"on_item_condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "coolstuff:polished_gold_ring"
+					}
+				},
+				{
+					"type": "origins:nbt",
+					"nbt": "{hasStats: 1b}",
+					"inverted": true
+				}
+			]
+		},
+		"result": {
+			"item": "coolstuff:sapphire",
+			"amount": 0
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"on_item_action": {
+			"type": "origins:modify",
+			"modifier": "coolstuff:rings/sapphire_3"
+		},
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "playsound minecraft:block.amethyst_cluster.hit player @p ~ ~ ~ 100 2"
+		}
+	},
+
+	"brilliant_sapphire": {
+		"type": "origins:item_on_item",
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:brilliant_sapphire"
+			}
+		},
+		"on_item_condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "coolstuff:polished_diamond_ring"
+					}
+				},
+				{
+					"type": "origins:nbt",
+					"nbt": "{hasStats: 1b}",
+					"inverted": true
+				}
+			]
+		},
+		"result": {
+			"item": "coolstuff:brilliant_sapphire",
+			"amount": 0
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"on_item_action": {
+			"type": "origins:modify",
+			"modifier": "coolstuff:rings/sapphire_4"
+		},
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "playsound minecraft:block.amethyst_cluster.hit player @p ~ ~ ~ 100 2"
+		}
+	},
+
+	"pristine_sapphire": {
+		"type": "origins:item_on_item",
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:pristine_sapphire"
+			}
+		},
+		"on_item_condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "coolstuff:polished_netherite_ring"
+					}
+				},
+				{
+					"type": "origins:nbt",
+					"nbt": "{hasStats: 1b}",
+					"inverted": true
+				}
+			]
+		},
+		"result": {
+			"item": "coolstuff:pristine_sapphire",
+			"amount": 0
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"on_item_action": {
+			"type": "origins:modify",
+			"modifier": "coolstuff:rings/sapphire_5"
+		},
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "playsound minecraft:block.amethyst_cluster.hit player @p ~ ~ ~ 100 2"
+		}
+	}
+
+}

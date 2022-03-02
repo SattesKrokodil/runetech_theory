@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " x ",
+    "xyx",
+    " x "
+  ],
+  "key": {
+
+    "x": {
+      "item": "minecraft:diamond"
+    },
+        "y": {
+          "item": "coolstuff:blueprint_ring"
+        }
+  },
+  "result": {
+      "item": "coolstuff:base_diamond_ring"
+    }
+}
+
+
+
+

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " x ",
+    "xyx",
+    " x "
+  ],
+  "key": {
+
+    "x": {
+      "item": "minecraft:netherite_ingot"
+    },
+        "y": {
+          "item": "coolstuff:blueprint_ring"
+        }
+  },
+  "result": {
+      "item": "coolstuff:base_netherite_ring"
+    }
+}
+
