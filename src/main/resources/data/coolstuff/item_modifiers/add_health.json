@@ -1,6 +1,184 @@
-[
-  {
-    "function": "minecraft:set_nbt",
-    "tag": "{speedy:1b}"
-  }
+[{
+		"function": "minecraft:set_name",
+		"name": {
+			"text": "Sapphire Sword of Sparks",
+			"color": "dark_purple",
+			"bold": false,
+			"italic": false
+		}
+	},
+	{
+		"function": "minecraft:set_lore",
+		"entity": "this",
+		"lore": [
+			[
+				[{
+						"text": "Quality: ",
+						"color": "white",
+						"bold": false,
+						"italic": false
+					},
+					{
+						"text": "★★★★★",
+						"color": "gold",
+						"bold": false,
+						"italic": false
+					}
+				]
+			],
+			[{
+					"text": "Type: ",
+					"color": "gray",
+					"bold": false,
+					"italic": true
+				},
+				{
+					"text": "Sword",
+					"color": "gray",
+					"bold": false,
+					"italic": true
+				}
+			],
+			[{
+				"text": "20 Damage",
+				"color": "white",
+				"bold": false,
+				"italic": false
+			}],
+			[{
+				"text": "Attackspeed: Fast",
+				"color": "white",
+				"bold": false,
+				"italic": false
+			}],
+			{
+				"text": " ",
+				"bold": false,
+				"italic": false
+			},
+			[{
+					"text": "+32 ",
+					"color": "green",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": "Constitution",
+					"color": "green",
+					"bold": false,
+					"italic": false
+				}
+			],
+			[{
+					"text": "+20 ",
+					"color": "green",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": "Intelligence",
+					"color": "green",
+					"bold": false,
+					"italic": false
+				}
+			],
+			[{
+					"text": "+5 ",
+					"color": "green",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": "Dexterity",
+					"color": "green",
+					"bold": false,
+					"italic": false
+				}
+			],
+			[{
+					"text": "+10 ",
+					"color": "green",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": "Strength",
+					"color": "green",
+					"bold": false,
+					"italic": false
+				}
+			],
+			{
+				"text": " ",
+				"bold": false,
+				"italic": false
+			},
+			[{
+					"text": "× ",
+					"color": "red",
+					"bold": false,
+					"italic": false
+				},
+				{
+					"text": "Level Requirement: 15",
+					"color": "red",
+					"bold": false,
+					"italic": false
+				}
+			],
+			{
+				"text": " ",
+				"bold": false,
+				"italic": false
+			},
+			[{
+				"text": "╠ Rupture",
+				"color": "aqua",
+				"bold": false,
+				"italic": false
+			}],
+			[{
+				"text": "╠ Shadowflame",
+				"color": "aqua",
+				"bold": false,
+				"italic": false
+			}],
+			[{
+				"text": "╠ Arcane Shield",
+				"color": "aqua",
+				"bold": false,
+				"italic": false
+			}],
+			[{
+				"text": "■ Ruby: 5% Ranged Attack Damage",
+				"color": "blue",
+				"bold": false,
+				"italic": false
+			}],
+			{
+				"text": " ",
+				"bold": false,
+				"italic": false
+			},
+			[{
+				"text": "[2/4] Set 'Netherflame' +10% Attackspeed",
+				"color": "green",
+				"bold": false,
+				"italic": false
+			}],
+			[{
+				"text": "[3/4] Set 'Netherflame' +5 Damage",
+				"color": "green",
+				"bold": false,
+				"italic": false
+			}],
+			[{
+				"text": "[4/4] Set 'Netherflame' - Equip: Berserk",
+				"color": "gray",
+				"bold": false,
+				"italic": false
+			}]
+		],
+		"replace": false
+	}
 ]
