@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:diamond_leggings"
+  },
+  "addition": {
+    "item": "coolstuff:plate_netherite"
+  },
+  "result": {
+    "item": "minecraft:netherite_leggings"
+  }
+}

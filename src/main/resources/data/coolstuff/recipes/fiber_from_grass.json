@@ -1,0 +1,29 @@
+{
+    "type": "lychee:block_interacting",
+    "item_in": {
+        "tag": "coolstuff:hoes_for_grass_items"
+    },
+    "block_in": "grass",
+    "post": [
+        {
+            "type": "drop_item",
+            "item": "coolstuff:plant_fiber",
+            "contextual": {
+                "type": "chance",
+                "chance": 0.2
+            }
+        },
+        {
+            "type": "place",
+            "block": "dead_bush"
+        },
+        {
+            "type": "execute",
+            "command": "/playsound minecraft:block.grass.place player @p ~ ~ ~ 100 2",
+            "hide": true
+        },
+        {
+            "type": "damage_item"
+        }
+    ]
+}

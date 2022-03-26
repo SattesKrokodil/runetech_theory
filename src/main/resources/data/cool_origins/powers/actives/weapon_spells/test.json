@@ -1,0 +1,10 @@
+{
+    "type": "origins:particle",
+"particle": {
+    "type": "minecraft:block",
+    "params": "minecraft:snow_block"
+},
+    "frequency": 4
+}
+
+

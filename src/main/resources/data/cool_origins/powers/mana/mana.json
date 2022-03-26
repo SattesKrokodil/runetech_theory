@@ -1,14 +1,14 @@
 {
   "type": "origins:resource",
   "min": 0,
-  "max": 100,
+  "max": 98,
   "start:": 0,
   "hud_render": {
-    "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
-    "bar_index": 16,
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_points_01.png",
+    "bar_index": 5,
     "condition": {
       "type": "origins:resource",
-      "resource": "cool_origins:checks/is_water",
+      "resource": "cool_origins:checks/has_mana",
       "comparison": "==",
       "compare_to": 1
     }

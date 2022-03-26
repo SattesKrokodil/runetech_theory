@@ -10,11 +10,6 @@
     },
       {
         "type": "origins:change_resource",
-        "resource": "cool_origins:checks/is_water",
-        "change": 1
-      },
-      {
-        "type": "origins:change_resource",
         "resource": "cool_origins:mana/mana",
         "change": -100
       }

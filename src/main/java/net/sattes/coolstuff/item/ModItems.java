@@ -1,5 +1,7 @@
 package net.sattes.coolstuff.item;
+import com.jamieswhiteshirt.reachentityattributes.ReachEntityAttributes;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
+import net.minecraft.entity.attribute.EntityAttributeModifier;
 import net.minecraft.item.Item;
 import net.minecraft.item.ToolMaterials;
 import net.minecraft.util.Identifier;
@@ -29,8 +31,84 @@ public class ModItems {
     public static final Item SANDPAPER = registerItem("sandpaper",
             new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.COMMON)) );
 
+    //RUNES
+
+    public static final Item RUNEWORD = registerItem("runeword",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.COMMON)) );
+
+    public static final Item RUNE_A = registerItem("rune_a",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.UNCOMMON)) );
+    public static final Item RUNE_B = registerItem("rune_b",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.UNCOMMON)) );
+    public static final Item RUNE_C = registerItem("rune_c",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.UNCOMMON)) );
+    public static final Item RUNE_D = registerItem("rune_d",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.UNCOMMON)) );
+    public static final Item RUNE_E = registerItem("rune_e",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.UNCOMMON)) );
+    public static final Item RUNE_F = registerItem("rune_f",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.UNCOMMON)) );
+    public static final Item RUNE_G = registerItem("rune_g",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.UNCOMMON)) );
+    public static final Item RUNE_H = registerItem("rune_h",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.UNCOMMON)) );
+    public static final Item RUNE_I = registerItem("rune_i",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.UNCOMMON)) );
+    public static final Item RUNE_J = registerItem("rune_j",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.UNCOMMON)) );
+
+    public static final Item RUNE_K = registerItem("rune_k",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.RARE)) );
+    public static final Item RUNE_L = registerItem("rune_l",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.RARE)) );
+    public static final Item RUNE_M = registerItem("rune_m",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.RARE)) );
+    public static final Item RUNE_N = registerItem("rune_n",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.RARE)) );
+    public static final Item RUNE_O = registerItem("rune_o",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.RARE)) );
+    public static final Item RUNE_P = registerItem("rune_p",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.RARE)) );
+    public static final Item RUNE_Q = registerItem("rune_q",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.RARE)) );
+    public static final Item RUNE_R = registerItem("rune_r",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.RARE)) );
+    public static final Item RUNE_S = registerItem("rune_s",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.RARE)) );
+    public static final Item RUNE_T = registerItem("rune_t",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.RARE)) );
+    public static final Item RUNE_U = registerItem("rune_u",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.EPIC)) );
+    public static final Item RUNE_V = registerItem("rune_v",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.EPIC)) );
+    public static final Item RUNE_W = registerItem("rune_w",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.EPIC)) );
+    public static final Item RUNE_X = registerItem("rune_x",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.EPIC)) );
+    public static final Item RUNE_Y = registerItem("rune_y",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.EPIC)) );
+    public static final Item RUNE_Z = registerItem("rune_z",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.EPIC)) );
 
     //PROFESSION MATERIALS
+    public static final Item PLANT_FIBER = registerItem("plant_fiber",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.COMMON)) );
+    public static final Item ROPE = registerItem("rope",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.COMMON)) );
+
+    public static final Item PLATE_LEATHER = registerItem("plate_leather",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.COMMON)) );
+    public static final Item PLATE_COPPER = registerItem("plate_copper",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.COMMON)) );
+    public static final Item PLATE_IRON = registerItem("plate_iron",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.COMMON)) );
+    public static final Item PLATE_GOLD = registerItem("plate_gold",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.COMMON)) );
+    public static final Item PLATE_DIAMOND = registerItem("plate_diamond",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.COMMON)) );
+    public static final Item PLATE_NETHERITE = registerItem("plate_netherite",
+            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.COMMON)) );
+
     public static final Item BLUEPRINT_RING = registerItem("blueprint_ring",
             new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.COMMON)) );
 

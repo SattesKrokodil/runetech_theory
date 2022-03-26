@@ -5,7 +5,7 @@
     "entity_action": {
       "type": "origins:change_resource",
       "resource": "cool_origins:mana/mana",
-      "change": 5
+      "change": 7
     },
     "interval": 40,
     "condition": {
@@ -20,7 +20,7 @@
     "entity_action": {
       "type": "origins:change_resource",
       "resource": "cool_origins:mana/mana",
-      "change": 10
+      "change": 14
     },
     "interval": 40,
     "condition": {
@@ -36,7 +36,7 @@
     "entity_action": {
       "type": "origins:change_resource",
       "resource": "cool_origins:mana/mana",
-      "change": 20
+      "change": 21
     },
     "interval": 40,
     "condition": {
@@ -48,11 +48,11 @@
   },
   "condition": {
     "type": "origins:resource",
-    "resource": "cool_origins:checks/is_water",
+    "resource": "cool_origins:checks/has_mana",
     "comparison": "==",
     "compare_to": 1
   },
 
-  "name": "Energy Regeneration",
+  "name": "Mana Regeneration",
   "description": "SHOULD BE HIDDEN if not alpha/beta, pls report"
 }

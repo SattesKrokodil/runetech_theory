@@ -13,8 +13,8 @@
         }
     },
     "result": {
-        "item": "minecraft:clay",
-        "amount": 10
+        "item": "minecraft:clay_ball",
+        "amount": 1
     },
     "using_item_action": {
         "type": "origins:damage",

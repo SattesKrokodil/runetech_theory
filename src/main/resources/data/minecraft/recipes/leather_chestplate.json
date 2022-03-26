@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "o o",
+    "xox",
+    "ooo"
+  ],
+  "key": {
+    "x": {
+      "item": "coolstuff:plate_leather"
+    },
+    "o": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "minecraft:leather_chestplate"
+  }
+}

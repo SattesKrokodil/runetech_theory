@@ -58,10 +58,10 @@ repositories {
 
 dependencies {
 	//Stats, Attributes (PlayerEX)
-	modImplementation "curse.maven:dataattributes-514734:3624177"
+	modImplementation "curse.maven:dataattributes-514734:3633032"
 	modImplementation "com.github.clevernucleus:OfflinePlayerCache:${project.opc_version}"
 	include "com.github.clevernucleus:OfflinePlayerCache:${project.opc_version}"
-	modImplementation "curse.maven:playerex-409221:3628179"
+	modImplementation "curse.maven:playerex-409221:3638699"
 	modImplementation include("eu.pb4:placeholder-api:${project.placeholder_api}")
 	implementation 'net.objecthunter:exp4j:0.4.8'
 	include 'net.objecthunter:exp4j:0.4.8'
@@ -75,8 +75,9 @@ dependencies {
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 	modImplementation "com.github.apace100:origins-fabric:${project.origins_version}"
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-	modImplementation "curse.maven:lychee-574650:3648312"
+	modImplementation "curse.maven:lychee-574650:3649900"
 
+	modImplementation "curse.maven:levelz-440979:3662798"
 	modImplementation "dev.emi:trinkets:${trinkets_version}"
 
 	modImplementation "dev.onyxstudios.cardinal-components-api:cardinal-components-base:${project.cardinal_components_version}"

@@ -12,7 +12,7 @@
       },
         {
           "type": "origins:resource",
-          "resource": "origins:checks/is_water",
+          "resource": "origins:checks/has_mana",
           "comparison": "==",
           "compare_to": 1
         }

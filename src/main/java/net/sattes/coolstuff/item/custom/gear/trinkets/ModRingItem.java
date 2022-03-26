@@ -27,6 +27,7 @@ public class ModRingItem extends TrinketItem {
             assert stack.getNbt() != null;
             if (stack.getNbt().toString().contains("quality:1")) {
                 tooltip.add(new TranslatableText("item.coolstuff.quality_1"));
+
             }
         }
         if (stack.hasNbt()) {

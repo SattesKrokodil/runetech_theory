@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:iron_helmet"
+  },
+  "addition": {
+    "item": "coolstuff:plate_diamond"
+  },
+  "result": {
+    "item": "minecraft:diamond_helmet"
+  }
+}

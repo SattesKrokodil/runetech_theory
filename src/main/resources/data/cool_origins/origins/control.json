@@ -5,7 +5,16 @@
 	    "cool_origins:crafting/ruby_on_ring",
 	    "cool_origins:crafting/sapphire_on_ring",
 	    "cool_origins:crafting/topaz_on_ring",
-	    "cool_origins:crafting/jade_on_ring"
+	    "cool_origins:crafting/jade_on_ring",
+
+	    "cool_origins:checks/has_mana",
+	    "cool_origins:checks/reset",
+	    "cool_origins:mana/control_resource",
+	    "cool_origins:mana/mana",
+	    "cool_origins:mana/strength",
+
+	    "cool_origins:actives/weapon_spells/test"
+
 	],
 	"icon": {
 		"item": "minecraft:cobweb"

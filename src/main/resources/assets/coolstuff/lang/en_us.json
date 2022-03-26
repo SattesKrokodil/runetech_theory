@@ -9,7 +9,49 @@
     "item.coolstuff.resin_flask": "Pure Resin",
     "item.coolstuff.sandpaper": "Sandpaper",
 
+
+//RUNES
+    "item.coolstuff.runeword": "Runeword Empty",
+    "item.coolstuff.rune_a": "Ar",
+    "item.coolstuff.rune_b": "Bes",
+    "item.coolstuff.rune_c": "Cel",
+    "item.coolstuff.rune_d": "Do",
+    "item.coolstuff.rune_e": "En",
+    "item.coolstuff.rune_f": "Fer",
+    "item.coolstuff.rune_g": "Gol",
+    "item.coolstuff.rune_h": "Hal",
+    "item.coolstuff.rune_i": "Iri",
+    "item.coolstuff.rune_j": "Jom",
+    "item.coolstuff.rune_k": "Kup",
+    "item.coolstuff.rune_l": "La",
+    "item.coolstuff.rune_m": "Mon",
+    "item.coolstuff.rune_n": "Nos",
+    "item.coolstuff.rune_o": "Ohm",
+    "item.coolstuff.rune_p": "Pex",
+    "item.coolstuff.rune_q": "Qun",
+    "item.coolstuff.rune_r": "Reh",
+    "item.coolstuff.rune_s": "Sel",
+    "item.coolstuff.rune_t": "Tal",
+    "item.coolstuff.rune_u": "Uru",
+    "item.coolstuff.rune_v": "Vel",
+    "item.coolstuff.rune_w": "Wen",
+    "item.coolstuff.rune_x": "Xi",
+    "item.coolstuff.rune_y": "Yon",
+    "item.coolstuff.rune_z": "Zet",
+
+
+
 // PROFESSIONS
+    "item.coolstuff.plant_fiber": "Fiber",
+    "item.coolstuff.rope": "Rope",
+
+    "item.coolstuff.plate_leather": "Leather Patch",
+    "item.coolstuff.plate_copper": "Copper Plate",
+    "item.coolstuff.plate_iron": "Iron Plate",
+    "item.coolstuff.plate_gold": "Gold Plate",
+    "item.coolstuff.plate_diamond": "Diamond Plate",
+    "item.coolstuff.plate_netherite": "Netherite Plate",
+
     "item.coolstuff.blueprint_ring": "Blueprint: Ring",
 
     "item.coolstuff.base_copper_ring": "Copper Ring",

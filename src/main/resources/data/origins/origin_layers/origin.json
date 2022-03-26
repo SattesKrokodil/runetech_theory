@@ -1,7 +1,7 @@
 {
   "replace": true,
   "order": 0,
-  "auto_choose": true,
+  "auto_choose": false,
   "origins": [
 				"cool_origins:control"
   ]
