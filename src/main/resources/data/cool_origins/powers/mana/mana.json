@@ -4,8 +4,8 @@
   "max": 98,
   "start:": 0,
   "hud_render": {
-    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_points_01.png",
-    "bar_index": 5,
+    "sprite_location": "origins:textures/gui/community/sattes/runebar.png",
+    "bar_index": 0,
     "condition": {
       "type": "origins:resource",
       "resource": "cool_origins:checks/has_mana",
