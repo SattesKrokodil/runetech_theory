@@ -1,0 +1,5 @@
+{
+    "type": "origins:particle",
+    "particle": "minecraft:electric_spark",
+    "frequency": 4
+}

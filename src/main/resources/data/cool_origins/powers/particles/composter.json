@@ -1,0 +1,5 @@
+{
+    "type": "origins:particle",
+    "particle": "minecraft:composter",
+    "frequency": 4
+}

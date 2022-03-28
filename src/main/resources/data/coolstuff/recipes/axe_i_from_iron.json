@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "   ",
-    " oo",
+    " o ",
     " x "
   ],
   "key": {
@@ -11,7 +11,7 @@
       "item": "minecraft:iron_sword"
     },
     "o": {
-      "item": "minecraft:dirt"
+      "item": "coolstuff:rune_a"
     }
   },
   "result": {

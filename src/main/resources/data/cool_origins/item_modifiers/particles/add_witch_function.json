@@ -1,0 +1,26 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{hasChromaticSocket:1b}"
+  },
+  {
+    "function": "apoli:add_power",
+    "power": "cool_origins:particles/witch",
+    "slot": "head",
+    "hidden": true
+},
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Particle: Witch (JOM)",
+        "color": "yellow",
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "replace": false
+  }
+]
+

@@ -1,0 +1,5 @@
+{
+    "type": "origins:particle",
+    "particle": "minecraft:nautilus",
+    "frequency": 4
+}

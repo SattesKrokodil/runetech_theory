@@ -6,6 +6,7 @@ import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.particle.DefaultParticleType;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+import net.sattes.coolstuff.block.ModBlocks;
 import net.sattes.coolstuff.item.ModItems;
 import net.sattes.coolstuff.status_effects.BleedStatusEffect;
 import net.sattes.coolstuff.util.ModLootTableModifiers;
@@ -27,6 +28,7 @@ public class CoolStuff implements ModInitializer {
 	public void onInitialize() {
 		Registry.register(Registry.PARTICLE_TYPE, new Identifier("coolstuff", "blood_dripping"), BLOOD_DRIPPING);
 		StatusEffectRegistry.registerStatusEffects();
+		ModBlocks.registerModBlocks();
 		ModLootTableModifiers.modifyLootTables();
 		ModRegistries.registerModStuffs();
 		ModItems.registerModItem();

@@ -1,0 +1,5 @@
+{
+    "type": "origins:particle",
+    "particle": "minecraft:underwater",
+    "frequency": 6
+}

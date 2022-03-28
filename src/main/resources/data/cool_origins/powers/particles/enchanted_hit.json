@@ -1,0 +1,5 @@
+{
+    "type": "origins:particle",
+    "particle": "minecraft:enchanted_hit",
+    "frequency": 4
+}

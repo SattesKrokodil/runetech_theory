@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "coolstuff:gauntlet_i"
+  },
+  "addition": {
+    "item": "coolstuff:rw_upgrade"
+  },
+  "result": {
+    "item": "coolstuff:gauntlet_ii"
+  }
+}
+

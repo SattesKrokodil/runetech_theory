@@ -1,0 +1,139 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "coolstuff:rune_a"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "coolstuff:rune_b"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "coolstuff:rune_c"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "coolstuff:rune_d"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "coolstuff:rune_e"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "coolstuff:rune_f"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "coolstuff:rune_g"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "coolstuff:rune_h"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "coolstuff:rune_i"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "coolstuff:rune_j"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "coolstuff:rune_k"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "coolstuff:rune_l"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "coolstuff:rune_m"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "coolstuff:rune_n"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "coolstuff:rune_o"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "coolstuff:rune_p"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "coolstuff:rune_q"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "coolstuff:rune_r"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "coolstuff:rune_s"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "coolstuff:rune_t"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "coolstuff:rune_u"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "coolstuff:rune_v"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "coolstuff:rune_w"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "coolstuff:rune_x"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "coolstuff:rune_y"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "coolstuff:rune_z"
+        }
+      ]
+    }
+  ]
+}

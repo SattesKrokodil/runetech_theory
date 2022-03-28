@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "coolstuff:spear_ii"
+  },
+  "addition": {
+    "item": "coolstuff:rw_upgrade"
+  },
+  "result": {
+    "item": "coolstuff:spear_iii"
+  }
+}

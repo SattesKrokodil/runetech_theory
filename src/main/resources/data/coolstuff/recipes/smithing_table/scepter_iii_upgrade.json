@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "coolstuff:scepter_ii"
+  },
+  "addition": {
+    "item": "coolstuff:rw_upgrade"
+  },
+  "result": {
+    "item": "coolstuff:scepter_iii"
+  }
+}

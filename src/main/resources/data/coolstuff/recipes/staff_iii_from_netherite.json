@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "  o",
+    " o ",
     " o ",
     " x "
   ],
@@ -11,7 +11,7 @@
       "item": "minecraft:netherite_sword"
     },
     "o": {
-      "item": "minecraft:dirt"
+      "item": "coolstuff:rune_h"
     }
   },
   "result": {

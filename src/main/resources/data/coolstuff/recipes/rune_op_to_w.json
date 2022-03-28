@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "xou",
+    "   "
+  ],
+  "key": {
+
+    "x": {
+      "item": "coolstuff:rune_o"
+    },
+        "u": {
+          "item": "coolstuff:rune_p"
+        },
+    "o": {
+      "tag": "coolstuff:raw_gems"
+    }
+  },
+  "result": {
+      "item": "coolstuff:rune_w"
+    }
+}
+

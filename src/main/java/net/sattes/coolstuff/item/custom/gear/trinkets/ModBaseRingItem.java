@@ -65,12 +65,13 @@ public class ModBaseRingItem extends Item {
 
         //test
         //System.out.println("RING QUALITY: " + val);
+
         NbtCompound nbtRing = new NbtCompound();
         nbtRing.putInt("quality", qual);
         nbtRing.putInt("type", type);
         stack.setNbt(nbtRing);
 
-        System.out.println("NBT DATA: " + stack.getNbt().toString());
+        //System.out.println("NBT DATA: " + stack.getNbt().toString());
     }
 
     public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext tooltipContext){

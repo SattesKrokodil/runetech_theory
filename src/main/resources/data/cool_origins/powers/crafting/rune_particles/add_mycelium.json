@@ -1,0 +1,39 @@
+{
+	"type": "origins:item_on_item",
+
+	"on_item_condition": {
+		"type": "origins:and",
+		"conditions": [{
+				"type": "origins:ingredient",
+				"ingredient": {
+					"tag": "coolstuff:helmets"
+				}
+			},
+			{
+				"type": "origins:nbt",
+				"nbt": "{hasChromaticSocket:1b}",
+				"inverted": true
+			}
+		]
+	},
+
+	"using_item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": {
+			"item": "coolstuff:rune_p"
+		}
+	},
+	"result_from_on_stack": 1,
+	"result_item_action": {
+		"type": "origins:modify",
+		"modifier": "cool_origins:particles/add_mycelium_function"
+	},
+	"using_item_action": {
+		"type": "origins:consume",
+		"amount": 1
+	},
+		"entity_action": {
+    		"type": "origins:execute_command",
+    		"command": "playsound minecraft:block.enchantment_table.use player @p ~ ~ ~ 100 1.8"
+    	}
+}

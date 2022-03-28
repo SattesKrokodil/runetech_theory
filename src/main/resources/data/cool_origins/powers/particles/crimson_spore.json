@@ -1,0 +1,5 @@
+{
+    "type": "origins:particle",
+    "particle": "minecraft:crimson_spore",
+    "frequency": 4
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{hasChromaticSocket:1b}"
+  },
+  {
+    "function": "apoli:add_power",
+    "power": "cool_origins:particles/white_ash",
+    "slot": "head",
+    "hidden": true
+},
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Particle: White Ash (KUP)",
+        "color": "aqua",
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "replace": false
+  }
+]
+

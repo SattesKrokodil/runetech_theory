@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "upg",
+    "rad",
+    "e  "
+  ],
+  "key": {
+
+    "u": {
+      "item": "coolstuff:rune_u"
+    },
+    "p": {
+      "item": "coolstuff:rune_p"
+    },
+    "g": {
+      "item": "coolstuff:rune_g"
+    },
+    "r": {
+      "item": "coolstuff:rune_r"
+    },
+    "a": {
+      "item": "coolstuff:rune_a"
+    },
+    "d": {
+      "item": "coolstuff:rune_d"
+    },
+    "e": {
+      "item": "coolstuff:rune_e"
+    }
+
+  },
+  "result": {
+      "item": "coolstuff:rw_upgrade"
+    }
+}
+

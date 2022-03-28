@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "coolstuff:staff_ii"
+  },
+  "addition": {
+    "item": "coolstuff:rw_upgrade"
+  },
+  "result": {
+    "item": "coolstuff:staff_iii"
+  }
+}
+

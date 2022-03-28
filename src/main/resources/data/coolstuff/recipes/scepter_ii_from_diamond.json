@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "   ",
-    "   ",
-    "oxo"
+    " o ",
+    " o ",
+    " x "
   ],
   "key": {
 
@@ -11,7 +11,7 @@
       "item": "minecraft:diamond_sword"
     },
     "o": {
-      "item": "minecraft:dirt"
+      "item": "coolstuff:rune_e"
     }
   },
   "result": {

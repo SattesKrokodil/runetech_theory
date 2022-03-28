@@ -1,6 +1,14 @@
 {
   "itemGroup.coolstuff.coolstuff": "Cool Stuff",
 
+//BLOCKS
+    "block.coolstuff.glyph_test_block": "Glyph Test Block",
+
+//TOOLTIPS & HINTS
+
+    "item.coolstuff.rune_particle_tip_line_1": "Used for Runecrafting.",
+    "item.coolstuff.rune_particle_tip_line_2": "Can also be §6applied§r to helmets.",
+
 //MISC
 
     "item.coolstuff.pocket_geode": "Pocket Geode",
@@ -11,33 +19,35 @@
 
 
 //RUNES
+    "item.coolstuff.rw_upgrade": "Runeword: UPGRADE",
+
     "item.coolstuff.runeword": "Runeword Empty",
-    "item.coolstuff.rune_a": "Ar",
-    "item.coolstuff.rune_b": "Bes",
-    "item.coolstuff.rune_c": "Cel",
-    "item.coolstuff.rune_d": "Do",
-    "item.coolstuff.rune_e": "En",
-    "item.coolstuff.rune_f": "Fer",
-    "item.coolstuff.rune_g": "Gol",
-    "item.coolstuff.rune_h": "Hal",
-    "item.coolstuff.rune_i": "Iri",
-    "item.coolstuff.rune_j": "Jom",
-    "item.coolstuff.rune_k": "Kup",
-    "item.coolstuff.rune_l": "La",
-    "item.coolstuff.rune_m": "Mon",
-    "item.coolstuff.rune_n": "Nos",
-    "item.coolstuff.rune_o": "Ohm",
-    "item.coolstuff.rune_p": "Pex",
-    "item.coolstuff.rune_q": "Qun",
-    "item.coolstuff.rune_r": "Reh",
-    "item.coolstuff.rune_s": "Sel",
-    "item.coolstuff.rune_t": "Tal",
-    "item.coolstuff.rune_u": "Uru",
-    "item.coolstuff.rune_v": "Vel",
-    "item.coolstuff.rune_w": "Wen",
-    "item.coolstuff.rune_x": "Xi",
-    "item.coolstuff.rune_y": "Yon",
-    "item.coolstuff.rune_z": "Zet",
+    "item.coolstuff.rune_a": "AR",
+    "item.coolstuff.rune_b": "BES",
+    "item.coolstuff.rune_c": "CEL",
+    "item.coolstuff.rune_d": "DO",
+    "item.coolstuff.rune_e": "EN",
+    "item.coolstuff.rune_f": "FER",
+    "item.coolstuff.rune_g": "GOL",
+    "item.coolstuff.rune_h": "HAL",
+    "item.coolstuff.rune_i": "IRI",
+    "item.coolstuff.rune_j": "JOM",
+    "item.coolstuff.rune_k": "KUP",
+    "item.coolstuff.rune_l": "LA",
+    "item.coolstuff.rune_m": "MON",
+    "item.coolstuff.rune_n": "NOS",
+    "item.coolstuff.rune_o": "OHM",
+    "item.coolstuff.rune_p": "PEX",
+    "item.coolstuff.rune_q": "QUN",
+    "item.coolstuff.rune_r": "REH",
+    "item.coolstuff.rune_s": "SEL",
+    "item.coolstuff.rune_t": "TAL",
+    "item.coolstuff.rune_u": "URU",
+    "item.coolstuff.rune_v": "VEL",
+    "item.coolstuff.rune_w": "WEN",
+    "item.coolstuff.rune_x": "XI",
+    "item.coolstuff.rune_y": "YON",
+    "item.coolstuff.rune_z": "ZET",
 
 
 

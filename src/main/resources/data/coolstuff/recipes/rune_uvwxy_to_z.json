@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " a ",
+    "xcu",
+    " b "
+  ],
+  "key": {
+
+    "x": {
+      "item": "coolstuff:rune_u"
+    },
+        "u": {
+          "item": "coolstuff:rune_v"
+        },
+                "a": {
+                  "item": "coolstuff:rune_w"
+                },
+                        "b": {
+                          "item": "coolstuff:rune_x"
+                        },
+                                "c": {
+                                  "item": "coolstuff:rune_y"
+                                }
+  },
+  "result": {
+      "item": "coolstuff:rune_z"
+    }
+}
+

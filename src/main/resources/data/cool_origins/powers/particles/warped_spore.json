@@ -1,0 +1,5 @@
+{
+    "type": "origins:particle",
+    "particle": "minecraft:warped_spore",
+    "frequency": 4
+}

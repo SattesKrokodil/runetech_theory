@@ -13,7 +13,35 @@
 	    "cool_origins:mana/mana",
 	    "cool_origins:mana/strength",
 
-	    "cool_origins:actives/weapon_spells/test"
+        "cool_origins:crafting/rune_particles/add_ash",
+        "cool_origins:crafting/rune_particles/add_cloud",
+        "cool_origins:crafting/rune_particles/add_composter",
+        "cool_origins:crafting/rune_particles/add_crimson_spore",
+        "cool_origins:crafting/rune_particles/add_dragon_breath",
+        "cool_origins:crafting/rune_particles/add_electric_spark",
+        "cool_origins:crafting/rune_particles/add_enchant",
+        "cool_origins:crafting/rune_particles/add_enchanted_hit",
+        "cool_origins:crafting/rune_particles/add_flame",
+        "cool_origins:crafting/rune_particles/add_glow",
+        "cool_origins:crafting/rune_particles/add_heart",
+        "cool_origins:crafting/rune_particles/add_lava",
+        "cool_origins:crafting/rune_particles/add_mycelium",
+        "cool_origins:crafting/rune_particles/add_nautilus",
+        "cool_origins:crafting/rune_particles/add_note",
+        "cool_origins:crafting/rune_particles/add_scrape",
+        "cool_origins:crafting/rune_particles/add_slime",
+        "cool_origins:crafting/rune_particles/add_smoke",
+        "cool_origins:crafting/rune_particles/add_sneeze",
+        "cool_origins:crafting/rune_particles/add_soul",
+        "cool_origins:crafting/rune_particles/add_soul_fire_flame",
+        "cool_origins:crafting/rune_particles/add_underwater",
+        "cool_origins:crafting/rune_particles/add_warped_spore",
+        "cool_origins:crafting/rune_particles/add_wax_on",
+        "cool_origins:crafting/rune_particles/add_white_ash",
+        "cool_origins:crafting/rune_particles/add_witch"
+
+
+
 
 	],
 	"icon": {

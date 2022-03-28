@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "coolstuff:hammer_i"
+  },
+  "addition": {
+    "item": "coolstuff:rw_upgrade"
+  },
+  "result": {
+    "item": "coolstuff:hammer_ii"
+  }
+}

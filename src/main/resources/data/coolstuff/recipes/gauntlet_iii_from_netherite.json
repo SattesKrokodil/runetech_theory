@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "ooo",
-    " oo",
+    " o ",
+    " o ",
     " x "
   ],
   "key": {
 
     "x": {
-      "item": "minecraft:diamond_sword"
+      "item": "minecraft:netherite_sword"
     },
     "o": {
-      "item": "minecraft:dirt"
+      "item": "coolstuff:rune_j"
     }
   },
   "result": {

@@ -1,0 +1,26 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{hasChromaticSocket:1b}"
+  },
+  {
+    "function": "apoli:add_power",
+    "power": "cool_origins:particles/mycelium",
+    "slot": "head",
+    "hidden": true
+},
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "Particle: Mycelium (Pex)",
+        "color": "aqua",
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "replace": false
+  }
+]
+
