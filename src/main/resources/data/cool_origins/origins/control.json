@@ -38,7 +38,11 @@
         "cool_origins:crafting/rune_particles/add_warped_spore",
         "cool_origins:crafting/rune_particles/add_wax_on",
         "cool_origins:crafting/rune_particles/add_white_ash",
-        "cool_origins:crafting/rune_particles/add_witch"
+        "cool_origins:crafting/rune_particles/add_witch",
+
+        "cool_origins:crafting/gemchanting/mending",
+        "cool_origins:crafting/gemchanting/unbreaking",
+        "cool_origins:test"
 
 
 

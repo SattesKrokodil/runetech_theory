@@ -1,0 +1,25 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{hasHeadRuneword:1b}"
+  },
+    {
+      "function": "apoli:add_power",
+      "power": "cool_origins:abilities/utility/sniff",
+      "slot": "head",
+      "hidden": true
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "◆ Sniff",
+        "color": "aqua",
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "replace": false
+  }
+]

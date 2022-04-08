@@ -4,7 +4,7 @@
     "item": "coolstuff:plate_leather"
   },
   "addition": {
-    "item": "minecraft:iron_block"
+    "item": "minecraft:iron_ingot"
   },
   "result": {
     "item": "coolstuff:plate_iron"

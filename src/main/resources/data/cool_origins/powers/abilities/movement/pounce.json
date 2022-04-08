@@ -1,0 +1,89 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:if_else",
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:resource",
+					"resource": "cool_origins:mana/mana",
+					"comparison": ">=",
+					"compare_to": 21
+				},
+				{
+					"type": "origins:resource",
+					"resource": "cool_origins:checks/has_mana",
+					"comparison": "==",
+					"compare_to": 1
+				}
+			]
+		},
+		"if_action": {
+			"type": "origins:and",
+			"actions": [{
+					"type": "origins:execute_command",
+					"command": "/playsound minecraft:entity.goat.long_jump player @p ~ ~ ~ 100 0.8"
+				},
+				{
+					"type": "origins:change_resource",
+					"resource": "cool_origins:mana/mana",
+					"change": -28
+				},
+
+				{
+					"type": "origins:add_velocity",
+					"y": 0.3
+				},
+
+				{
+					"type": "origins:add_velocity",
+					"z": 1,
+					"space": "local"
+				},
+				{
+					"type": "origins:execute_command",
+					"command": "/execute as @p run particle minecraft:poof ~ ~ ~ 0 0.1 0 0.1 5 normal"
+
+				}, {
+					"type": "origins:apply_effect",
+					"effect": {
+						"effect": "minecraft:speed",
+						"amplifier": 1,
+						"duration": 20,
+						"show_particles": false,
+						"show_icon": false
+					}
+				},
+				{
+					"type": "origins:delay",
+					"ticks": 20,
+					"action": {
+						"type": "origins:and",
+						"actions": [{
+								"type": "origins:execute_command",
+								"command": "/execute if entity @e[type=!minecraft:player, distance=..3] run resource change @p cool_origins:mana/mana 21"
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "/execute if entity @e[type=!minecraft:player, distance=..3] run playsound minecraft:item.chorus_fruit.teleport player @p ~ ~ ~ 100 2"
+							},
+							{
+								"type": "origins:execute_command",
+								"command": "/execute as @p if entity @e[type=!minecraft:player, distance=..3] run particle minecraft:enchant ~ ~1 ~ 0 0.1 0 0.5 10 normal"
+							}
+						]
+					}
+				}
+			]
+		},
+		"else_action": {
+			"type": "origins:play_sound",
+			"sound": "minecraft:entity.chicken.egg"
+		}
+	},
+	"cooldown": 20,
+	"key": "key.origins.secondary_active",
+	"hud_render": {
+		"should_render": false
+	}
+}

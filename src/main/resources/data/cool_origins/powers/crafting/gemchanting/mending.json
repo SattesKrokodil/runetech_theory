@@ -1,0 +1,323 @@
+{
+	"type": "origins:multiple",
+	"mending_1": {
+		"type": "origins:item_on_item",
+
+		"on_item_condition": {
+			"type": "origins:or",
+			"conditions": [{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "coolstuff:helmets"
+					}
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "coolstuff:chestplates"
+					}
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "coolstuff:boots"
+					}
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "coolstuff:leggings"
+					}
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "coolstuff:weapons"
+					}
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "coolstuff:offhands"
+					}
+				}
+			]
+		},
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:chipped_sapphire"
+			}
+		},
+		"result_from_on_stack": 1,
+		"result_item_action": {
+			"type": "origins:modify",
+			"modifier": "cool_origins:gemchanting/add_mending_1"
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "playsound minecraft:block.enchantment_table.use player @p ~ ~ ~ 100 1.8"
+		}
+
+	},
+	"mending_2": {
+		"type": "origins:item_on_item",
+
+		"on_item_condition": {
+			"type": "origins:or",
+			"conditions": [{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "coolstuff:helmets"
+					}
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "coolstuff:chestplates"
+					}
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "coolstuff:boots"
+					}
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "coolstuff:leggings"
+					}
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "coolstuff:weapons"
+					}
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "coolstuff:offhands"
+					}
+				}
+			]
+		},
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:flawed_sapphire"
+			}
+		},
+		"result_from_on_stack": 1,
+		"result_item_action": {
+			"type": "origins:modify",
+			"modifier": "cool_origins:gemchanting/add_mending_2"
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "playsound minecraft:block.enchantment_table.use player @p ~ ~ ~ 100 1.8"
+		}
+
+	},
+	"mending_3": {
+		"type": "origins:item_on_item",
+
+		"on_item_condition": {
+			"type": "origins:or",
+			"conditions": [{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "coolstuff:helmets"
+					}
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "coolstuff:chestplates"
+					}
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "coolstuff:boots"
+					}
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "coolstuff:leggings"
+					}
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "coolstuff:weapons"
+					}
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "coolstuff:offhands"
+					}
+				}
+			]
+		},
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:sapphire"
+			}
+		},
+		"result_from_on_stack": 1,
+		"result_item_action": {
+			"type": "origins:modify",
+			"modifier": "cool_origins:gemchanting/add_mending_3"
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "playsound minecraft:block.enchantment_table.use player @p ~ ~ ~ 100 1.8"
+		}
+
+	},
+	"mending_4": {
+		"type": "origins:item_on_item",
+
+		"on_item_condition": {
+			"type": "origins:or",
+			"conditions": [{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "coolstuff:helmets"
+					}
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "coolstuff:chestplates"
+					}
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "coolstuff:boots"
+					}
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "coolstuff:leggings"
+					}
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "coolstuff:weapons"
+					}
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "coolstuff:offhands"
+					}
+				}
+			]
+		},
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:brilliant_sapphire"
+			}
+		},
+		"result_from_on_stack": 1,
+		"result_item_action": {
+			"type": "origins:modify",
+			"modifier": "cool_origins:gemchanting/add_mending_4"
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "playsound minecraft:block.enchantment_table.use player @p ~ ~ ~ 100 1.8"
+		}
+
+	},
+	"mending_5": {
+		"type": "origins:item_on_item",
+
+		"on_item_condition": {
+			"type": "origins:or",
+			"conditions": [{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "coolstuff:helmets"
+					}
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "coolstuff:chestplates"
+					}
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "coolstuff:boots"
+					}
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "coolstuff:leggings"
+					}
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "coolstuff:weapons"
+					}
+				},
+				{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "coolstuff:offhands"
+					}
+				}
+			]
+		},
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:pristine_sapphire"
+			}
+		},
+		"result_from_on_stack": 1,
+		"result_item_action": {
+			"type": "origins:modify",
+			"modifier": "cool_origins:gemchanting/add_mending_5"
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "playsound minecraft:block.enchantment_table.use player @p ~ ~ ~ 100 1.8"
+		}
+
+	}
+}

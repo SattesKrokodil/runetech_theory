@@ -1,0 +1,22 @@
+{
+    "type": "lychee:block_interacting",
+    "item_in": {
+        "item": "coolstuff:claim_contract"
+    },
+    "block_in": "coolstuff:sale_sign",
+    "post": [
+        {
+            "type": "execute",
+            "command": "/function coolstuff:tell_flan_wiki"
+        },
+        {
+            "type": "place",
+            "block": "air"
+        }
+    ]
+}
+
+
+
+
+

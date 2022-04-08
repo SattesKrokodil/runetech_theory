@@ -1,0 +1,9 @@
+[
+  {
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "minecraft:unbreaking": 3
+    },
+    "add": false
+  }
+]

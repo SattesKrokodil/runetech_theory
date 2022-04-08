@@ -1,0 +1,25 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{hasWeaponRuneword:1b}"
+  },
+    {
+      "function": "apoli:add_power",
+      "power": "cool_origins:abilities/onhit/crunch",
+      "slot": "mainhand",
+      "hidden": true
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "▶ Crunch",
+        "color": "aqua",
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "replace": false
+  }
+]

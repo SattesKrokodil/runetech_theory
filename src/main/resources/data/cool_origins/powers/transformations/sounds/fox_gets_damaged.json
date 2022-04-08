@@ -1,0 +1,25 @@
+{
+  "type": "origins:self_action_when_hit",
+  "entity_action": {
+    "type": "origins:if_else",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "cool_origins:checks/fox",
+      "comparison": "==",
+      "compare_to": 0
+    },
+    "if_action": {
+      "type": "origins:play_sound",
+      "sound": "minecraft:entity.fox.hurt"
+    },
+    "damage_condition": {
+      "type": "origins:amount",
+      "comparison": ">=",
+      "compare_to": 4.0
+    }
+  },
+  "hidden": true,
+  "cooldown": 60
+}
+
+

@@ -1,0 +1,64 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:if_else",
+		"condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:resource",
+					"resource": "cool_origins:mana/mana",
+					"comparison": ">=",
+					"compare_to": 21
+				},
+				{
+					"type": "origins:resource",
+					"resource": "cool_origins:checks/has_mana",
+					"comparison": "==",
+					"compare_to": 1
+				}
+			]
+		},
+		"if_action": {
+			"type": "origins:and",
+			"actions": [{
+					"type": "origins:execute_command",
+					"command": "/playsound minecraft:entity.fox.sniff player @p ~ ~ ~ 100 1"
+				},
+				{
+					"type": "origins:change_resource",
+					"resource": "cool_origins:mana/mana",
+					"change": -14
+				},
+
+				{
+					"type": "origins:area_of_effect",
+					"radius": 32,
+					"bientity_action": {
+						"type": "origins:target_action",
+						"action": {
+							"type": "origins:apply_effect",
+							"effects": [{
+								"effect": "minecraft:glowing",
+								"duration": 200,
+								"is_ambient": false,
+								"show_particles": false,
+								"show_icon": false
+							}]
+
+						}
+					}
+
+				}
+			]
+		},
+		"else_action": {
+			"type": "origins:play_sound",
+			"sound": "minecraft:entity.chicken.egg"
+		}
+	},
+	"cooldown": 20,
+	"key": "key.origins.secondary_active",
+	"hud_render": {
+		"should_render": false
+	}
+}

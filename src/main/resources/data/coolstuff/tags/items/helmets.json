@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+
      "minecraft:turtle_helmet",
      "minecraft:leather_helmet",
      "minecraft:iron_helmet",
@@ -8,5 +9,6 @@
      "minecraft:golden_helmet",
      "minecraft:diamond_helmet",
      "minecraft:netherite_helmet"
+
   ]
 }

@@ -4,7 +4,7 @@
     "item": "coolstuff:plate_iron"
   },
   "addition": {
-    "item": "minecraft:gold_block"
+    "item": "minecraft:gold_ingot"
   },
   "result": {
     "item": "coolstuff:plate_gold"

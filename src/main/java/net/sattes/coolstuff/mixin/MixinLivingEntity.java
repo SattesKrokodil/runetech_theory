@@ -16,7 +16,9 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 
 import static net.sattes.coolstuff.CoolStuff.BLOOD_DRIPPING;
+import static net.sattes.coolstuff.CoolStuff.BUFF;
 import static net.sattes.coolstuff.util.StatusEffectRegistry.BLEED_STATUS_EFFECT;
+import static net.sattes.coolstuff.util.StatusEffectRegistry.LEADER_OF_THE_PACK_STATUS_EFFECT;
 
 
 @Mixin(LivingEntity.class)
@@ -34,6 +36,10 @@ public abstract class MixinLivingEntity{
 
 		if(living.hasStatusEffect(BLEED_STATUS_EFFECT)) {
 			living.world.addParticle(dataTracker.get(POTION_SWIRLS_AMBIENT) ? ParticleTypes.ENTITY_EFFECT : BLOOD_DRIPPING, living.getParticleX(0.5D), living.getRandomBodyY(), living.getParticleZ(0.5D), 0, 0, 0);
+			ci.cancel();
+		}
+		if(living.hasStatusEffect(LEADER_OF_THE_PACK_STATUS_EFFECT)) {
+			living.world.addParticle(dataTracker.get(POTION_SWIRLS_AMBIENT) ? ParticleTypes.ENTITY_EFFECT : BUFF, living.getParticleX(0.8D), living.getRandomBodyY(), living.getParticleZ(0.8D), 0, 0, 0);
 			ci.cancel();
 		}
 

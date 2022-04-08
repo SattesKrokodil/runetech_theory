@@ -1,0 +1,44 @@
+[
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "◆ Fox Soul",
+        "color": "aqua",
+        "bold": false,
+        "italic": false,
+        "underlined": false
+      }
+    ]
+  },
+  {
+    "function": "apoli:add_power",
+    "power": "cool_origins:transformations/checks/fox",
+    "slot": "legs",
+    "hidden": true
+},
+  {
+    "function": "apoli:add_power",
+    "power": "cool_origins:transformations/checks/is_transformed",
+    "slot": "legs",
+    "hidden": true
+},
+  {
+    "function": "apoli:add_power",
+    "power": "cool_origins:transformations/sounds/fox_gets_damaged",
+    "slot": "legs",
+    "hidden": true
+},
+  {
+    "function": "apoli:add_power",
+    "power": "cool_origins:transformations/transform/transform_fox",
+    "slot": "legs",
+    "hidden": true
+},
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{hasLegsRuneword:1b}"
+  }
+]
+

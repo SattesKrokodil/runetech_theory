@@ -10,11 +10,17 @@ import net.minecraft.util.registry.Registry;
 import net.sattes.coolstuff.CoolStuff;
 import net.sattes.coolstuff.item.custom.*;
 import net.sattes.coolstuff.item.custom.gear.trinkets.*;
+import net.sattes.coolstuff.item.custom.runewords.RunewordFoxItem;
 import net.sattes.coolstuff.item.custom.weapons.*;
 
 public class ModItems {
 
     //MISC
+    public static final Item CLAIM_CONTRACT = registerItem("claim_contract",
+            new ClaimContractItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.EPIC)) );
+
+    public static final Item TRADING_LICENCE = registerItem("trading_licence",
+            new TradingLicenceItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.RARE)) );
 
     public static final Item POCKET_GEODE = registerItem("pocket_geode",
             new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.UNCOMMON)) );
@@ -38,6 +44,10 @@ public class ModItems {
 
     public static final Item RW_UPGRADE = registerItem("rw_upgrade",
             new RunewordItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.UNCOMMON)) );
+
+    public static final Item RUNEWORD_FOX = registerItem("runeword_fox",
+            new RunewordFoxItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.RARE)) );
+
 
     //RUNES
 
@@ -476,64 +486,64 @@ public class ModItems {
 
     //CUT GEMS
     public static final Item CHIPPED_RUBY = registerItem("chipped_ruby",
-            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.COMMON)) );
+            new RubyGemItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.COMMON)) );
 
     public static final Item CHIPPED_SAPPHIRE = registerItem("chipped_sapphire",
-            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.COMMON)) );
+            new SapphireGemItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.COMMON)) );
 
     public static final Item CHIPPED_JADE = registerItem("chipped_jade",
-            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.COMMON)) );
+            new JadeGemItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.COMMON)) );
 
     public static final Item CHIPPED_TOPAZ = registerItem("chipped_topaz",
-            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.COMMON)) );
+            new TopazGemItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.COMMON)) );
 
     public static final Item FLAWED_RUBY = registerItem("flawed_ruby",
-            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.COMMON)) );
+            new RubyGemItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.COMMON)) );
 
     public static final Item FLAWED_SAPPHIRE = registerItem("flawed_sapphire",
-            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.COMMON)) );
+            new SapphireGemItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.COMMON)) );
 
     public static final Item FLAWED_JADE = registerItem("flawed_jade",
-            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.COMMON)) );
+            new JadeGemItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.COMMON)) );
 
     public static final Item FLAWED_TOPAZ = registerItem("flawed_topaz",
-            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.COMMON)) );
+            new TopazGemItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.COMMON)) );
 
     public static final Item RUBY = registerItem("ruby",
-            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.UNCOMMON)) );
+            new RubyGemItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.UNCOMMON)) );
 
     public static final Item SAPPHIRE = registerItem("sapphire",
-            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.UNCOMMON)) );
+            new SapphireGemItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.UNCOMMON)) );
 
     public static final Item JADE = registerItem("jade",
-            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.UNCOMMON)) );
+            new JadeGemItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.UNCOMMON)) );
 
     public static final Item topaz = registerItem("topaz",
-            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.UNCOMMON)) );
+            new TopazGemItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.UNCOMMON)) );
 
     public static final Item BRILLIANT_RUBY = registerItem("brilliant_ruby",
-            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.RARE)) );
+            new RubyGemItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.RARE)) );
 
     public static final Item BRILLIANT_SAPPHIRE = registerItem("brilliant_sapphire",
-            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.RARE)) );
+            new SapphireGemItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.RARE)) );
 
     public static final Item BRILLIANT_JADE = registerItem("brilliant_jade",
-            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.RARE)) );
+            new JadeGemItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.RARE)) );
 
     public static final Item BRILLIANT_TOPAZ = registerItem("brilliant_topaz",
-            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.RARE)) );
+            new TopazGemItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.RARE)) );
 
     public static final Item PRISTINE_RUBY = registerItem("pristine_ruby",
-            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.EPIC)) );
+            new RubyGemItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.EPIC)) );
 
     public static final Item PRISTINE_SAPPHIRE = registerItem("pristine_sapphire",
-            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.EPIC)) );
+            new SapphireGemItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.EPIC)) );
 
     public static final Item PRISTINE_JADE = registerItem("pristine_jade",
-            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.EPIC)) );
+            new JadeGemItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.EPIC)) );
 
     public static final Item PRISTINE_TOPAZ = registerItem("pristine_topaz",
-            new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.EPIC)) );
+            new TopazGemItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.EPIC)) );
 
 
     public static Item registerItem(String name, Item item) {

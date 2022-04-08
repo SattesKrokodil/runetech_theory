@@ -1,0 +1,34 @@
+{
+	"type": "origins:target_action_on_hit",
+	"entity_action": {
+
+
+		"type": "origins:chance",
+		"action": {
+
+			"type": "origins:and",
+			"actions": [{
+					"type": "origins:execute_command",
+					"command": "/playsound minecraft:entity.fox.bite player @p ~ ~ ~ 100 0.5"
+				},
+				{
+					"type": "origins:apply_effect",
+					"effect": {
+						"effect": "coolstuff:bleed",
+						"duration": 200,
+						"amplifier": 0
+					}
+				}
+			]
+
+
+		},
+		"chance": 0.1
+
+	},
+	"cooldown": 20,
+	"interval": 1,
+	"name": "crunch",
+	"hidden": true
+
+}

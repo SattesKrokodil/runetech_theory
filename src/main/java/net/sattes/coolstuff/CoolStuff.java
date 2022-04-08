@@ -23,10 +23,12 @@ public class CoolStuff implements ModInitializer {
 		return new Identifier(MOD_ID, path);
 	}
 	public static final DefaultParticleType BLOOD_DRIPPING = FabricParticleTypes.simple();
+	public static final DefaultParticleType BUFF = FabricParticleTypes.simple();
 
 	@Override
 	public void onInitialize() {
 		Registry.register(Registry.PARTICLE_TYPE, new Identifier("coolstuff", "blood_dripping"), BLOOD_DRIPPING);
+		Registry.register(Registry.PARTICLE_TYPE, new Identifier("coolstuff", "buff"), BUFF);
 		StatusEffectRegistry.registerStatusEffects();
 		ModBlocks.registerModBlocks();
 		ModLootTableModifiers.modifyLootTables();

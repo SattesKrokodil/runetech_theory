@@ -1,0 +1,203 @@
+{
+	"type": "origins:multiple",
+	"fox_head": {
+		"type": "origins:item_on_item",
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:runeword_fox"
+			}
+		},
+		"on_item_condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "coolstuff:helmets"
+					}
+				},
+				{
+					"type": "origins:nbt",
+					"nbt": "{hasHeadRuneword: 1b}",
+					"inverted": true
+				}
+			]
+		},
+		"result": {
+			"item": "coolstuff:chipped_jade",
+			"amount": 0
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"on_item_action": {
+			"type": "origins:modify",
+			"modifier": "cool_origins:abilities/head/apply_sniff"
+		},
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "playsound minecraft:block.amethyst_cluster.hit player @p ~ ~ ~ 100 2"
+		}
+	},
+	"fox_chest": {
+		"type": "origins:item_on_item",
+		"using_item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"item": "coolstuff:runeword_fox"
+			}
+		},
+		"on_item_condition": {
+			"type": "origins:and",
+			"conditions": [{
+					"type": "origins:ingredient",
+					"ingredient": {
+						"tag": "coolstuff:chestplates"
+					}
+				},
+				{
+					"type": "origins:nbt",
+					"nbt": "{hasChestRuneword:1b}",
+					"inverted": true
+				}
+			]
+		},
+		"result": {
+			"item": "coolstuff:flawed_jade",
+			"amount": 0
+		},
+		"using_item_action": {
+			"type": "origins:consume",
+			"amount": 1
+		},
+		"on_item_action": {
+			"type": "origins:modify",
+			"modifier": "cool_origins:abilities/chest/apply_leader_of_the_pack"
+		},
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "playsound minecraft:block.amethyst_cluster.hit player @p ~ ~ ~ 100 2"
+		}
+	},
+		"fox_legs": {
+    		"type": "origins:item_on_item",
+    		"using_item_condition": {
+    			"type": "origins:ingredient",
+    			"ingredient": {
+    				"item": "coolstuff:runeword_fox"
+    			}
+    		},
+    		"on_item_condition": {
+    			"type": "origins:and",
+    			"conditions": [{
+    					"type": "origins:ingredient",
+    					"ingredient": {
+    						"tag": "coolstuff:leggings"
+    					}
+    				},
+    				{
+    					"type": "origins:nbt",
+    					"nbt": "{hasLegsRuneword: 1b}",
+    					"inverted": true
+    				}
+    			]
+    		},
+    		"result": {
+    			"item": "coolstuff:chipped_jade",
+    			"amount": 0
+    		},
+    		"using_item_action": {
+    			"type": "origins:consume",
+    			"amount": 1
+    		},
+    		"on_item_action": {
+    			"type": "origins:modify",
+    			"modifier": "cool_origins:abilities/legs/apply_transformation_fox"
+    		},
+    		"entity_action": {
+    			"type": "origins:execute_command",
+    			"command": "playsound minecraft:block.amethyst_cluster.hit player @p ~ ~ ~ 100 2"
+    		}
+    	},
+    		"fox_feet": {
+        		"type": "origins:item_on_item",
+        		"using_item_condition": {
+        			"type": "origins:ingredient",
+        			"ingredient": {
+        				"item": "coolstuff:runeword_fox"
+        			}
+        		},
+        		"on_item_condition": {
+        			"type": "origins:and",
+        			"conditions": [{
+        					"type": "origins:ingredient",
+        					"ingredient": {
+        						"tag": "coolstuff:boots"
+        					}
+        				},
+        				{
+        					"type": "origins:nbt",
+        					"nbt": "{hasFeetRuneword: 1b}",
+        					"inverted": true
+        				}
+        			]
+        		},
+        		"result": {
+        			"item": "coolstuff:chipped_jade",
+        			"amount": 0
+        		},
+        		"using_item_action": {
+        			"type": "origins:consume",
+        			"amount": 1
+        		},
+        		"on_item_action": {
+        			"type": "origins:modify",
+        			"modifier": "cool_origins:abilities/feet/apply_pounce"
+        		},
+        		"entity_action": {
+        			"type": "origins:execute_command",
+        			"command": "playsound minecraft:block.amethyst_cluster.hit player @p ~ ~ ~ 100 2"
+        		}
+        	},
+        		"fox_weapon": {
+            		"type": "origins:item_on_item",
+            		"using_item_condition": {
+            			"type": "origins:ingredient",
+            			"ingredient": {
+            				"item": "coolstuff:runeword_fox"
+            			}
+            		},
+            		"on_item_condition": {
+            			"type": "origins:and",
+            			"conditions": [{
+            					"type": "origins:ingredient",
+            					"ingredient": {
+            						"tag": "coolstuff:weapons"
+            					}
+            				},
+            				{
+            					"type": "origins:nbt",
+            					"nbt": "{hasWeaponRuneword: 1b}",
+            					"inverted": true
+            				}
+            			]
+            		},
+            		"result": {
+            			"item": "coolstuff:chipped_jade",
+            			"amount": 0
+            		},
+            		"using_item_action": {
+            			"type": "origins:consume",
+            			"amount": 1
+            		},
+            		"on_item_action": {
+            			"type": "origins:modify",
+            			"modifier": "cool_origins:abilities/weapon/apply_crunch"
+            		},
+            		"entity_action": {
+            			"type": "origins:execute_command",
+            			"command": "playsound minecraft:block.amethyst_cluster.hit player @p ~ ~ ~ 100 2"
+            		}
+            	}
+}

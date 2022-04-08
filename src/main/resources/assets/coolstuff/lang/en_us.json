@@ -3,13 +3,40 @@
 
 //BLOCKS
     "block.coolstuff.glyph_test_block": "Glyph Test Block",
+    "block.coolstuff.sale_sign": "Sale-Sign",
 
 //TOOLTIPS & HINTS
 
-    "item.coolstuff.rune_particle_tip_line_1": "Used for Runecrafting.",
-    "item.coolstuff.rune_particle_tip_line_2": "Can also be §6applied§r to helmets.",
+    "item.coolstuff.rune_particle_tip_line_1": "Used for Runecrafting",
+    "item.coolstuff.rune_particle_tip_line_2": "Can also be §6applied§r to helmets",
+
+    "item.coolstuff.sapphire_gem_tip_line_1": "Crafting Material",
+    "item.coolstuff.sapphire_gem_tip_line_2": "Stat Affinity: §aArmor§r",
+    "item.coolstuff.sapphire_gem_tip_line_3": "§6Apply§r to items to enchant them with Mending",
+
+    "item.coolstuff.ruby_gem_tip_line_1": "Crafting Material",
+    "item.coolstuff.ruby_gem_tip_line_2": "Stat Affinity: §aDamage§r",
+    "item.coolstuff.ruby_gem_tip_line_3": "§6Apply§r to items to enchant them with Unbreaking",
+
+    "item.coolstuff.topaz_gem_tip_line_1": "Crafting Material",
+    "item.coolstuff.topaz_gem_tip_line_2": "Stat Affinity: §aHealth§r",
+    "item.coolstuff.topaz_gem_tip_line_3": "§6Apply§r to items to enchant them with WIP",
+
+    "item.coolstuff.jade_gem_tip_line_1": "Crafting Material",
+    "item.coolstuff.jade_gem_tip_line_2": "Stat Affinity: §aAttackspeed§r",
+    "item.coolstuff.jade_gem_tip_line_3": "§6Apply§r to items to enchant them with WIP",
+
+
+
+
 
 //MISC
+    "item.coolstuff.trading_licence_tip_line_1": "Can be used to craft Player Shops",
+
+    "item.coolstuff.claim_contract_tip_line_1": "§4!! Item gets consumed on use !!",
+    "item.coolstuff.claim_contract_tip_line_2": "Can be used on §6Sale-Signs§r to buy land.",
+    "item.coolstuff.claim_contract_tip_line_3": "(note: uses /flan transfer subclaim)",
+    "item.coolstuff.claim_contract": "Claim Contract",
 
     "item.coolstuff.pocket_geode": "Pocket Geode",
     "item.coolstuff.tongs": "Tongs",
@@ -17,9 +44,28 @@
     "item.coolstuff.resin_flask": "Pure Resin",
     "item.coolstuff.sandpaper": "Sandpaper",
 
+// RUNEWORDS
+    "item.coolstuff.press_shift": "§9Left Shift for more Information",
+    "item.coolstuff.runeword_fox_tip_line_1": "§6On Helmet:§r Sniff",
+    "item.coolstuff.runeword_fox_tip_line_2": "§6On Chest:§r Leader of the Pack (Buff)" ,
+    "item.coolstuff.runeword_fox_tip_line_3": "§6On Leggings:§r Transformation Fox",
+    "item.coolstuff.runeword_fox_tip_line_4": "§6On Boots:§r Pounce",
+    "item.coolstuff.runeword_fox_tip_line_5": "§6On Weapon:§r Crunch",
 
-//RUNES
+    "item.coolstuff.runeword_fox_shift_line_1": "§6Sniff:§r Activate to make ",
+    "item.coolstuff.runeword_fox_shift_line_2": "entities around you glow (10s). §61RP" ,
+    "item.coolstuff.runeword_fox_shift_line_3": "§6Leader of the Pack:§r Buffs nearby allies " ,
+    "item.coolstuff.runeword_fox_shift_line_4": "(movespeed + jumpheight) (5s) §63.5RP",
+    "item.coolstuff.runeword_fox_shift_line_5": "§6Transformation Fox:§r Jump and press hotkey 3 ",
+    "item.coolstuff.runeword_fox_shift_line_6": "to transform, press again to transform back",
+    "item.coolstuff.runeword_fox_shift_line_7": "§6Pounce:§r Jump forwards, restores its ",
+    "item.coolstuff.runeword_fox_shift_line_8": "cost if you collide with enemies §62RP",
+    "item.coolstuff.runeword_fox_shift_line_9": "§6Crunch:§r 5% chance to bite enemies ",
+    "item.coolstuff.runeword_fox_shift_line_10": "when you hit them, causing them to bleed.",
+
+// RUNES
     "item.coolstuff.rw_upgrade": "Runeword: UPGRADE",
+    "item.coolstuff.runeword_fox": "Runeword: FOX",
 
     "item.coolstuff.runeword": "Runeword Empty",
     "item.coolstuff.rune_a": "AR",
@@ -79,6 +125,7 @@
 // STATUSEFFECTS
 
     "effect.coolstuff.bleed": "Rupture",
+    "effect.coolstuff.leader_of_the_pack": "Leadership",
 
 // AFFIXES
     //PREFIXES

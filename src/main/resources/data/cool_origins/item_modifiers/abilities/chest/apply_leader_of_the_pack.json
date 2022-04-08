@@ -1,0 +1,25 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{hasChestRuneword:1b}"
+  },
+    {
+      "function": "apoli:add_power",
+      "power": "cool_origins:abilities/buffs/leader_of_the_pack",
+      "slot": "chest",
+      "hidden": true
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "◆ Leader of the Pack",
+        "color": "aqua",
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "replace": false
+  }
+]

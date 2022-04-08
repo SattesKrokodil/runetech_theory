@@ -1,0 +1,27 @@
+{
+	"type": "origins:recipe",
+	"recipe": {
+		"id": "cool_origins:unlock_fox",
+		"type": "minecraft:crafting_shaped",
+		"pattern": [
+			"   ",
+			"fox",
+			"   "
+		],
+		"key": {
+
+			"f": {
+				"item": "coolstuff:rune_f"
+			},
+			"o": {
+				"item": "coolstuff:rune_o"
+			},
+			"x": {
+				"item": "coolstuff:rune_x"
+			}
+		},
+		"result": {
+			"item": "coolstuff:runeword_fox"
+		}
+	}
+}

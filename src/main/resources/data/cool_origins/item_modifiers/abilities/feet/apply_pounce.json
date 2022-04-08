@@ -1,0 +1,25 @@
+[
+  {
+    "function": "minecraft:set_nbt",
+    "tag": "{hasFeetRuneword:1b}"
+  },
+    {
+      "function": "apoli:add_power",
+      "power": "cool_origins:abilities/movement/pounce",
+      "slot": "feet",
+      "hidden": true
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      {
+        "text": "◆ Pounce",
+        "color": "aqua",
+        "bold": false,
+        "italic": false
+      }
+    ],
+    "replace": false
+  }
+]

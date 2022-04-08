@@ -26,6 +26,12 @@ public class CoolStuffClient implements ClientModInitializer {
 
         ParticleFactoryRegistry.getInstance().register(CoolStuff.BLOOD_DRIPPING, WaterSplashParticle.SplashFactory::new);
 
+        ClientSpriteRegistryCallback.event(PlayerScreenHandler.BLOCK_ATLAS_TEXTURE).register(((atlasTexture, registry) -> {
+            registry.register(new Identifier("coolstuff", "particle/buff"));
+        }));
+
+        ParticleFactoryRegistry.getInstance().register(CoolStuff.BUFF, EmotionParticle.HeartFactory::new);
+
 
 
     }

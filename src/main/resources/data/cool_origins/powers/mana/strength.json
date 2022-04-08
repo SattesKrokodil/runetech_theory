@@ -7,7 +7,7 @@
       "resource": "cool_origins:mana/mana",
       "change": 7
     },
-    "interval": 40,
+    "interval": 80,
     "condition": {
       "type": "origins:resource",
       "resource": "cool_origins:mana/control_resource",
@@ -22,7 +22,7 @@
       "resource": "cool_origins:mana/mana",
       "change": 14
     },
-    "interval": 40,
+    "interval": 80,
     "condition": {
       "type": "origins:resource",
       "resource": "cool_origins:mana/control_resource",
@@ -38,7 +38,7 @@
       "resource": "cool_origins:mana/mana",
       "change": 21
     },
-    "interval": 40,
+    "interval": 80,
     "condition": {
       "type": "origins:resource",
       "resource": "cool_origins:mana/control_resource",

@@ -1,0 +1,53 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:wooden_axe",
+		"minecraft:stone_axe",
+		"minecraft:iron_axe",
+		"minecraft:golden_axe",
+		"minecraft:diamond_axe",
+		"minecraft:netherite_axe",
+
+		"coolstuff:axe_i",
+		"coolstuff:axe_ii",
+		"coolstuff:axe_iii",
+		"coolstuff:dagger_i",
+		"coolstuff:dagger_ii",
+		"coolstuff:dagger_iii",
+		"coolstuff:scepter_i",
+		"coolstuff:scepter_ii",
+		"coolstuff:scepter_iii",
+		"coolstuff:scythe_i",
+		"coolstuff:scythe_ii",
+		"coolstuff:scythe_iii",
+		"coolstuff:sword_i",
+		"coolstuff:sword_ii",
+		"coolstuff:sword_iii",
+		"coolstuff:hammer_i",
+		"coolstuff:hammer_ii",
+		"coolstuff:hammer_iii",
+		"coolstuff:mace_i",
+		"coolstuff:mace_ii",
+		"coolstuff:mace_iii",
+		"coolstuff:gauntlet_i",
+		"coolstuff:gauntlet_ii",
+		"coolstuff:gauntlet_iii",
+		"coolstuff:spear_i",
+		"coolstuff:spear_ii",
+		"coolstuff:spear_iii",
+		"coolstuff:staff_i",
+		"coolstuff:staff_ii",
+		"coolstuff:staff_iii"
+
+
+
+		
+
+
+
+
+
+
+
+	]
+}
