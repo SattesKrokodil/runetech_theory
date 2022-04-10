@@ -64,6 +64,7 @@ dependencies {
 	modImplementation "com.github.apace100:origins-fabric:${project.origins_version}"
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 	modImplementation "curse.maven:lychee-574650:3649900"
+	modImplementation "curse.maven:origins-extra-keybinds-474612:3542366"
 	modImplementation "curse.maven:mending-levels-596508:3710780"
 	modImplementation "dev.emi:trinkets:${trinkets_version}"
 
