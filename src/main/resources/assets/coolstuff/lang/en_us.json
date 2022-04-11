@@ -3,7 +3,7 @@
 
 //BLOCKS
     "block.coolstuff.glyph_test_block": "Glyph Test Block",
-    "block.coolstuff.sale_sign": "Sale-Sign",
+
 
 //TOOLTIPS & HINTS
 
@@ -33,10 +33,6 @@
 //MISC
     "item.coolstuff.trading_licence_tip_line_1": "Can be used to craft Player Shops",
 
-    "item.coolstuff.claim_contract_tip_line_1": "§4!! Item gets consumed on use !!",
-    "item.coolstuff.claim_contract_tip_line_2": "Can be used on §6Sale-Signs§r to buy land.",
-    "item.coolstuff.claim_contract_tip_line_3": "(note: uses /flan transfer subclaim)",
-    "item.coolstuff.claim_contract": "Claim Contract",
 
     "item.coolstuff.pocket_geode": "Pocket Geode",
     "item.coolstuff.tongs": "Tongs",

@@ -16,11 +16,7 @@ import net.sattes.coolstuff.item.custom.weapons.*;
 public class ModItems {
 
     //MISC
-    public static final Item CLAIM_CONTRACT = registerItem("claim_contract",
-            new ClaimContractItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.EPIC)) );
 
-    public static final Item TRADING_LICENCE = registerItem("trading_licence",
-            new TradingLicenceItem(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.RARE)) );
 
     public static final Item POCKET_GEODE = registerItem("pocket_geode",
             new Item(new FabricItemSettings().group(ModItemGroups.COOLSTUFF).rarity(Rarity.UNCOMMON)) );

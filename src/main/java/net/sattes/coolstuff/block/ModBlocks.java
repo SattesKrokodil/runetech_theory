@@ -17,8 +17,6 @@ public class ModBlocks {
     public static final Block GLYPH_TEST = registerBlock("glyph_test_block",
             new Block(FabricBlockSettings.of(Material.AIR).luminance(5).noCollision()), ItemGroup.MISC);
 
-    public static final Block SALE_SIGN = registerBlock("sale_sign",
-            new Block(FabricBlockSettings.of(Material.METAL).luminance(10).noCollision()), ItemGroup.MISC);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
