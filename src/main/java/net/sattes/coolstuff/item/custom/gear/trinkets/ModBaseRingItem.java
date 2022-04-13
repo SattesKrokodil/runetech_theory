@@ -46,11 +46,11 @@ public class ModBaseRingItem extends Item {
         super.onCraft(stack, world, player);
 
         int type = 0;
-        if (itemType.equals("base_copper_ring")) { type = 1;};
-        if (itemType.equals("base_iron_ring")) { type = 2;};
-        if (itemType.equals("base_gold_ring")) { type = 3;};
-        if (itemType.equals("base_diamond_ring")) { type = 4;};
-        if (itemType.equals("base_netherite_ring")) { type = 5;};
+        if (itemType.equals("base_copper_ring")) { type = 1;}
+        if (itemType.equals("base_iron_ring")) { type = 2;}
+        if (itemType.equals("base_gold_ring")) { type = 3;}
+        if (itemType.equals("base_diamond_ring")) { type = 4;}
+        if (itemType.equals("base_netherite_ring")) { type = 5;}
 
 
         //generates a number (1-5) on crafting a base ring to determine it's quality
@@ -66,43 +66,23 @@ public class ModBaseRingItem extends Item {
         //test
         //System.out.println("RING QUALITY: " + val);
 
-        NbtCompound nbtRing = new NbtCompound();
+
+        NbtCompound nbtRing = stack.getOrCreateNbt();
         nbtRing.putInt("quality", qual);
         nbtRing.putInt("type", type);
-        stack.setNbt(nbtRing);
 
-        //System.out.println("NBT DATA: " + stack.getNbt().toString());
+        System.out.println("NBT DATA: " + stack.getNbt().toString());
+
     }
 
     public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext tooltipContext){
-        if (stack.hasNbt()) {
+
+        if(stack.hasNbt()){
             assert stack.getNbt() != null;
-            if (stack.getNbt().toString().contains("quality:1")) {
-                tooltip.add(new TranslatableText("item.coolstuff.quality_1"));
-            }
-        }
-        if (stack.hasNbt()) {
-            assert stack.getNbt() != null;
-            if (stack.getNbt().toString().contains("quality:2")) {
-                tooltip.add(new TranslatableText("item.coolstuff.quality_2"));
-            }
-        }
-        if (stack.hasNbt()) {
-            assert stack.getNbt() != null;
-            if (stack.getNbt().toString().contains("quality:3")) {
-                tooltip.add(new TranslatableText("item.coolstuff.quality_3"));
-            }
-        }
-        if (stack.hasNbt()) {
-            assert stack.getNbt() != null;
-            if (stack.getNbt().toString().contains("quality:4")) {
-                tooltip.add(new TranslatableText("item.coolstuff.quality_4"));
-            }
-        }
-        if (stack.hasNbt()) {
-            assert stack.getNbt() != null;
-            if (stack.getNbt().toString().contains("quality:5")) {
-                tooltip.add(new TranslatableText("item.coolstuff.quality_5"));
+            for(int i=1; i<6;i++){
+                if(stack.getNbt().toString().contains("quality:"+i)){
+                    tooltip.add(new TranslatableText("item.coolstuff.quality_"+i));
+                }
             }
         }
     }

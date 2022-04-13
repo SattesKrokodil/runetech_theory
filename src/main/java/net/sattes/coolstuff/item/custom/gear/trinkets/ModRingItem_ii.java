@@ -2,55 +2,16 @@ package net.sattes.coolstuff.item.custom.gear.trinkets;
 
 import com.google.common.collect.Multimap;
 import dev.emi.trinkets.api.SlotReference;
-import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.attribute.EntityAttribute;
 import net.minecraft.entity.attribute.EntityAttributeModifier;
 import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.item.ItemStack;
-import net.minecraft.text.Text;
-import net.minecraft.text.TranslatableText;
-import net.minecraft.world.World;
-
-import java.util.List;
 import java.util.UUID;
 
 public class ModRingItem_ii extends ModRingItem{
     public ModRingItem_ii(Settings settings) {
         super(settings);
-    }
-
-    public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext tooltipContext){
-        if (stack.hasNbt()) {
-            assert stack.getNbt() != null;
-            if (stack.getNbt().toString().contains("quality:1")) {
-                tooltip.add(new TranslatableText("item.coolstuff.quality_1"));
-            }
-        }
-        if (stack.hasNbt()) {
-            assert stack.getNbt() != null;
-            if (stack.getNbt().toString().contains("quality:2")) {
-                tooltip.add(new TranslatableText("item.coolstuff.quality_2"));
-            }
-        }
-        if (stack.hasNbt()) {
-            assert stack.getNbt() != null;
-            if (stack.getNbt().toString().contains("quality:3")) {
-                tooltip.add(new TranslatableText("item.coolstuff.quality_3"));
-            }
-        }
-        if (stack.hasNbt()) {
-            assert stack.getNbt() != null;
-            if (stack.getNbt().toString().contains("quality:4")) {
-                tooltip.add(new TranslatableText("item.coolstuff.quality_4"));
-            }
-        }
-        if (stack.hasNbt()) {
-            assert stack.getNbt() != null;
-            if (stack.getNbt().toString().contains("quality:5")) {
-                tooltip.add(new TranslatableText("item.coolstuff.quality_5"));
-            }
-        }
     }
 
     public Multimap<EntityAttribute, EntityAttributeModifier> getModifiers(ItemStack stack, SlotReference slot, LivingEntity entity, UUID uuid) {
@@ -60,19 +21,19 @@ public class ModRingItem_ii extends ModRingItem{
         float quality = 0;
         if (stack.hasNbt()) {
             assert stack.getNbt() != null;
-            if (stack.getNbt().toString().contains("{quality:1}")) {
+            if (stack.getNbt().toString().contains("quality:1")) {
                 quality = 0.01F;
             }
-            if (stack.getNbt().toString().contains("{quality:2}")) {
+            if (stack.getNbt().toString().contains("quality:2")) {
                 quality = 0.02F;
             }
-            if (stack.getNbt().toString().contains("{quality:3}")) {
+            if (stack.getNbt().toString().contains("quality:3")) {
                 quality = 0.03F;
             }
-            if (stack.getNbt().toString().contains("{quality:4}")) {
+            if (stack.getNbt().toString().contains("quality:4")) {
                 quality = 0.04F;
             }
-            if (stack.getNbt().toString().contains("{quality:5}")) {
+            if (stack.getNbt().toString().contains("quality:5")) {
                 quality = 0.05F;
             }
         }
@@ -116,4 +77,4 @@ public class ModRingItem_ii extends ModRingItem{
             }
         }
         return modifiers;
-}}
+    }}
