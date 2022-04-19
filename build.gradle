@@ -72,10 +72,7 @@ dependencies {
 	modImplementation "curse.maven:mending-levels-596508:3710780"
 	modImplementation "dev.emi:trinkets:${trinkets_version}"
 
-	modImplementation "dev.onyxstudios.cardinal-components-api:cardinal-components-base:${project.cardinal_components_version}"
-	include "dev.onyxstudios.cardinal-components-api:cardinal-components-base:${project.cardinal_components_version}"
-	modImplementation "dev.onyxstudios.cardinal-components-api:cardinal-components-entity:${project.cardinal_components_version}"
-	include "dev.onyxstudios.cardinal-components-api:cardinal-components-entity:${project.cardinal_components_version}"
+
 	modImplementation("me.shedaniel.cloth:cloth-config-fabric:${project.cloth_config_version}")
 
 	modImplementation 'software.bernie.geckolib:geckolib-fabric-1.18:3.0.32'
