@@ -1,7 +1,0 @@
-{
-    "fallbacktValue": 0.0,
-    "minValue": 0.0,
-    "maxValue": 200.0,
-    "translationKey": "coolstuff.attribute.name.profession_mining",
-    "stackingBehaviour": "FLAT"
-}

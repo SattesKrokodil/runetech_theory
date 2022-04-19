@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "runetech_theory:base_diamond_ring"
+  },
+  "addition": {
+    "item": "runetech_theory:ring_diamond_setting"
+  },
+  "result": {
+    "item": "runetech_theory:polished_diamond_ring"
+  }
+}

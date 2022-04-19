@@ -1,0 +1,139 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "runetech_theory:rune_a"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "runetech_theory:rune_b"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "runetech_theory:rune_c"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "runetech_theory:rune_d"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "runetech_theory:rune_e"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "runetech_theory:rune_f"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "runetech_theory:rune_g"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "runetech_theory:rune_h"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "runetech_theory:rune_i"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "runetech_theory:rune_j"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "runetech_theory:rune_k"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "runetech_theory:rune_l"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "runetech_theory:rune_m"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "runetech_theory:rune_n"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "runetech_theory:rune_o"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "runetech_theory:rune_p"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "runetech_theory:rune_q"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "runetech_theory:rune_r"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "runetech_theory:rune_s"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "runetech_theory:rune_t"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "runetech_theory:rune_u"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "runetech_theory:rune_v"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "runetech_theory:rune_w"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "runetech_theory:rune_x"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "runetech_theory:rune_y"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "runetech_theory:rune_z"
+        }
+      ]
+    }
+  ]
+}

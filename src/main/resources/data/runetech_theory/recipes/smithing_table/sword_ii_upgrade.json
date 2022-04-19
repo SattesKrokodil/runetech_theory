@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "runetech_theory:sword_i"
+  },
+  "addition": {
+    "item": "runetech_theory:rw_upgrade"
+  },
+  "result": {
+    "item": "runetech_theory:sword_ii"
+  }
+}
+

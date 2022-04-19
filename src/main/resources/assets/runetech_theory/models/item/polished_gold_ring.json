@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "runetech_theory:item/gear/trinkets/rings/polished_gold_ring"
+  },
+
+     "overrides":
+     [
+           {"predicate": {"custom_model_data":301}, "model": "runetech_theory:item/ruby_gold_ring"},
+           {"predicate": {"custom_model_data":302}, "model": "runetech_theory:item/sapphire_gold_ring"},
+           {"predicate": {"custom_model_data":303}, "model": "runetech_theory:item/jade_gold_ring"},
+           {"predicate": {"custom_model_data":304}, "model": "runetech_theory:item/topaz_gold_ring"}
+     ]
+}

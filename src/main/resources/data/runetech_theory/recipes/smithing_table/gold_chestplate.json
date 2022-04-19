@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:leather_chestplate"
+  },
+  "addition": {
+    "item": "runetech_theory:plate_gold"
+  },
+  "result": {
+    "item": "minecraft:golden_chestplate"
+  }
+}

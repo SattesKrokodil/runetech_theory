@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "upg",
+    "rad",
+    "e  "
+  ],
+  "key": {
+
+    "u": {
+      "item": "runetech_theory:rune_u"
+    },
+    "p": {
+      "item": "runetech_theory:rune_p"
+    },
+    "g": {
+      "item": "runetech_theory:rune_g"
+    },
+    "r": {
+      "item": "runetech_theory:rune_r"
+    },
+    "a": {
+      "item": "runetech_theory:rune_a"
+    },
+    "d": {
+      "item": "runetech_theory:rune_d"
+    },
+    "e": {
+      "item": "runetech_theory:rune_e"
+    }
+
+  },
+  "result": {
+      "item": "runetech_theory:rw_upgrade"
+    }
+}
+

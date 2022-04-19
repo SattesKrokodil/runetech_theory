@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " xo",
+    " xo",
+    " xo"
+  ],
+  "key": {
+
+    "o": {
+      "item": "runetech_theory:plant_fiber"
+    },
+   "x": {
+         "item": "minecraft:string"
+       }
+  },
+  "result": {
+      "item": "runetech_theory:rope"
+    }
+}
+

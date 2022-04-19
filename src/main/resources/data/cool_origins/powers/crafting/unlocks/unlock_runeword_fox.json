@@ -11,17 +11,17 @@
 		"key": {
 
 			"f": {
-				"item": "coolstuff:rune_f"
+				"item": "runetech_theory:rune_f"
 			},
 			"o": {
-				"item": "coolstuff:rune_o"
+				"item": "runetech_theory:rune_o"
 			},
 			"x": {
-				"item": "coolstuff:rune_x"
+				"item": "runetech_theory:rune_x"
 			}
 		},
 		"result": {
-			"item": "coolstuff:runeword_fox"
+			"item": "runetech_theory:runeword_fox"
 		}
 	}
 }

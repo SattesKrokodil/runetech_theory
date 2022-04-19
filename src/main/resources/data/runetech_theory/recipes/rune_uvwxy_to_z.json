@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " a ",
+    "xcu",
+    " b "
+  ],
+  "key": {
+
+    "x": {
+      "item": "runetech_theory:rune_u"
+    },
+        "u": {
+          "item": "runetech_theory:rune_v"
+        },
+                "a": {
+                  "item": "runetech_theory:rune_w"
+                },
+                        "b": {
+                          "item": "runetech_theory:rune_x"
+                        },
+                                "c": {
+                                  "item": "runetech_theory:rune_y"
+                                }
+  },
+  "result": {
+      "item": "runetech_theory:rune_z"
+    }
+}
+

@@ -3,13 +3,13 @@
     "using_item_condition": {
         "type": "origins:ingredient",
         "ingredient": {
-            "item": "coolstuff:tongs"
+            "item": "runetech_theory:tongs"
         }
     },
     "on_item_condition": {
         "type": "origins:ingredient",
         "ingredient": {
-            "item": "coolstuff:pocket_geode"
+            "item": "runetech_theory:pocket_geode"
         }
     },
     "result": {
@@ -27,6 +27,6 @@
     },
     "entity_action": {
     "type": "origins:execute_command",
-    "command": "function coolstuff:break_pocket_geode"
+    "command": "function runetech_theory:break_pocket_geode"
     }
 }

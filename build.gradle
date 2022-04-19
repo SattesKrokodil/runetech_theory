@@ -11,8 +11,9 @@ version = project.mod_version
 group = project.maven_group
 
 repositories {
-	mavenLocal()
+
 	mavenCentral()
+
 	maven { url = "https://www.cursemaven.com"}
 
 	maven { url 'https://jitpack.io' }
@@ -41,10 +42,13 @@ repositories {
 		url "https://maven.siphalor.de"
 	}
 
-	maven {
-		name = "CottonMC"
-		url = "https://server.bbkr.space/artifactory/libs-release"
-	}
+	maven { name = "CottonMC"
+		url = "https://server.bbkr.space/artifactory/libs-release"}
+
+	maven { url "https://maven.nucleoid.xyz/" }
+	maven { url 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/' }
+
+	mavenLocal()
 
 }
 
@@ -74,8 +78,15 @@ dependencies {
 	include "dev.onyxstudios.cardinal-components-api:cardinal-components-entity:${project.cardinal_components_version}"
 	modImplementation("me.shedaniel.cloth:cloth-config-fabric:${project.cloth_config_version}")
 
+	modImplementation 'software.bernie.geckolib:geckolib-fabric-1.18:3.0.32'
 
-
+	modImplementation "curse.maven:dataattributes-514734:3633032"
+	modImplementation "curse.maven:playerex-409221:3638699"
+	modImplementation include("eu.pb4:placeholder-api:${project.placeholder_api}")
+	modImplementation "com.github.clevernucleus:OfflinePlayerCache:${project.opc_version}"
+	include "com.github.clevernucleus:OfflinePlayerCache:${project.opc_version}"
+	implementation 'net.objecthunter:exp4j:0.4.8'
+	include 'net.objecthunter:exp4j:0.4.8'
 
 }
 

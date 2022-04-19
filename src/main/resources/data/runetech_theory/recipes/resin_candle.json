@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " i ",
+    " x ",
+    "   "
+  ],
+  "key": {
+
+    "x": {
+      "item": "runetech_theory:raw_resin"
+    },
+    "i": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+      "item": "minecraft:candle"
+    }
+}

@@ -1,0 +1,81 @@
+{
+	"replace": false,
+	"values": [
+		"minecraft:wooden_axe",
+		"minecraft:stone_axe",
+		"minecraft:iron_axe",
+		"minecraft:golden_axe",
+		"minecraft:diamond_axe",
+		"minecraft:netherite_axe",
+
+		"minecraft:wooden_sword",
+		"minecraft:stone_sword",
+		"minecraft:iron_sword",
+		"minecraft:golden_sword",
+		"minecraft:diamond_sword",
+		"minecraft:netherite_sword",
+
+		"minecraft:wooden_pickaxe",
+		"minecraft:stone_pickaxe",
+		"minecraft:iron_pickaxe",
+		"minecraft:golden_pickaxe",
+		"minecraft:diamond_pickaxe",
+		"minecraft:netherite_pickaxe",
+
+		"minecraft:wooden_hoe",
+		"minecraft:stone_hoe",
+		"minecraft:iron_hoe",
+		"minecraft:golden_hoe",
+		"minecraft:diamond_hoe",
+		"minecraft:netherite_hoe",
+
+		"minecraft:wooden_shovel",
+		"minecraft:stone_shovel",
+		"minecraft:iron_shovel",
+		"minecraft:golden_shovel",
+		"minecraft:diamond_shovel",
+		"minecraft:netherite_shovel",
+
+		"runetech_theory:axe_i",
+		"runetech_theory:axe_ii",
+		"runetech_theory:axe_iii",
+		"runetech_theory:dagger_i",
+		"runetech_theory:dagger_ii",
+		"runetech_theory:dagger_iii",
+		"runetech_theory:scepter_i",
+		"runetech_theory:scepter_ii",
+		"runetech_theory:scepter_iii",
+		"runetech_theory:scythe_i",
+		"runetech_theory:scythe_ii",
+		"runetech_theory:scythe_iii",
+		"runetech_theory:sword_i",
+		"runetech_theory:sword_ii",
+		"runetech_theory:sword_iii",
+		"runetech_theory:hammer_i",
+		"runetech_theory:hammer_ii",
+		"runetech_theory:hammer_iii",
+		"runetech_theory:mace_i",
+		"runetech_theory:mace_ii",
+		"runetech_theory:mace_iii",
+		"runetech_theory:gauntlet_i",
+		"runetech_theory:gauntlet_ii",
+		"runetech_theory:gauntlet_iii",
+		"runetech_theory:spear_i",
+		"runetech_theory:spear_ii",
+		"runetech_theory:spear_iii",
+		"runetech_theory:staff_i",
+		"runetech_theory:staff_ii",
+		"runetech_theory:staff_iii"
+
+
+
+		
+
+
+
+
+
+
+
+	]
+}

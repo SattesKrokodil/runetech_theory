@@ -1,0 +1,29 @@
+{
+    "type": "lychee:block_interacting",
+    "item_in": {
+        "tag": "runetech_theory:axes_for_tree_items"
+    },
+    "block_in": "jungle_log",
+    "post": [
+        {
+            "type": "drop_item",
+            "item": "runetech_theory:raw_resin",
+            "contextual": {
+                "type": "chance",
+                "chance": 0.1
+            }
+        },
+        {
+            "type": "place",
+            "block": "stripped_jungle_log"
+        },
+        {
+            "type": "execute",
+            "command": "/playsound minecraft:item.axe.strip player @p ~ ~ ~ 100 1",
+            "hide": true
+        },
+        {
+            "type": "damage_item"
+        }
+    ]
+}

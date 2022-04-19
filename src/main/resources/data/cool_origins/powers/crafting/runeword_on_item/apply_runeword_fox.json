@@ -5,7 +5,7 @@
 		"using_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:runeword_fox"
+				"item": "runetech_theory:runeword_fox"
 			}
 		},
 		"on_item_condition": {
@@ -13,7 +13,7 @@
 			"conditions": [{
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "coolstuff:helmets"
+						"tag": "runetech_theory:helmets"
 					}
 				},
 				{
@@ -24,7 +24,7 @@
 			]
 		},
 		"result": {
-			"item": "coolstuff:chipped_jade",
+			"item": "runetech_theory:chipped_jade",
 			"amount": 0
 		},
 		"using_item_action": {
@@ -45,7 +45,7 @@
 		"using_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:runeword_fox"
+				"item": "runetech_theory:runeword_fox"
 			}
 		},
 		"on_item_condition": {
@@ -53,7 +53,7 @@
 			"conditions": [{
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "coolstuff:chestplates"
+						"tag": "runetech_theory:chestplates"
 					}
 				},
 				{
@@ -64,7 +64,7 @@
 			]
 		},
 		"result": {
-			"item": "coolstuff:flawed_jade",
+			"item": "runetech_theory:flawed_jade",
 			"amount": 0
 		},
 		"using_item_action": {
@@ -85,7 +85,7 @@
     		"using_item_condition": {
     			"type": "origins:ingredient",
     			"ingredient": {
-    				"item": "coolstuff:runeword_fox"
+    				"item": "runetech_theory:runeword_fox"
     			}
     		},
     		"on_item_condition": {
@@ -93,7 +93,7 @@
     			"conditions": [{
     					"type": "origins:ingredient",
     					"ingredient": {
-    						"tag": "coolstuff:leggings"
+    						"tag": "runetech_theory:leggings"
     					}
     				},
     				{
@@ -104,7 +104,7 @@
     			]
     		},
     		"result": {
-    			"item": "coolstuff:chipped_jade",
+    			"item": "runetech_theory:chipped_jade",
     			"amount": 0
     		},
     		"using_item_action": {
@@ -125,7 +125,7 @@
         		"using_item_condition": {
         			"type": "origins:ingredient",
         			"ingredient": {
-        				"item": "coolstuff:runeword_fox"
+        				"item": "runetech_theory:runeword_fox"
         			}
         		},
         		"on_item_condition": {
@@ -133,7 +133,7 @@
         			"conditions": [{
         					"type": "origins:ingredient",
         					"ingredient": {
-        						"tag": "coolstuff:boots"
+        						"tag": "runetech_theory:boots"
         					}
         				},
         				{
@@ -144,7 +144,7 @@
         			]
         		},
         		"result": {
-        			"item": "coolstuff:chipped_jade",
+        			"item": "runetech_theory:chipped_jade",
         			"amount": 0
         		},
         		"using_item_action": {
@@ -165,7 +165,7 @@
             		"using_item_condition": {
             			"type": "origins:ingredient",
             			"ingredient": {
-            				"item": "coolstuff:runeword_fox"
+            				"item": "runetech_theory:runeword_fox"
             			}
             		},
             		"on_item_condition": {
@@ -173,7 +173,7 @@
             			"conditions": [{
             					"type": "origins:ingredient",
             					"ingredient": {
-            						"tag": "coolstuff:weapons"
+            						"tag": "runetech_theory:weapons"
             					}
             				},
             				{
@@ -184,7 +184,7 @@
             			]
             		},
             		"result": {
-            			"item": "coolstuff:chipped_jade",
+            			"item": "runetech_theory:chipped_jade",
             			"amount": 0
             		},
             		"using_item_action": {

@@ -6,7 +6,7 @@
 		"conditions": [{
 				"type": "origins:ingredient",
 				"ingredient": {
-					"tag": "coolstuff:helmets"
+					"tag": "runetech_theory:helmets"
 				}
 			},
 			{
@@ -20,7 +20,7 @@
 	"using_item_condition": {
 		"type": "origins:ingredient",
 		"ingredient": {
-			"item": "coolstuff:rune_b"
+			"item": "runetech_theory:rune_b"
 		}
 	},
 	"result_from_on_stack": 1,

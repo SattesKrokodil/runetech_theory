@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "runetech_theory:item/gems/raw/small/small_raw_topaz"
+  }
+}

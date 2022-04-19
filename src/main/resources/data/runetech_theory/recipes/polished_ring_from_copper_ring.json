@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "runetech_theory:base_copper_ring"
+  },
+  "addition": {
+    "item": "runetech_theory:ring_copper_setting"
+  },
+  "result": {
+    "item": "runetech_theory:polished_copper_ring"
+  }
+}

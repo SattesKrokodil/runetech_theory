@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "runetech_theory:scythe_ii"
+  },
+  "addition": {
+    "item": "runetech_theory:rw_upgrade"
+  },
+  "result": {
+    "item": "runetech_theory:scythe_iii"
+  }
+}

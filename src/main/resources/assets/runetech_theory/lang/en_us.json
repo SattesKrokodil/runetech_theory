@@ -1,0 +1,300 @@
+{
+  "itemGroup.runetech_theory.runetech_theory": "Cool Stuff",
+
+//BLOCKS
+    "block.runetech_theory.glyph_test_block": "Glyph Test Block",
+
+
+//TOOLTIPS & HINTS
+
+    "item.runetech_theory.rune_particle_tip_line_1": "Used for Runecrafting",
+    "item.runetech_theory.rune_particle_tip_line_2": "Can also be §6applied§r to helmets",
+
+    "item.runetech_theory.sapphire_gem_tip_line_1": "Crafting Material",
+    "item.runetech_theory.sapphire_gem_tip_line_2": "Stat Affinity: §aArmor§r",
+    "item.runetech_theory.sapphire_gem_tip_line_3": "§6Apply§r to items to enchant them with Mending",
+
+    "item.runetech_theory.ruby_gem_tip_line_1": "Crafting Material",
+    "item.runetech_theory.ruby_gem_tip_line_2": "Stat Affinity: §aDamage§r",
+    "item.runetech_theory.ruby_gem_tip_line_3": "§6Apply§r to items to enchant them with Unbreaking",
+
+    "item.runetech_theory.topaz_gem_tip_line_1": "Crafting Material",
+    "item.runetech_theory.topaz_gem_tip_line_2": "Stat Affinity: §aHealth§r",
+    "item.runetech_theory.topaz_gem_tip_line_3": "§6Apply§r to items to enchant them with WIP",
+
+    "item.runetech_theory.jade_gem_tip_line_1": "Crafting Material",
+    "item.runetech_theory.jade_gem_tip_line_2": "Stat Affinity: §aAttackspeed§r",
+    "item.runetech_theory.jade_gem_tip_line_3": "§6Apply§r to items to enchant them with WIP",
+
+
+
+
+
+//MISC
+    "item.runetech_theory.trading_licence_tip_line_1": "Can be used to craft Player Shops",
+
+
+    "item.runetech_theory.pocket_geode": "Pocket Geode",
+    "item.runetech_theory.tongs": "Tongs",
+    "item.runetech_theory.raw_resin": "Raw Resin",
+    "item.runetech_theory.resin_flask": "Pure Resin",
+    "item.runetech_theory.sandpaper": "Sandpaper",
+
+// RUNEWORDS
+    "item.runetech_theory.press_shift": "§9Left Shift for more Information",
+    "item.runetech_theory.runeword_fox_tip_line_1": "§6On Helmet:§r Sniff",
+    "item.runetech_theory.runeword_fox_tip_line_2": "§6On Chest:§r Leader of the Pack (Buff)" ,
+    "item.runetech_theory.runeword_fox_tip_line_3": "§6On Leggings:§r Transformation Fox",
+    "item.runetech_theory.runeword_fox_tip_line_4": "§6On Boots:§r Pounce",
+    "item.runetech_theory.runeword_fox_tip_line_5": "§6On Weapon:§r Crunch",
+
+    "item.runetech_theory.runeword_fox_shift_line_1": "§6Sniff:§r Activate to make ",
+    "item.runetech_theory.runeword_fox_shift_line_2": "entities around you glow (10s). §61RP" ,
+    "item.runetech_theory.runeword_fox_shift_line_3": "§6Leader of the Pack:§r Buffs nearby allies " ,
+    "item.runetech_theory.runeword_fox_shift_line_4": "(movespeed + jumpheight) (5s) §63.5RP",
+    "item.runetech_theory.runeword_fox_shift_line_5": "§6Transformation Fox:§r Jump and press hotkey 3 ",
+    "item.runetech_theory.runeword_fox_shift_line_6": "to transform, press again to transform back",
+    "item.runetech_theory.runeword_fox_shift_line_7": "§6Pounce:§r Jump forwards, restores its ",
+    "item.runetech_theory.runeword_fox_shift_line_8": "cost if you collide with enemies §62RP",
+    "item.runetech_theory.runeword_fox_shift_line_9": "§6Crunch:§r 5% chance to bite enemies ",
+    "item.runetech_theory.runeword_fox_shift_line_10": "when you hit them, causing them to bleed.",
+
+// RUNES
+    "item.runetech_theory.rw_upgrade": "Runeword: UPGRADE",
+    "item.runetech_theory.runeword_fox": "Runeword: FOX",
+
+    "item.runetech_theory.runeword": "Runeword Empty",
+    "item.runetech_theory.rune_a": "AR",
+    "item.runetech_theory.rune_b": "BES",
+    "item.runetech_theory.rune_c": "CEL",
+    "item.runetech_theory.rune_d": "DO",
+    "item.runetech_theory.rune_e": "EN",
+    "item.runetech_theory.rune_f": "FER",
+    "item.runetech_theory.rune_g": "GOL",
+    "item.runetech_theory.rune_h": "HAL",
+    "item.runetech_theory.rune_i": "IRI",
+    "item.runetech_theory.rune_j": "JOM",
+    "item.runetech_theory.rune_k": "KUP",
+    "item.runetech_theory.rune_l": "LA",
+    "item.runetech_theory.rune_m": "MON",
+    "item.runetech_theory.rune_n": "NOS",
+    "item.runetech_theory.rune_o": "OHM",
+    "item.runetech_theory.rune_p": "PEX",
+    "item.runetech_theory.rune_q": "QUN",
+    "item.runetech_theory.rune_r": "REH",
+    "item.runetech_theory.rune_s": "SEL",
+    "item.runetech_theory.rune_t": "TAL",
+    "item.runetech_theory.rune_u": "URU",
+    "item.runetech_theory.rune_v": "VEL",
+    "item.runetech_theory.rune_w": "WEN",
+    "item.runetech_theory.rune_x": "XI",
+    "item.runetech_theory.rune_y": "YON",
+    "item.runetech_theory.rune_z": "ZET",
+
+
+
+// PROFESSIONS
+    "item.runetech_theory.plant_fiber": "Fiber",
+    "item.runetech_theory.rope": "Rope",
+
+    "item.runetech_theory.plate_leather": "Leather Patch",
+    "item.runetech_theory.plate_copper": "Copper Plate",
+    "item.runetech_theory.plate_iron": "Iron Plate",
+    "item.runetech_theory.plate_gold": "Gold Plate",
+    "item.runetech_theory.plate_diamond": "Diamond Plate",
+    "item.runetech_theory.plate_netherite": "Netherite Plate",
+
+    "item.runetech_theory.blueprint_ring": "Blueprint: Ring",
+
+    "item.runetech_theory.base_copper_ring": "Copper Ring",
+    "item.runetech_theory.base_iron_ring": "Iron Ring",
+    "item.runetech_theory.base_gold_ring": "Gold Ring",
+    "item.runetech_theory.base_diamond_ring": "Diamond Ring",
+    "item.runetech_theory.base_netherite_ring": "Netherite Ring",
+
+    "item.runetech_theory.ring_copper_setting": "Copper Setting",
+    "item.runetech_theory.ring_iron_setting": "Iron Setting",
+    "item.runetech_theory.ring_gold_setting": "Gold Setting",
+    "item.runetech_theory.ring_diamond_setting": "Diamond Setting",
+    "item.runetech_theory.ring_netherite_setting": "Netherite Setting",
+
+// STATUSEFFECTS
+
+    "effect.runetech_theory.bleed": "Rupture",
+    "effect.runetech_theory.leader_of_the_pack": "Leadership",
+
+// AFFIXES
+    //PREFIXES
+    "item.runetech_theory.sonic": "Sonic",
+
+// BUILDER
+    "item.runetech_theory.ring": "Ring",
+    "item.runetech_theory.life": "Life",
+    "item.runetech_theory.quality_1": "Quality: ★",
+    "item.runetech_theory.quality_2": "Quality: §e★★",
+    "item.runetech_theory.quality_3": "Quality: §b★★★",
+    "item.runetech_theory.quality_4": "Quality: §d★★★★",
+    "item.runetech_theory.quality_5": "Quality: §6★★★★★",
+
+// GEAR
+// TRINKET RINGS
+
+    "item.runetech_theory.polished_copper_ring": "Polished Copper Ring",
+    "item.runetech_theory.ruby_copper_ring": "Ruby Copper Ring",
+    "item.runetech_theory.sapphire_copper_ring": "Sapphire Copper Ring",
+    "item.runetech_theory.jade_copper_ring": "Jade Copper Ring",
+    "item.runetech_theory.topaz_copper_ring": "Topaz Copper Ring",
+
+    "item.runetech_theory.polished_iron_ring": "Polished Iron Ring",
+    "item.runetech_theory.ruby_iron_ring": "Ruby Iron Ring",
+    "item.runetech_theory.sapphire_iron_ring": "Sapphire Iron Ring",
+    "item.runetech_theory.jade_iron_ring": "Jade Iron Ring",
+    "item.runetech_theory.topaz_iron_ring": "Topaz Iron Ring",
+
+    "item.runetech_theory.polished_gold_ring": "Polished Gold Ring",
+    "item.runetech_theory.ruby_gold_ring": "Ruby Gold Ring",
+    "item.runetech_theory.sapphire_gold_ring": "Sapphire Gold Ring",
+    "item.runetech_theory.jade_gold_ring": "Jade Gold Ring",
+    "item.runetech_theory.topaz_gold_ring": "Topaz Gold Ring",
+
+    "item.runetech_theory.polished_diamond_ring": "Polished Diamond Ring",
+    "item.runetech_theory.ruby_diamond_ring": "Ruby Diamond Ring",
+    "item.runetech_theory.sapphire_diamond_ring": "Sapphire Diamond Ring",
+    "item.runetech_theory.jade_diamond_ring": "Jade Diamond Ring",
+    "item.runetech_theory.topaz_diamond_ring": "Topaz Diamond Ring",
+
+    "item.runetech_theory.polished_netherite_ring": "Polished Netherite Ring",
+    "item.runetech_theory.ruby_netherite_ring": "Ruby Netherite Ring",
+    "item.runetech_theory.sapphire_netherite_ring": "Sapphire Netherite Ring",
+    "item.runetech_theory.jade_netherite_ring": "Jade Netherite Ring",
+    "item.runetech_theory.topaz_netherite_ring": "Topaz Netherite Ring",
+
+
+// WEAPONS
+
+    "item.runetech_theory.sword_i": "Sword (I)",
+    "item.runetech_theory.sword_ii": "Sword (II)",
+    "item.runetech_theory.sword_iii": "Sword (III)",
+
+    "item.runetech_theory.axe_i": "Axe (I)",
+    "item.runetech_theory.axe_ii": "Axe (II)",
+    "item.runetech_theory.axe_iii": "Axe (III)",
+
+    "item.runetech_theory.dagger_i": "Dagger (I)",
+    "item.runetech_theory.dagger_ii": "Dagger (II)",
+    "item.runetech_theory.dagger_iii": "Dagger (III)",
+
+    "item.runetech_theory.gauntlet_i": "Gauntlet (I)",
+    "item.runetech_theory.gauntlet_ii": "Gauntlet (II)",
+    "item.runetech_theory.gauntlet_iii": "Gauntlet (III)",
+
+    "item.runetech_theory.hammer_i": "Hammer (I)",
+    "item.runetech_theory.hammer_ii": "Hammer (II)",
+    "item.runetech_theory.hammer_iii": "Hammer (III)",
+
+    "item.runetech_theory.mace_i": "Mace (I)",
+    "item.runetech_theory.mace_ii": "Mace (II)",
+    "item.runetech_theory.mace_iii": "Mace (III)",
+
+    "item.runetech_theory.scepter_i": "Scepter (I)",
+    "item.runetech_theory.scepter_ii": "Scepter (II)",
+    "item.runetech_theory.scepter_iii": "Scepter (III)",
+
+    "item.runetech_theory.scythe_i": "Scythe (I)",
+    "item.runetech_theory.scythe_ii": "Scythe (II)",
+    "item.runetech_theory.scythe_iii": "Scythe (III)",
+
+    "item.runetech_theory.spear_i": "Spear (I)",
+    "item.runetech_theory.spear_ii": "Spear (II)",
+    "item.runetech_theory.spear_iii": "Spear (III)",
+
+    "item.runetech_theory.staff_i": "Staff (I)",
+    "item.runetech_theory.staff_ii": "Staff (II)",
+    "item.runetech_theory.staff_iii": "Staff (III)",
+
+
+//WEAPONS UNIQUES
+    "item.runetech_theory.sword_unique_void_grasp": "✰ Voidgrasp",
+
+
+
+// JUNDLES
+    "item.runetech_theory.base_jundle": "Base Jundle",
+    "item.runetech_theory.jundle_one": "Jundle I",
+    "item.runetech_theory.jundle_two": "Jundle II",
+    "item.runetech_theory.jundle_three": "Jundle III",
+    "item.runetech_theory.jundle_four": "Jundle IV",
+    "item.runetech_theory.jundle_five": "Jundle V",
+    "item.runetech_theory._jundle": " Jundle",
+    "item.runetech_theory.pink_jundle": "Pink Jundle",
+    "item.runetech_theory.magenta_jundle": "Magenta Jundle",
+    "item.runetech_theory.purple_jundle": "Purple Jundle",
+    "item.runetech_theory.blue_jundle": "Blue Jundle",
+    "item.runetech_theory.light_blue_jundle": "Light Blue Jundle",
+    "item.runetech_theory.cyan_jundle": "Cyan Jundle",
+    "item.runetech_theory.green_jundle": "Green Jundle",
+    "item.runetech_theory.lime_jundle": "Lime Jundle",
+    "item.runetech_theory.yellow_jundle": "Yellow Jundle",
+    "item.runetech_theory.orange_jundle": "Orange Jundle",
+    "item.runetech_theory.red_jundle": "Red Jundle",
+    "item.runetech_theory.brown_jundle": "Brown Jundle",
+    "item.runetech_theory.black_jundle": "Black Jundle",
+    "item.runetech_theory.gray_jundle": "Gray Jundle",
+    "item.runetech_theory.light_gray_jundle": "Light Gray Jundle",
+    "item.runetech_theory.white_jundle": "White Jundle",
+
+
+//GEMS CUT
+
+  "item.runetech_theory.chipped_ruby": "Chipped Ruby",
+  "item.runetech_theory.chipped_sapphire": "Chipped Sapphire",
+  "item.runetech_theory.chipped_jade": "Chipped Jade",
+  "item.runetech_theory.chipped_topaz": "Chipped Topaz",
+
+  "item.runetech_theory.flawed_ruby": "Flawed Ruby",
+  "item.runetech_theory.flawed_sapphire": "Flawed Sapphire",
+  "item.runetech_theory.flawed_jade": "Flawed Jade",
+  "item.runetech_theory.flawed_topaz": "Flawed Topaz",
+
+  "item.runetech_theory.ruby": "Ruby",
+  "item.runetech_theory.sapphire": "Sapphire",
+  "item.runetech_theory.jade": "Jade",
+  "item.runetech_theory.topaz": "Topaz",
+
+  "item.runetech_theory.brilliant_ruby": "Brilliant Ruby",
+  "item.runetech_theory.brilliant_sapphire": "Brilliant Sapphire",
+  "item.runetech_theory.brilliant_jade": "Brilliant Jade",
+  "item.runetech_theory.brilliant_topaz": "Brilliant Topaz",
+
+  "item.runetech_theory.pristine_ruby": "Pristine Ruby",
+  "item.runetech_theory.pristine_sapphire": "Pristine Sapphire",
+  "item.runetech_theory.pristine_jade": "Pristine Jade",
+  "item.runetech_theory.pristine_topaz": "Pristine Topaz",
+
+
+//GEMS Raw
+  "item.runetech_theory.tiny_raw_ruby": "Tiny Raw Ruby",
+  "item.runetech_theory.tiny_raw_sapphire": "Tiny Raw Sapphire",
+  "item.runetech_theory.tiny_raw_jade": "Tiny Raw Jade",
+  "item.runetech_theory.tiny_raw_topaz": "Tiny Raw Topaz",
+
+  "item.runetech_theory.small_raw_ruby": "Small Raw Ruby",
+  "item.runetech_theory.small_raw_sapphire": "Small Raw Sapphire",
+  "item.runetech_theory.small_raw_jade": "Small Raw Jade",
+  "item.runetech_theory.small_raw_topaz": "Small Raw Topaz",
+
+  "item.runetech_theory.raw_ruby": "Raw Ruby",
+  "item.runetech_theory.raw_sapphire": "Raw Sapphire",
+  "item.runetech_theory.raw_jade": "Raw Jade",
+  "item.runetech_theory.raw_topaz": "Raw Topaz",
+
+  "item.runetech_theory.big_raw_ruby": "Big Raw Ruby ",
+  "item.runetech_theory.big_raw_sapphire": "Big Raw Sapphire ",
+  "item.runetech_theory.big_raw_jade": "Big Raw Jade ",
+  "item.runetech_theory.big_raw_topaz": "Big Raw Topaz ",
+
+  "item.runetech_theory.huge_raw_ruby": "Huge Raw Ruby",
+  "item.runetech_theory.huge_raw_sapphire": "Huge Raw Sapphire",
+  "item.runetech_theory.huge_raw_jade": "Huge Raw Jade",
+  "item.runetech_theory.huge_raw_topaz": "Huge Raw Topaz"
+}

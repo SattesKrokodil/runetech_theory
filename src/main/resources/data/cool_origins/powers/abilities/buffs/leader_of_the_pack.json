@@ -60,7 +60,7 @@
 									"show_icon": false
 								},
 								{
-									"effect": "coolstuff:leader_of_the_pack",
+									"effect": "runetech_theory:leader_of_the_pack",
 									"duration": 200,
 									"is_ambient": false,
 									"show_particles": true,

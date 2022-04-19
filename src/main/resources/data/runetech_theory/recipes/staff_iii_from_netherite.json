@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " o ",
+    " o ",
+    " x "
+  ],
+  "key": {
+
+    "x": {
+      "item": "minecraft:netherite_sword"
+    },
+    "o": {
+      "item": "runetech_theory:rune_h"
+    }
+  },
+  "result": {
+      "item": "runetech_theory:staff_iii"
+    }
+}
+

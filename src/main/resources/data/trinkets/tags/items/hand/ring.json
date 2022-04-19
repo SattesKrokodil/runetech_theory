@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "coolstuff:polished_copper_ring",
-    "coolstuff:polished_iron_ring",
-    "coolstuff:polished_gold_ring",
-    "coolstuff:polished_diamond_ring",
-    "coolstuff:polished_netherite_ring"
+    "runetech_theory:polished_copper_ring",
+    "runetech_theory:polished_iron_ring",
+    "runetech_theory:polished_gold_ring",
+    "runetech_theory:polished_diamond_ring",
+    "runetech_theory:polished_netherite_ring"
   ]
 }

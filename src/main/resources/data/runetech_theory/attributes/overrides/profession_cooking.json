@@ -1,0 +1,7 @@
+{
+    "fallbacktValue": 0.0,
+    "minValue": 0.0,
+    "maxValue": 200.0,
+    "translationKey": "runetech_theory.attribute.name.profession_cooking",
+    "stackingBehaviour": "FLAT"
+}

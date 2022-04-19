@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "xou",
+    "   "
+  ],
+  "key": {
+
+    "x": {
+      "item": "runetech_theory:rune_q"
+    },
+        "u": {
+          "item": "runetech_theory:rune_r"
+        },
+    "o": {
+      "tag": "runetech_theory:raw_gems"
+    }
+  },
+  "result": {
+      "item": "runetech_theory:rune_x"
+    }
+}
+

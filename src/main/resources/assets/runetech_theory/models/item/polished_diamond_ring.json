@@ -1,0 +1,16 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "runetech_theory:item/gear/trinkets/rings/polished_diamond_ring"
+  },
+
+     "overrides":
+     [
+
+           {"predicate": {"custom_model_data":401}, "model": "runetech_theory:item/ruby_diamond_ring"},
+           {"predicate": {"custom_model_data":402}, "model": "runetech_theory:item/sapphire_diamond_ring"},
+           {"predicate": {"custom_model_data":403}, "model": "runetech_theory:item/jade_diamond_ring"},
+           {"predicate": {"custom_model_data":404}, "model": "runetech_theory:item/topaz_diamond_ring"}
+
+     ]
+}

@@ -5,17 +5,17 @@
 		"using_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:sandpaper"
+				"item": "runetech_theory:sandpaper"
 			}
 		},
 		"on_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:tiny_raw_ruby"
+				"item": "runetech_theory:tiny_raw_ruby"
 			}
 		},
 		"result": {
-			"item": "coolstuff:chipped_ruby",
+			"item": "runetech_theory:chipped_ruby",
 			"amount": 1
 		},
 		"using_item_action": {
@@ -38,17 +38,17 @@
 		"using_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:sandpaper"
+				"item": "runetech_theory:sandpaper"
 			}
 		},
 		"on_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:small_raw_ruby"
+				"item": "runetech_theory:small_raw_ruby"
 			}
 		},
 		"result": {
-			"item": "coolstuff:flawed_ruby",
+			"item": "runetech_theory:flawed_ruby",
 			"amount": 1
 		},
 		"using_item_action": {
@@ -71,17 +71,17 @@
 		"using_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:sandpaper"
+				"item": "runetech_theory:sandpaper"
 			}
 		},
 		"on_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:raw_ruby"
+				"item": "runetech_theory:raw_ruby"
 			}
 		},
 		"result": {
-			"item": "coolstuff:ruby",
+			"item": "runetech_theory:ruby",
 			"amount": 1
 		},
 		"using_item_action": {
@@ -104,17 +104,17 @@
 		"using_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:sandpaper"
+				"item": "runetech_theory:sandpaper"
 			}
 		},
 		"on_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:big_raw_ruby"
+				"item": "runetech_theory:big_raw_ruby"
 			}
 		},
 		"result": {
-			"item": "coolstuff:brilliant_ruby",
+			"item": "runetech_theory:brilliant_ruby",
 			"amount": 1
 		},
 		"using_item_action": {
@@ -137,17 +137,17 @@
 		"using_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:sandpaper"
+				"item": "runetech_theory:sandpaper"
 			}
 		},
 		"on_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:huge_raw_ruby"
+				"item": "runetech_theory:huge_raw_ruby"
 			}
 		},
 		"result": {
-			"item": "coolstuff:pristine_ruby",
+			"item": "runetech_theory:pristine_ruby",
 			"amount": 1
 		},
 		"using_item_action": {
@@ -170,17 +170,17 @@
 		"using_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:sandpaper"
+				"item": "runetech_theory:sandpaper"
 			}
 		},
 		"on_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:tiny_raw_sapphire"
+				"item": "runetech_theory:tiny_raw_sapphire"
 			}
 		},
 		"result": {
-			"item": "coolstuff:chipped_sapphire",
+			"item": "runetech_theory:chipped_sapphire",
 			"amount": 1
 		},
 		"using_item_action": {
@@ -203,17 +203,17 @@
 		"using_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:sandpaper"
+				"item": "runetech_theory:sandpaper"
 			}
 		},
 		"on_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:small_raw_sapphire"
+				"item": "runetech_theory:small_raw_sapphire"
 			}
 		},
 		"result": {
-			"item": "coolstuff:flawed_sapphire",
+			"item": "runetech_theory:flawed_sapphire",
 			"amount": 1
 		},
 		"using_item_action": {
@@ -236,17 +236,17 @@
 		"using_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:sandpaper"
+				"item": "runetech_theory:sandpaper"
 			}
 		},
 		"on_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:raw_sapphire"
+				"item": "runetech_theory:raw_sapphire"
 			}
 		},
 		"result": {
-			"item": "coolstuff:sapphire",
+			"item": "runetech_theory:sapphire",
 			"amount": 1
 		},
 		"using_item_action": {
@@ -269,17 +269,17 @@
 		"using_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:sandpaper"
+				"item": "runetech_theory:sandpaper"
 			}
 		},
 		"on_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:big_raw_sapphire"
+				"item": "runetech_theory:big_raw_sapphire"
 			}
 		},
 		"result": {
-			"item": "coolstuff:brilliant_sapphire",
+			"item": "runetech_theory:brilliant_sapphire",
 			"amount": 1
 		},
 		"using_item_action": {
@@ -302,17 +302,17 @@
 		"using_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:sandpaper"
+				"item": "runetech_theory:sandpaper"
 			}
 		},
 		"on_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:huge_raw_sapphire"
+				"item": "runetech_theory:huge_raw_sapphire"
 			}
 		},
 		"result": {
-			"item": "coolstuff:pristine_sapphire",
+			"item": "runetech_theory:pristine_sapphire",
 			"amount": 1
 		},
 		"using_item_action": {
@@ -336,17 +336,17 @@
 		"using_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:sandpaper"
+				"item": "runetech_theory:sandpaper"
 			}
 		},
 		"on_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:tiny_raw_jade"
+				"item": "runetech_theory:tiny_raw_jade"
 			}
 		},
 		"result": {
-			"item": "coolstuff:chipped_jade",
+			"item": "runetech_theory:chipped_jade",
 			"amount": 1
 		},
 		"using_item_action": {
@@ -369,17 +369,17 @@
 		"using_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:sandpaper"
+				"item": "runetech_theory:sandpaper"
 			}
 		},
 		"on_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:small_raw_jade"
+				"item": "runetech_theory:small_raw_jade"
 			}
 		},
 		"result": {
-			"item": "coolstuff:flawed_jade",
+			"item": "runetech_theory:flawed_jade",
 			"amount": 1
 		},
 		"using_item_action": {
@@ -402,17 +402,17 @@
 		"using_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:sandpaper"
+				"item": "runetech_theory:sandpaper"
 			}
 		},
 		"on_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:raw_jade"
+				"item": "runetech_theory:raw_jade"
 			}
 		},
 		"result": {
-			"item": "coolstuff:jade",
+			"item": "runetech_theory:jade",
 			"amount": 1
 		},
 		"using_item_action": {
@@ -435,17 +435,17 @@
 		"using_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:sandpaper"
+				"item": "runetech_theory:sandpaper"
 			}
 		},
 		"on_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:big_raw_jade"
+				"item": "runetech_theory:big_raw_jade"
 			}
 		},
 		"result": {
-			"item": "coolstuff:brilliant_jade",
+			"item": "runetech_theory:brilliant_jade",
 			"amount": 1
 		},
 		"using_item_action": {
@@ -468,17 +468,17 @@
 		"using_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:sandpaper"
+				"item": "runetech_theory:sandpaper"
 			}
 		},
 		"on_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:huge_raw_jade"
+				"item": "runetech_theory:huge_raw_jade"
 			}
 		},
 		"result": {
-			"item": "coolstuff:pristine_jade",
+			"item": "runetech_theory:pristine_jade",
 			"amount": 1
 		},
 		"using_item_action": {
@@ -502,17 +502,17 @@
 		"using_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:sandpaper"
+				"item": "runetech_theory:sandpaper"
 			}
 		},
 		"on_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:tiny_raw_topaz"
+				"item": "runetech_theory:tiny_raw_topaz"
 			}
 		},
 		"result": {
-			"item": "coolstuff:chipped_topaz",
+			"item": "runetech_theory:chipped_topaz",
 			"amount": 1
 		},
 		"using_item_action": {
@@ -535,17 +535,17 @@
 		"using_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:sandpaper"
+				"item": "runetech_theory:sandpaper"
 			}
 		},
 		"on_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:small_raw_topaz"
+				"item": "runetech_theory:small_raw_topaz"
 			}
 		},
 		"result": {
-			"item": "coolstuff:flawed_topaz",
+			"item": "runetech_theory:flawed_topaz",
 			"amount": 1
 		},
 		"using_item_action": {
@@ -568,17 +568,17 @@
 		"using_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:sandpaper"
+				"item": "runetech_theory:sandpaper"
 			}
 		},
 		"on_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:raw_topaz"
+				"item": "runetech_theory:raw_topaz"
 			}
 		},
 		"result": {
-			"item": "coolstuff:topaz",
+			"item": "runetech_theory:topaz",
 			"amount": 1
 		},
 		"using_item_action": {
@@ -601,17 +601,17 @@
 		"using_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:sandpaper"
+				"item": "runetech_theory:sandpaper"
 			}
 		},
 		"on_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:big_raw_topaz"
+				"item": "runetech_theory:big_raw_topaz"
 			}
 		},
 		"result": {
-			"item": "coolstuff:brilliant_topaz",
+			"item": "runetech_theory:brilliant_topaz",
 			"amount": 1
 		},
 		"using_item_action": {
@@ -634,17 +634,17 @@
 		"using_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:sandpaper"
+				"item": "runetech_theory:sandpaper"
 			}
 		},
 		"on_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:huge_raw_topaz"
+				"item": "runetech_theory:huge_raw_topaz"
 			}
 		},
 		"result": {
-			"item": "coolstuff:pristine_topaz",
+			"item": "runetech_theory:pristine_topaz",
 			"amount": 1
 		},
 		"using_item_action": {

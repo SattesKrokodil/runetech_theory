@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xux"
+  ],
+  "key": {
+
+
+    "x": {
+      "item": "runetech_theory:raw_resin"
+    },
+
+    "u": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+      "item": "runetech_theory:resin_flask"
+    }
+}

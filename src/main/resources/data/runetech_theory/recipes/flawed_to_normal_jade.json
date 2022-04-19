@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " x ",
+    "xox",
+    " x "
+  ],
+  "key": {
+
+    "x": {
+      "item": "runetech_theory:flawed_jade"
+    },
+    "o": {
+      "item": "runetech_theory:raw_resin"
+    }
+  },
+  "result": {
+      "item": "runetech_theory:jade"
+    }
+}
+

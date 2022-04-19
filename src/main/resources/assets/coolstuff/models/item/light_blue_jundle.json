@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "coolstuff:item/jundles/light_blue_jundle"
-  }
-}

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "id": "coolstuff",
+  "id": "runetech_theory",
   "version": "${version}",
 
-  "name": "Cool Stuff",
+  "name": "Runetech Theory",
   "description": "Things I needed in my life",
   "authors": [
     "Sattes"
@@ -19,14 +19,14 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.sattes.coolstuff.CoolStuff"
+      "net.sattes.runetech_theory.RunetechTheory"
     ],
      "client": [
-       "net.sattes.coolstuff.CoolStuffClient"
+       "net.sattes.runetech_theory.RunetechTheoryClient"
      ]
   },
   "mixins": [
-    "coolstuff.mixins.json"
+    "runetech_theory.mixins.json"
   ],
 
   "depends": {

@@ -14,7 +14,7 @@
 				{
 					"type": "origins:apply_effect",
 					"effect": {
-						"effect": "coolstuff:bleed",
+						"effect": "runetech_theory:bleed",
 						"duration": 200,
 						"amplifier": 0
 					}

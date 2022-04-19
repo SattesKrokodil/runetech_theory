@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:stone_sword"
+  },
+  "addition": {
+    "item": "runetech_theory:plate_iron"
+  },
+  "result": {
+    "item": "minecraft:iron_sword"
+  }
+}

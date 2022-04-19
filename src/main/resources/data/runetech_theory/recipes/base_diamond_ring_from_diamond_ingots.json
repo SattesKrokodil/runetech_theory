@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " x ",
+    "xyx",
+    " x "
+  ],
+  "key": {
+
+    "x": {
+      "item": "minecraft:diamond"
+    },
+        "y": {
+          "item": "runetech_theory:blueprint_ring"
+        }
+  },
+  "result": {
+      "item": "runetech_theory:base_diamond_ring"
+    }
+}
+
+
+
+

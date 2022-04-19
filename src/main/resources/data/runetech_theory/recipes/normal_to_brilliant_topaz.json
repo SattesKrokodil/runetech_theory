@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " x ",
+    " ox",
+    " x "
+  ],
+  "key": {
+
+    "x": {
+      "item": "runetech_theory:topaz"
+    },
+    "o": {
+      "item": "runetech_theory:raw_resin"
+    }
+  },
+  "result": {
+      "item": "runetech_theory:brilliant_topaz"
+    }
+}
+

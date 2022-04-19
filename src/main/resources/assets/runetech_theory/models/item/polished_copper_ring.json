@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "runetech_theory:item/gear/trinkets/rings/polished_copper_ring"
+  },
+
+     "overrides":
+     [
+           {"predicate": {"custom_model_data":101}, "model": "runetech_theory:item/ruby_copper_ring"},
+           {"predicate": {"custom_model_data":102}, "model": "runetech_theory:item/sapphire_copper_ring"},
+           {"predicate": {"custom_model_data":103}, "model": "runetech_theory:item/jade_copper_ring"},
+           {"predicate": {"custom_model_data":104}, "model": "runetech_theory:item/topaz_copper_ring"}
+     ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "y y",
+    "yxy",
+    " x "
+  ],
+  "key": {
+
+    "x": {
+      "item": "minecraft:iron_ingot"
+    },
+    "y": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+      "item": "runetech_theory:tongs"
+    }
+}
+

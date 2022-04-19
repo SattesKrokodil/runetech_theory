@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " x ",
+    " o ",
+    " x "
+  ],
+  "key": {
+
+    "x": {
+      "item": "runetech_theory:brilliant_ruby"
+    },
+    "o": {
+      "item": "runetech_theory:resin_flask"
+    }
+  },
+  "result": {
+      "item": "runetech_theory:pristine_ruby"
+    }
+}
+

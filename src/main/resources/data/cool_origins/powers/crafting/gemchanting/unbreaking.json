@@ -8,37 +8,37 @@
 			"conditions": [{
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "coolstuff:helmets"
+						"tag": "runetech_theory:helmets"
 					}
 				},
 				{
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "coolstuff:chestplates"
+						"tag": "runetech_theory:chestplates"
 					}
 				},
 				{
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "coolstuff:boots"
+						"tag": "runetech_theory:boots"
 					}
 				},
 				{
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "coolstuff:leggings"
+						"tag": "runetech_theory:leggings"
 					}
 				},
 				{
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "coolstuff:weapons"
+						"tag": "runetech_theory:weapons"
 					}
 				},
 				{
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "coolstuff:offhands"
+						"tag": "runetech_theory:offhands"
 					}
 				}
 			]
@@ -46,7 +46,7 @@
 		"using_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:chipped_ruby"
+				"item": "runetech_theory:chipped_ruby"
 			}
 		},
 		"result_from_on_stack": 1,
@@ -72,37 +72,37 @@
 			"conditions": [{
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "coolstuff:helmets"
+						"tag": "runetech_theory:helmets"
 					}
 				},
 				{
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "coolstuff:chestplates"
+						"tag": "runetech_theory:chestplates"
 					}
 				},
 				{
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "coolstuff:boots"
+						"tag": "runetech_theory:boots"
 					}
 				},
 				{
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "coolstuff:leggings"
+						"tag": "runetech_theory:leggings"
 					}
 				},
 				{
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "coolstuff:weapons"
+						"tag": "runetech_theory:weapons"
 					}
 				},
 				{
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "coolstuff:offhands"
+						"tag": "runetech_theory:offhands"
 					}
 				}
 			]
@@ -110,7 +110,7 @@
 		"using_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:flawed_ruby"
+				"item": "runetech_theory:flawed_ruby"
 			}
 		},
 		"result_from_on_stack": 1,
@@ -136,37 +136,37 @@
 			"conditions": [{
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "coolstuff:helmets"
+						"tag": "runetech_theory:helmets"
 					}
 				},
 				{
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "coolstuff:chestplates"
+						"tag": "runetech_theory:chestplates"
 					}
 				},
 				{
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "coolstuff:boots"
+						"tag": "runetech_theory:boots"
 					}
 				},
 				{
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "coolstuff:leggings"
+						"tag": "runetech_theory:leggings"
 					}
 				},
 				{
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "coolstuff:weapons"
+						"tag": "runetech_theory:weapons"
 					}
 				},
 				{
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "coolstuff:offhands"
+						"tag": "runetech_theory:offhands"
 					}
 				}
 			]
@@ -174,7 +174,7 @@
 		"using_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:ruby"
+				"item": "runetech_theory:ruby"
 			}
 		},
 		"result_from_on_stack": 1,
@@ -200,37 +200,37 @@
 			"conditions": [{
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "coolstuff:helmets"
+						"tag": "runetech_theory:helmets"
 					}
 				},
 				{
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "coolstuff:chestplates"
+						"tag": "runetech_theory:chestplates"
 					}
 				},
 				{
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "coolstuff:boots"
+						"tag": "runetech_theory:boots"
 					}
 				},
 				{
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "coolstuff:leggings"
+						"tag": "runetech_theory:leggings"
 					}
 				},
 				{
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "coolstuff:weapons"
+						"tag": "runetech_theory:weapons"
 					}
 				},
 				{
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "coolstuff:offhands"
+						"tag": "runetech_theory:offhands"
 					}
 				}
 			]
@@ -238,7 +238,7 @@
 		"using_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:brilliant_ruby"
+				"item": "runetech_theory:brilliant_ruby"
 			}
 		},
 		"result_from_on_stack": 1,
@@ -264,37 +264,37 @@
 			"conditions": [{
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "coolstuff:helmets"
+						"tag": "runetech_theory:helmets"
 					}
 				},
 				{
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "coolstuff:chestplates"
+						"tag": "runetech_theory:chestplates"
 					}
 				},
 				{
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "coolstuff:boots"
+						"tag": "runetech_theory:boots"
 					}
 				},
 				{
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "coolstuff:leggings"
+						"tag": "runetech_theory:leggings"
 					}
 				},
 				{
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "coolstuff:weapons"
+						"tag": "runetech_theory:weapons"
 					}
 				},
 				{
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "coolstuff:offhands"
+						"tag": "runetech_theory:offhands"
 					}
 				}
 			]
@@ -302,7 +302,7 @@
 		"using_item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"item": "coolstuff:pristine_ruby"
+				"item": "runetech_theory:pristine_ruby"
 			}
 		},
 		"result_from_on_stack": 1,

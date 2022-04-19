@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient":
+    {
+      "item": "runetech_theory:tiny_raw_sapphire"
+    },
+  "result": "runetech_theory:chipped_sapphire",
+  "experience": 0.1,
+  "cookingtime": 1000
+
+}

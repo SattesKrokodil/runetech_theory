@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " o ",
+    " x "
+  ],
+  "key": {
+
+    "x": {
+      "item": "minecraft:iron_sword"
+    },
+    "o": {
+      "item": "runetech_theory:rune_i"
+    }
+  },
+  "result": {
+      "item": "runetech_theory:sword_i"
+    }
+}
+

@@ -1,0 +1,15 @@
+{
+    "values": {
+        "minecraft:player": {
+            "runetech_theory:profession_cooking": 0.0,
+            "runetech_theory:profession_engineering": 0.0,
+            "runetech_theory:profession_harvesting": 0.0,
+            "runetech_theory:profession_hunting": 0.0,
+            "runetech_theory:profession_woodworking": 0.0,
+            "runetech_theory:profession_mining": 0.0,
+            "runetech_theory:profession_rune_theory": 0.0,
+            "runetech_theory:profession_smithing": 0.0,
+            "runetech_theory:profession_fishing": 0.0
+        }
+    }
+}

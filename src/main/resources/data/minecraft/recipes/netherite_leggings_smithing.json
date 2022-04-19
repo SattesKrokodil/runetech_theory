@@ -4,7 +4,7 @@
     "item": "minecraft:diamond_leggings"
   },
   "addition": {
-    "item": "coolstuff:plate_netherite"
+    "item": "runetech_theory:plate_netherite"
   },
   "result": {
     "item": "minecraft:netherite_leggings"
