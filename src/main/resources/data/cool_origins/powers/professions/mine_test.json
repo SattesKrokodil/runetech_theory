@@ -1,0 +1,71 @@
+{
+	"type": "origins:action_on_block_use",
+	"block_action": {
+
+		"type": "origins:and",
+		"actions": [{
+				"type": "origins:execute_command",
+				"command": "playsound minecraft:item.axe.wax_off ambient @p ~ ~ ~ 100 2"
+			},
+			{
+							"type": "origins:execute_command",
+            				"command": "particle minecraft:block iron_ore ~ ~ ~ 0.3 0.3 0.3 0.1 10 normal"
+			},
+
+			{
+				"type": "origins:chance",
+				"action": {
+					"type": "origins:and",
+					"actions": [{
+							"type": "origins:set_block",
+							"block": "minecraft:stone"
+						},
+						{
+							"type": "origins:execute_command",
+							"command": "function runetech_theory:mining_increased"
+						},
+						{
+						    "type": "origins:change_resource",
+                            "resource": "cool_origins:professions/resources/mining_level",
+                            "change": 1
+						}
+
+					]
+
+				},
+				"chance": 0.4
+
+			},
+			{
+				"type": "origins:chance",
+				"action": {
+					"type": "origins:execute_command",
+					"command": "loot spawn ~ ~ ~ loot runetech_theory:pocket_geode"
+				},
+				"chance": 0.3
+			}
+
+		]
+
+	},
+	"block_condition": {
+		"type": "origins:block",
+		"block": "minecraft:iron_ore"
+	},
+	"item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": {
+			"item": "minecraft:iron_pickaxe"
+		}
+	},
+	"hands": ["main_hand"],
+	"entity_action": {
+		"type": "origins:swing_hand",
+		"hand": "MAIN_HAND"
+	},
+	"held_item_action": {
+		"type": "origins:damage",
+		"amount": 5,
+		"ignore_unbreaking": false
+	}
+}
